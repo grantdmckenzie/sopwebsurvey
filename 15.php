@@ -48,10 +48,10 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>	
+<!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->	
  		<?php echo $error; ?>
  	<form name="fifteen" id="fifteen" method="post" action="15.php">
-	<p>Sense of place development/ strength</p>
+<!--	<p>Sense of place development/ strength</p> -->
 <!-- QUESTION #1 -->
  	<p><b>To what degree do the following statements describe you? </b>
 </p>
@@ -91,7 +91,7 @@
 	</table>
  
  <br/><br/>
- <p>Respondent history / lifestyle in Santa Barbara</p>
+<!-- <p>Respondent history / lifestyle in Santa Barbara</p> -->
 <!-- QUESTION #2 -->
 <hr/>
  	<p>How many years have you lived in SB <input type="text" name="years"/></p>

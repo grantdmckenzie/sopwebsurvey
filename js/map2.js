@@ -81,37 +81,37 @@
       					// KATE CHANGE THESE COLORS
       					switch(val) {
       						case -5:
-      							color = new dojo.Color([255,0,0,0.8]);
+      							color = new dojo.Color([74,0,0,0.8]);
       							break;
       						case -4:
-      							color = new dojo.Color([255,45,45,0.8]);
+      							color = new dojo.Color([90,0,8,0.8]);
       							break;
       						case -3:
-      							color = new dojo.Color([255,90,90,0.8]);
+      							color = new dojo.Color([99,8,33,0.8]);
       							break;
       						case -2:
-      							color = new dojo.Color([255,135,135,0.8]);
+      							color = new dojo.Color([90,0,33,0.8]);
       							break;
       						case -1:
-      							color = new dojo.Color([255,200,200,0.8]);
+      							color = new dojo.Color([74,0,41,0.8]);
       							break;
       						case 0:
-      							color = new dojo.Color([255,255,255,0.8]);
+      							color = new dojo.Color([66,0,49,0.8]);
       							break;
       						case 1:
-      							color = new dojo.Color([200,200,255,0.8]);
+      							color = new dojo.Color([49,0,66,0.8]);
       							break;
       						case 2:
-      							color = new dojo.Color([135,135,255,0.8]);
+      							color = new dojo.Color([41,0,82,0.8]);
       							break;
       						case 3:
-      							color = new dojo.Color([90,90,255,0.8]);
+      							color = new dojo.Color([33,0,99,0.8]);
       							break;
       						case 4:
-      							color = new dojo.Color([45,45,255,0.8]);
+      							color = new dojo.Color([24,0,99,0.8]);
       							break;
       						case 5:
-      							color = new dojo.Color([0,0,255,0.8]);
+      							color = new dojo.Color([16,0,66,0.8]);
       							break;
       					}
       					

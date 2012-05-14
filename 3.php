@@ -62,7 +62,6 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2>Social Roles</h2>
  		<p>First, we would like to gain an understanding of your social involvement and roles.  In a typical week, I interact with the following groups of people:</p>
  	<form name="three" id="three" method="post" action="3.php">
 	<table style="float:left">
@@ -92,7 +91,7 @@
 	 </tr>
 	 <tr>
 	  <td><input type="checkbox" name="g" id="org" style="float:left" /></td>
-	  <td>Organization group (church, non profit, etc)</td>
+	  <td>Organization group (church, non profit, etc.)</td>
 	 </tr>
 	</table>
 	</form>

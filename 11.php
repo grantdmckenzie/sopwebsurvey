@@ -55,8 +55,8 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>
- 		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
+<!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->
+		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p> 
  		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be places from my home that I can easily reach without a motor vehicle.</p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="eleven" id="eleven" method="post" action="11.php">

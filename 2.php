@@ -67,16 +67,37 @@
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
  		<h2>Consent Information</h2>
- 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris massa justo, congue pulvinar rhoncus et, tincidunt et eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque a felis ante. Nunc nec massa orci. Maecenas egestas, magna nec laoreet ultrices, eros diam sodales lorem, vel auctor felis libero at lectus. Quisque lobortis urna a orci molestie sagittis. In in orci in magna semper commodo sit amet at libero. Ut bibendum tristique mauris, eget varius sem scelerisque et. Duis justo augue, mattis id auctor a, lobortis a turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+ 		<p>PURPOSE: <br>
+You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 
 </p><p>
-Nunc vitae est elit, id ultricies eros. Donec congue tincidunt tellus, non auctor diam venenatis a. Sed diam nulla, sollicitudin vel aliquet sed, feugiat sed velit. Fusce ac mauris et enim auctor vulputate quis at nulla. Duis at diam scelerisque nunc cursus pulvinar. Nunc vulputate porttitor massa, id elementum leo gravida ac. Mauris malesuada eros ac urna vestibulum eget facilisis est placerat. In faucibus eleifend libero, vel ultricies libero viverra in. Nulla quis ipsum non lacus ultrices rhoncus nec in augue.
+PROCEDURES: <br>
+If you decide to participate, we will ask you to complete a survey asking questions about your attitudes about the Santa Barbara area, types of daily and weekly activities you conduct, your social life (friends, family, work, etc), and basic information about you as an individual (gender, household composition, etc.). The survey will take around 30 minutes to complete, and will involve responses from approximately 1,000 individuals. 
 </p><p>
-Ut nec augue non mauris eleifend porttitor in vel leo. Vivamus est lacus, dignissim non facilisis non, blandit sed nulla. Sed bibendum orci eget turpis suscipit pellentesque. Fusce in lorem at eros lobortis scelerisque. Nunc non nibh ac nisl congue pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac eros vel ante egestas dignissim at ac nisi. Quisque commodo interdum lectus, eget egestas lectus sodales ut. Nulla mollis adipiscing pulvinar. Phasellus lacus justo, consectetur adipiscing rutrum sit amet, commodo id felis. Curabitur sollicitudin rhoncus dui feugiat fermentum. Cras porta tristique ligula, sit amet dictum leo fermentum ut. Maecenas sit amet est vitae felis dictum tincidunt sit amet auctor lorem.
+RISKS: <br>
+If at any time you are inconvenienced by the length of the survey, you may save and return later, or elect not to finish the survey. 
+<br>
+The answers you provide to the questions will be transmitted using a secure internet connection (https) and will be carefully stored and protected by UCSB researchers.
 </p><p>
-Nam pulvinar molestie tristique. Integer ut urna nec diam rutrum blandit ac venenatis lacus. Nullam posuere tempus orci sed aliquam. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas at nibh sed dolor faucibus tincidunt et vitae quam. Morbi magna nulla, egestas pretium facilisis ut, pellentesque ultrices sem. Aenean sed arcu vel risus condimentum commodo.
+BENEFITS: <br>
+As a result of your participation, you will help us gain a better understanding of the way in which residents of Santa Barbara view their city, as well as how residents conduct their daily lives and utilize transportation. There is no direct benefit to you as an individual anticipated from your participation in this study.
 </p><p>
-Phasellus imperdiet urna id nunc rutrum id posuere ligula suscipit. Curabitur lobortis nulla vitae erat tincidunt vitae adipiscing purus pulvinar. Suspendisse potenti. In nibh mi, pharetra sit amet suscipit et, varius ac purus. Praesent tempor enim eget nibh tincidunt non commodo turpis interdum. Integer bibendum mauris in nulla adipiscing in tempor massa porta. Suspendisse non est quis tellus pretium semper a ac nulla. Donec leo magna, mattis ut faucibus ut, consectetur sed massa. Nulla faucibus laoreet justo a lobortis. Nam ac justo lorem, in bibendum nunc. Nam eget ipsum lectus, quis iaculis leo. Integer at sagittis dolor. Proin odio massa, posuere semper rutrum eu, vehicula non orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras et libero libero, in cursus magna.</p>
+CONFIDENTIALITY: <br>
+Data collected from this study will only be presented in aggregate form (no individual will be identifiable). Data will be kept and maintained by researchers at UCSB for the sole purpose of research. Absolute confidentiality cannot be guaranteed, since research documents are not protected from subpoena.
+</p><p>
+COSTS/PAYMENT: <br>
+For your participation, you will receive $10.00 per person, up to $40.00 per household. 
+</p><p>
+RIGHT TO REFUSE OR WITHDRAW: <br>
+You may refuse to participate and still receive any benefits you would receive if you were not in the study. You may change your mind about being in the study and quit after the study has started. 
+</p><p>
+QUESTIONS: <br>
+If you have any questions about this research project or if you think you may have been injured as a result of your participation, please contact:
+</p><p>
+Dr. Konstadinos Goulias (goulias@geog.ucsb.edu) or Kate Deutsch (deutsch@geog.ucsb.edu) by email, or by phone (805)893-3867.
+</p><p>
+If you have any questions regarding your rights and participation as a research subject, please contact the Human Subjects Committee at (805) 893-3807 or hsc@research.ucsb.edu. Or write to the University of California, Human Subjects Committee, Office of Research, Santa Barbara, CA 93106-2050</p>
 <p>
+
 	<form name="iagree" id="iagree" method="post" action="3.php">
 	<table style="float:left">
  	 <tr>

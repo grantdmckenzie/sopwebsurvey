@@ -57,7 +57,6 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>
  		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
  		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u>places that I consider to be important areas that of Santa Barbara</u>
 </p>

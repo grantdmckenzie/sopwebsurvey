@@ -55,7 +55,7 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>
+<!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->
  		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
  		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be a part of <u>(downtown).</u></p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	

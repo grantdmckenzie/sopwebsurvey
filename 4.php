@@ -110,7 +110,7 @@
  		<input type="radio" name="contact" value="5"/>Once a month<br/>
  		<input type="radio" name="contact" value="6"/>Less than once a month<br/>
 
-<p>4) How strong are your relationship to people within this group (1 to 10 with 1 being weak and 10 being strong)</p>
+<p>4) How strong are your relationships to people within this group (1 to 10 with 1 being weak and 10 being strong)</p>
 	<table style="width:90%">
 	 <tr>
 	  <td>1</td>
