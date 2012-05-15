@@ -10,7 +10,7 @@
       var geoms = [];
       var count = 0;
       var hexlayer;
-      var hexvalues = {};
+      var hexvalues = new Array();
       var id = null;
 
       function init() {
@@ -73,7 +73,8 @@
       
       function getRadioValue(num) {
       			var val = parseInt($('input[name=gm]:checked').val());
-      			hexvalues['s'+id] = val;
+      			hexvalues["'"+id+"'"] = val;
+      			$('#s'+id).val(val);
       			map.infoWindow.hide();
       			for (var i=0;i<hexlayer.graphics.length;i++) {
       				if (hexlayer.graphics[i].attributes.id == id) {

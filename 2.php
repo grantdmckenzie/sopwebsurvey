@@ -70,7 +70,7 @@
  		<p>PURPOSE: <br>
 You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 
 </p><p>
-PROCEDURES: <br>
+<b>PROCEDURES: </b><br>
 If you decide to participate, we will ask you to complete a survey asking questions about your attitudes about the Santa Barbara area, types of daily and weekly activities you conduct, your social life (friends, family, work, etc), and basic information about you as an individual (gender, household composition, etc.). The survey will take around 30 minutes to complete, and will involve responses from approximately 1,000 individuals. 
 </p><p>
 RISKS: <br>

@@ -10,26 +10,25 @@
 	if (!session_is_registered('wsuser')) {
 		header("location: index.php");
 	}
-	if (isset($_POST['geom'])) {
+	if (isset($_POST['s1'])) {
 		$error = "";
 		require "inc/dbase.inc";
 		require "inc/user.inc";
 		$wsuser = unserialize($_SESSION['wsuser']);	
-		$geom = $_POST['geom'];
-		$why = $_POST['why'];
-		
-		if (strlen($geom) > 25 && strlen($why) > 2) {
-			// insert the deets.
-			$query = "INSERT INTO geom VALUES ('',".$wsuser->id.",17,'".addslashes($geom)."','".addslashes($why)."')";
-			mysql_query($query) or die(mysql_error());
-			
-			// update the page
-			$query = "UPDATE users SET page = '18', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
-			mysql_query($query) or die(mysql_error());
-			header("location: 17.php");
-		} else {
-			$error = "Please draw at least one region on the map.";	
+		$query = "INSERT INTO hexagons VALUES ('',".$wsuser->id;
+		foreach($_POST as $key=>$value) {
+			if ($key != "gm")
+			//echo $key.":". $value ."<br/>";
+				$query .= ",".$value;
+
 		}
+		$query .= ")";
+		mysql_query($query) or die(mysql_error());
+		// update the page
+		$query = "UPDATE users SET page = '18', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
+
+		mysql_query($query) or die(mysql_error());
+		header("location: 18.php");
 	}
 ?>
 
@@ -59,15 +58,36 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>
- 		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
- 		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from 1-10, 1 being strongly disagree and 10 being strongly agree  </u></p>
+ 		<p style="text-align:center;font-size:16px;font-weight:bold">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
+ 		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree  </u></p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="seventeen" id="seventeen" method="post" action="17.php">
  	<a href="help.html" target="_blank" style="float:right">Need Help?</a>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
- 		<input type="hidden" name="geom" id="geom"/>
+ 		<input type="hidden" name="s0" id="s0"/>
+ 		<input type="hidden" name="s1" id="s1"/>
+ 		<input type="hidden" name="s2" id="s2"/>
+ 		<input type="hidden" name="s3" id="s3"/>
+ 		<input type="hidden" name="s4" id="s4"/>
+ 		<input type="hidden" name="s5" id="s5"/>
+ 		<input type="hidden" name="s6" id="s6"/>
+ 		<input type="hidden" name="s7" id="s7"/>
+ 		<input type="hidden" name="s8" id="s8"/>
+ 		<input type="hidden" name="s9" id="s9"/>
+ 		<input type="hidden" name="s10" id="s10"/>
+ 		<input type="hidden" name="s11" id="s11"/>
+ 		<input type="hidden" name="s12" id="s12"/>
+ 		<input type="hidden" name="s13" id="s13"/>
+ 		<input type="hidden" name="s14" id="s14"/>
+ 		<input type="hidden" name="s15" id="s15"/>
+ 		<input type="hidden" name="s16" id="s16"/>
+ 		<input type="hidden" name="s17" id="s17"/>
+ 		<input type="hidden" name="s18" id="s18"/>
+ 		<input type="hidden" name="s19" id="s19"/>
+ 		<input type="hidden" name="s20" id="s20"/>
+ 		<input type="hidden" name="s21" id="s21"/>
+ 		<input type="hidden" name="s22" id="s22"/>
  	</p>
  	</form>
 <br/><br/>

@@ -11,25 +11,48 @@
 		header("location: login.php");
 	}
 	$error = "";
-	if (isset($_POST['firsttime'])) {
-		if (isset($_POST['likert1']) && isset($_POST['likert2']) && isset($_POST['likert3']) && isset($_POST['likert4']) && isset($_POST['likert5']) && isset($_POST['likert6']) && isset($_POST['likert7']) && isset($_POST['likert8']) && isset($_POST['likert9']) && isset($_POST['likert10']) && isset($_POST['likert11']) && isset($_POST['likert12']) && isset($_POST['likert13'])) {
-			
-			require "inc/dbase.inc";
-			require "inc/user.inc";
-			$wsuser = unserialize($_SESSION['wsuser']);
-				
-			// insert the deets.
-			$query = "INSERT INTO page14 VALUES ('',".$wsuser->id.",".$_POST['likert1'].",".$_POST['likert2'].",".$_POST['likert3'].",".$_POST['likert4'].",".$_POST['likert5'].",".$_POST['likert6'].",".$_POST['likert7'].",".$_POST['likert8'].",".$_POST['likert9'].",".$_POST['likert10'].",".$_POST['likert11'].",".$_POST['likert12'].",".$_POST['likert13'].",'".addslashes($_POST['years'])."','".addslashes($_POST['times'])."')";
-			mysql_query($query) or die(mysql_error());
-			
-			// update the page
-			$query = "UPDATE users SET page = '16', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
-			mysql_query($query) or die(mysql_error());
-			header("location: 16.php");
-			
-		} else {
-			$error = "<p style='color:#ff0000;text-align:center;'>Please answer all questions</p>";	
-		}
+	if (isset($_POST['address']) && isset($_POST['house']) && isset($_POST['related']) && isset($_POST['income'])) {
+		require "inc/dbase.inc";
+		require "inc/user.inc";
+		$wsuser = unserialize($_SESSION['wsuser']);
+		
+		$address = addslashes($_POST['address']);
+		$city = addslashes($_POST['city']);
+		$zip = $_POST['zip'];
+		$members = $_POST['members'];
+		$related = $_POST['related'];
+		$house = $_POST['house'];
+		$years = $_POST['years'];
+		$vehicles = $_POST['vehicles'];
+		$drivers = $_POST['drivers'];
+		$bicycles = $_POST['bicycles'];
+		$income = $_POST['income'];
+		$children = $_POST['children'];
+		if ($related == 6)	
+			$related = $_POST['relatedother'];
+		if ($house == 4)	
+			$house = $_POST['houseother'];
+
+		$query = "INSERT INTO page15 VALUES ('',".$wsuser->id;
+		$query .= "'".$address."',";	
+		$query .= "'".$city."',";
+		$query .= "'".$zip."',";
+		$query .= "'".$members."',";
+		$query .= "'".$related."',";
+		$query .= "'".$house."',";
+		$query .= "'".$years."',";
+		$query .= "'".$vehicles."',";
+		$query .= "'".$drivers."',";
+		$query .= "'".$bicycles."'";
+		$query .= "'".$income."'";
+		$query .= "'".$children."'";
+		$query .= ")";
+		// mysql_query($query) or die(mysql_error());
+		echo $query;
+		// update the page
+		$query = "UPDATE users SET page = '16', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
+		mysql_query($query) or die(mysql_error());
+		header("location: 16.php");
 	}
 ?>
 
@@ -51,73 +74,135 @@
 <!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->	
  		<?php echo $error; ?>
  	<form name="fifteen" id="fifteen" method="post" action="15.php">
-<!--	<p>Sense of place development/ strength</p> -->
-<!-- QUESTION #1 -->
- 	<p><b>To what degree do the following statements describe you? </b>
-</p>
- 	<hr/>
- 	<table><tr><td style="padding-right:20px">I tend to develop favorite places</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert1" value="1"/></td><td><input type="radio" name="likert1" value="2"/></td><td><input type="radio" name="likert1" value="3"/></td><td><input type="radio" name="likert1" value="4"/></td><td><input type="radio" name="likert1" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">I tend to frequent the same place often because I like it best</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert2" value="1"/></td><td><input type="radio" name="likert2" value="2"/></td><td><input type="radio" name="likert2" value="3"/></td><td><input type="radio" name="likert2" value="4"/></td><td><input type="radio" name="likert2" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">I am very disappointed when I can no longer visit a place</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert3" value="1"/></td><td><input type="radio" name="likert3" value="2"/></td><td><input type="radio" name="likert3" value="3"/></td><td><input type="radio" name="likert3" value="4"/></td><td><input type="radio" name="likert3" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">Certain places in SB (besides my home) make me feel: Happy, </td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert4" value="1"/></td><td><input type="radio" name="likert4" value="2"/></td><td><input type="radio" name="likert4" value="3"/></td><td><input type="radio" name="likert4" value="4"/></td><td><input type="radio" name="likert4" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">at ease,  </td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert5" value="1"/></td><td><input type="radio" name="likert5" value="2"/></td><td><input type="radio" name="likert5" value="3"/></td><td><input type="radio" name="likert5" value="4"/></td><td><input type="radio" name="likert5" value="5"/></td></tr></table></td></tr>
+ 	<p>
+ 		1) What is your home address?<br/>
+		<input type="text" value="" name="address" style="width:400px" id="address" />
+		<br/>
+		Street number and street name<br/>
+		<br/>
+		<select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select>
+		<select id="zip" name="zip"><option value="Select">Select</option><option value="93101">93101</option><option value="93102">93102</option></select><br/>
+		City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip Code<br/><br/>
+		2) How many members are in your household?<br/>
+		<select id="members" name="members"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select>
+		<br/><br/>
+		
+		3) How many children (under the age of 18) are in your household?<br/>
+		<select id="children" name="children"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		<p>
+		4) How are you related to the other members in your household?<br/>
+		<table style='float:left;clear:both;'><tr>
+		<td>I live alone</td>
+		<td><input type="radio" name="related" value="1"/></td>
+		<td>I live with acquaintances</td>
+		<td><input type="radio" name="related" value="5"/></td>
+		</tr><tr>
+		<td>I live with my immediate family</td>
+		<td><input type="radio" name="related" value="2"/></td>
+		<td>Other</td>
+		<td><input type="radio" name="related" value="6"/></td>
+		</tr><tr>
+		<td>I live with my extended family members</td>
+		<td><input type="radio" name="related" value="3"/></td>
+		<td><input type="text" name="relatedother"/></td>
+		<td>&nbsp;</td>
+		</tr><tr>
+		<td>I live with friends</td>
+		<td><input type="radio" name="related" value="4"/></td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		</tr></table>
+		</p><p style='clear:both;'>
+		<br/><br/>
+		5) What description best represents your house<br/>
+		<table style='float:left;clear:both;'><tr>
+		<td>I own my home</td>
+		<td><input type="radio" name="house" value="1"/></td>
+		<td>My home is provided by a job/military</td>
+		<td><input type="radio" name="house" value="3"/></td>
+		</tr><tr>
+		<td>I rent</td>
+		<td><input type="radio" name="house" value="2"/></td>
+		<td>Other</td>
+		<td><input type="radio" name="house" value="4"/></td>
+		</tr><tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td><input type="text" name="houseother"/></td>
+		<td>&nbsp;</td>
+		</tr></table>
+		<p style='clear:both;'>
+		<br/><br/>
+		6) How many years have you lived in your current house?<br/>
+		<select id="years" name="years"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select>
+		</p><p style='clear:both;'>
+		<br/>
+		7) What is your annual household income?<br/>
 
-	<tr><td style="padding-right:20px">proud to live here, </td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert6" value="1"/></td><td><input type="radio" name="likert6" value="2"/></td><td><input type="radio" name="likert6" value="3"/></td><td><input type="radio" name="likert6" value="4"/></td><td><input type="radio" name="likert6" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">attached to the place</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert7" value="1"/></td><td><input type="radio" name="likert7" value="2"/></td><td><input type="radio" name="likert7" value="3"/></td><td><input type="radio" name="likert7" value="4"/></td><td><input type="radio" name="likert7" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">I will travel farther away to go to a specific place even<br/>if similar services are provided closer if I like the further place better</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert8" value="1"/></td><td><input type="radio" name="likert8" value="2"/></td><td><input type="radio" name="likert8" value="3"/></td><td><input type="radio" name="likert8" value="4"/></td><td><input type="radio" name="likert8" value="5"/></td></tr></table></td></tr>
-	
-	</table>
- 
- <br/><br/>
-<!-- <p>Respondent history / lifestyle in Santa Barbara</p> -->
-<!-- QUESTION #2 -->
-<hr/>
- 	<p>How many years have you lived in SB <input type="text" name="years"/></p>
- 	<p>How many times have you move to a new residence in SB <input type="text" name="times"/></p>
- 	<p>Please respond to the following questions with how well the statement describes your lifestyle:</p>
- 	<table><tr><td style="padding-right:20px">I spend a lot of my free time outside doing physical activities</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert9" value="1"/></td><td><input type="radio" name="likert9" value="2"/></td><td><input type="radio" name="likert9" value="3"/></td><td><input type="radio" name="likert9" value="4"/></td><td><input type="radio" name="likert9" value="5"/></td></tr></table></td></tr>
-	 
-	<tr><td style="padding-right:20px">I like to spend a lot of my free time reading, browsing<br/>on the computer, doing arts or crafts, home improvement<br/>and similar home based activities</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert10" value="1"/></td><td><input type="radio" name="likert10" value="2"/></td><td><input type="radio" name="likert10" value="3"/></td><td><input type="radio" name="likert10" value="4"/></td><td><input type="radio" name="likert10" value="5"/></td></tr></table></td></tr>
-	
-	<tr><td style="padding-right:20px">I like to spend a lot of my free time with friends or family members </td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert11" value="1"/></td><td><input type="radio" name="likert11" value="2"/></td><td><input type="radio" name="likert11" value="3"/></td><td><input type="radio" name="likert11" value="4"/></td><td><input type="radio" name="likert11" value="5"/></td></tr></table></td></tr>
-
-	<tr><td style="padding-right:20px">I eat a lot of my meals at restaurants</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert12" value="1"/></td><td><input type="radio" name="likert12" value="2"/></td><td><input type="radio" name="likert12" value="3"/></td><td><input type="radio" name="likert12" value="4"/></td><td><input type="radio" name="likert12" value="5"/></td></tr></table></td></tr>
-			
-	<tr><td style="padding-right:20px">I enjoy being in crowds or places where there is a lot of activity</td>
-	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly agree</td><td>agree</td><td>neutral</td><td>disagree</td><td>strongly disagree</td></tr>
-	<tr><td><input type="radio" name="likert13" value="1"/></td><td><input type="radio" name="likert13" value="2"/></td><td><input type="radio" name="likert13" value="3"/></td><td><input type="radio" name="likert13" value="4"/></td><td><input type="radio" name="likert13" value="5"/></td></tr></table></td></tr></table>
-	
+		<table style='float:left;clear:both;'>
+		<tr>
+		<td>Less than $10,000</td>
+		<td><input type="radio" name="income" value="1"/></td>
+		<td>$80,000 - $89,999</td>
+		<td><input type="radio" name="income" value="9"/></td>
+		</tr><tr>
+		<td>$10,000 - $19,999</td>
+		<td><input type="radio" name="income" value="2"/></td>
+		<td>$90,000 - $99,999</td>
+		<td><input type="radio" name="income" value="10"/></td>
+		</tr><tr>
+		<td>$20,000 - $29,000</td>
+		<td><input type="radio" name="income" value="3"/></td>
+		<td>$100,000 - $109,999</td>
+		<td><input type="radio" name="income" value="11"/></td>
+		</tr><tr>
+		<td>$30,000 - $39,000</td>
+		<td><input type="radio" name="income" value="4"/></td>
+		<td>$110,000 - $119,999</td>
+		<td><input type="radio" name="income" value="12"/></td>
+		</tr><tr>
+		<td>$40,000 - $49,000</td>
+		<td><input type="radio" name="income" value="5"/></td>
+		<td>$120,000 - $129,999</td>
+		<td><input type="radio" name="income" value="13"/></td>
+		</tr><tr>
+		<td>$50,000 - $59,000</td>
+		<td><input type="radio" name="income" value="6"/></td>
+		<td>$130,000 - $139,999</td>
+		<td><input type="radio" name="income" value="14"/></td>
+		</tr><tr>
+		<td>$60,000 - $69,000</td>
+		<td><input type="radio" name="income" value="7"/></td>
+		<td>$140,000 - $149,999</td>
+		<td><input type="radio" name="income" value="15"/></td>
+		</tr><tr>
+		<td>$70,000 - $79,000</td>
+		<td><input type="radio" name="income" value="8"/></td>
+		<td>$150,000 or more</td>
+		<td><input type="radio" name="income" value="16"/></td>
+		</tr><tr>
+		</tr></table>
+		<p style='clear:both;'>
+		<br/><br/>
+		8) How many vehicles does your household own?<br/>
+		<select id="vehicles" name="vehicles"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		</p>
+		<p style='clear:both;'>
+		9) How many licensed drivers are there in your household?<br/>
+		<select id="drivers" name="drivers"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		</p>
+		<p style='clear:both;'>
+		10) How many bicycles does your household own?<br/>
+		<select id="bicycles" name="bicycles">
+			<option value="Select">Select</option>
+			<option value="1">0</option>
+			<option value="2">2</option>
+		</select><br/><br/>
+		</p>
+		</p><p style='clear:both;'>
+		
 		<input type="hidden" value="1" name="firsttime"/>
+	</p>
  	</form>
 <br/><br/>
  		<div class="bigBtn" style="clear:both;" onclick="continue15();">CONTINUE ></div>

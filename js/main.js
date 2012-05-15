@@ -70,7 +70,24 @@ function continue14() {
 	$("#fourteen").submit();	
 }
 function continue15() {
-	$("#fifteen").submit();	
+	if ($('#address').val().length < 5) {
+		alert('Please enter a valid Address');
+	} 
+	
+	else {
+		$("#fifteen").submit();	
+	}
+}
+function continue17() {
+	var count=0;
+	for(var prop in hexvalues) {
+		count++;
+	}
+	if (count < 23) {
+		alert('Please supply a ranking for each of the regions of Santa Barbara.');	
+	} else {
+		$("#seventeen").submit();	
+	}
 }
 function logmein() {
 	// alert('testasdf');
