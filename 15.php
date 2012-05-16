@@ -33,7 +33,7 @@
 		if ($house == 4)	
 			$house = $_POST['houseother'];
 
-		$query = "INSERT INTO page15 VALUES ('',".$wsuser->id;
+		$query = "INSERT INTO page15 VALUES ('',".$wsuser->id.",";
 		$query .= "'".$address."',";	
 		$query .= "'".$city."',";
 		$query .= "'".$zip."',";
@@ -43,12 +43,13 @@
 		$query .= "'".$years."',";
 		$query .= "'".$vehicles."',";
 		$query .= "'".$drivers."',";
-		$query .= "'".$bicycles."'";
-		$query .= "'".$income."'";
+		$query .= "'".$bicycles."',";
+		$query .= "'".$income."',";
 		$query .= "'".$children."'";
 		$query .= ")";
-		// mysql_query($query) or die(mysql_error());
-		echo $query;
+		// echo $query;
+		mysql_query($query) or die(mysql_error());
+		
 		// update the page
 		$query = "UPDATE users SET page = '16', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 		mysql_query($query) or die(mysql_error());

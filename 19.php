@@ -4,7 +4,7 @@
 	@client: Geotrans Lab @ UCSB
 	@project: Sense of Place Web Survey
 	@date: May 2012
-	@description: Page 17: Update map
+	@description: Page 19: Update map
 	*/
 	session_start();
 	if (!session_is_registered('wsuser')) {
@@ -15,7 +15,7 @@
 		require "inc/dbase.inc";
 		require "inc/user.inc";
 		$wsuser = unserialize($_SESSION['wsuser']);	
-		$query = "INSERT INTO hexagons VALUES ('',".$wsuser->id.",17";
+		$query = "INSERT INTO hexagons VALUES ('',".$wsuser->id.",19";
 		foreach($_POST as $key=>$value) {
 			if ($key != "gm")
 			//echo $key.":". $value ."<br/>";
@@ -25,10 +25,10 @@
 		$query .= ")";
 		mysql_query($query) or die(mysql_error());
 		// update the page
-		$query = "UPDATE users SET page = '18', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
+		$query = "UPDATE users SET page = '20', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 
 		mysql_query($query) or die(mysql_error());
-		header("location: 18.php");
+		header("location: 20.php");
 	}
 ?>
 
@@ -63,9 +63,9 @@
  		<p style="text-align:center;">
  			-5 (strongly disagree) <img src="img/colors.png" alt="colors" /> 5 (strongly agree)
  		</p>
- 		<p>This area is an attractive area of Santa Barbara.</p>
+ 		<p>This area of Santa Barbara provides a lot of things to do.</p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
- 	<form name="seventeen" id="seventeen" method="post" action="17.php">
+ 	<form name="nineteen" id="nineteen" method="post" action="19.php">
  	<a href="help.html" target="_blank" style="float:right">Need Help?</a>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
@@ -95,7 +95,7 @@
  	</p>
  	</form>
 <br/><br/>
- 		<div class="bigBtn" style="clear:both;" onclick="continue17();">CONTINUE ></div>
+ 		<div class="bigBtn" style="clear:both;" onclick="continue19();">CONTINUE ></div>
  	</div>
  </body>
 </html>
