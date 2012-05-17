@@ -67,30 +67,30 @@
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
  		<h2>Consent Information</h2>
- 		<p>PURPOSE: <br>
+ 		<p><b>PURPOSE: </b><br>
 You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 
 </p><p>
 <b>PROCEDURES: </b><br>
 If you decide to participate, we will ask you to complete a survey asking questions about your attitudes about the Santa Barbara area, types of daily and weekly activities you conduct, your social life (friends, family, work, etc), and basic information about you as an individual (gender, household composition, etc.). The survey will take around 30 minutes to complete, and will involve responses from approximately 1,000 individuals. 
 </p><p>
-RISKS: <br>
+<b>RISKS: </b><br>
 If at any time you are inconvenienced by the length of the survey, you may save and return later, or elect not to finish the survey. 
 <br>
 The answers you provide to the questions will be transmitted using a secure internet connection (https) and will be carefully stored and protected by UCSB researchers.
 </p><p>
-BENEFITS: <br>
+<b>BENEFITS: </b><br>
 As a result of your participation, you will help us gain a better understanding of the way in which residents of Santa Barbara view their city, as well as how residents conduct their daily lives and utilize transportation. There is no direct benefit to you as an individual anticipated from your participation in this study.
 </p><p>
-CONFIDENTIALITY: <br>
+<b>CONFIDENTIALITY: </b><br>
 Data collected from this study will only be presented in aggregate form (no individual will be identifiable). Data will be kept and maintained by researchers at UCSB for the sole purpose of research. Absolute confidentiality cannot be guaranteed, since research documents are not protected from subpoena.
 </p><p>
-COSTS/PAYMENT: <br>
+<b>COSTS/PAYMENT: </b><br>
 For your participation, you will receive $10.00 per person, up to $40.00 per household. 
 </p><p>
-RIGHT TO REFUSE OR WITHDRAW: <br>
+<b>RIGHT TO REFUSE OR WITHDRAW: </b><br>
 You may refuse to participate and still receive any benefits you would receive if you were not in the study. You may change your mind about being in the study and quit after the study has started. 
 </p><p>
-QUESTIONS: <br>
+<b>QUESTIONS: </b><br>
 If you have any questions about this research project or if you think you may have been injured as a result of your participation, please contact:
 </p><p>
 Dr. Konstadinos Goulias (goulias@geog.ucsb.edu) or Kate Deutsch (deutsch@geog.ucsb.edu) by email, or by phone (805)893-3867.
