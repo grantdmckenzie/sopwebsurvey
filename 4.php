@@ -78,37 +78,38 @@
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>
  	<form name="four" id="four" method="post" action="4.php">
  	<p>1) In the social group, <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play:</p>
- 		<input type="checkbox" name="decison" value="1"/>Decision maker (I generally have a large say in the decisions made)
+ 		<input type="checkbox" name="decison" value="1"/>&nbsp;&nbsp;Decision maker (I generally have a large say in the decisions made)
 <br/>
- 		<input type="checkbox" name="group" value="2"/>Group member (I partake in decision making, but not more than most others)
+ 		<input type="checkbox" name="group" value="2"/>&nbsp;&nbsp;Group member (I partake in decision making, but not more than most others)
 <br/>
- 		<input type="checkbox" name="follower" value="3"/>Follower (I go along with decisions made by others)
+ 		<input type="checkbox" name="follower" value="3"/>&nbsp;&nbsp;Follower (I go along with decisions made by others)
 <br/>
- 		Other<input type="text" name="other" id="other" /><br/>
+ 		<input type="checkbox"/>&nbsp;&nbsp;Other<br/>
+ 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please explain: <input type="text" name="other" id="other" class="txt" /><br/>
  		
  		<input type="hidden" name="socialgroup" value="<?php echo $social; ?>"/>
  	<p>2) For the social group, <b><?php echo $types[$social]; ?></b>, please indicate the approximate size of the group:</p>
- 		<input type="radio" name="size" value="1"/>1 - 5 persons
+ 		<input type="radio" name="size" value="1"/>&nbsp;&nbsp;1 - 5 persons
 <br/>
- 		<input type="radio" name="size" value="2"/>6 - 10 persons
+ 		<input type="radio" name="size" value="2"/>&nbsp;&nbsp;6 - 10 persons
 <br/>
- 		<input type="radio" name="size" value="3"/>10-20
+ 		<input type="radio" name="size" value="3"/>&nbsp;&nbsp;10-20
 <br/>
- 		<input type="radio" name="size" value="4"/>20-50
+ 		<input type="radio" name="size" value="4"/>&nbsp;&nbsp;20-50
 <br/>
-		<input type="radio" name="size" value="5"/>50-100
+		<input type="radio" name="size" value="5"/>&nbsp;&nbsp;50-100
 <br/>
-		<input type="radio" name="size" value="6"/>larger than 100
+		<input type="radio" name="size" value="6"/>&nbsp;&nbsp;larger than 100
 <br/>
 
 
  	<p>3) In the social group, <b><?php echo $types[$social]; ?></b>, how much contact do you have with the people within this social group?</p>
- 		<input type="radio" name="contact" value="1"/>Every day<br/>
- 		<input type="radio" name="contact" value="2"/>A few times a week<br/>
- 		<input type="radio" name="contact" value="3"/>Once a week<br/>
- 		<input type="radio" name="contact" value="4"/>A few times a month<br/>
- 		<input type="radio" name="contact" value="5"/>Once a month<br/>
- 		<input type="radio" name="contact" value="6"/>Less than once a month<br/>
+ 		<input type="radio" name="contact" value="1"/>&nbsp;&nbsp;Every day<br/>
+ 		<input type="radio" name="contact" value="2"/>&nbsp;&nbsp;A few times a week<br/>
+ 		<input type="radio" name="contact" value="3"/>&nbsp;&nbsp;Once a week<br/>
+ 		<input type="radio" name="contact" value="4"/>&nbsp;&nbsp;A few times a month<br/>
+ 		<input type="radio" name="contact" value="5"/>&nbsp;&nbsp;Once a month<br/>
+ 		<input type="radio" name="contact" value="6"/>&nbsp;&nbsp;Less than once a month<br/>
 
 <p>4) How strong are your relationships to people within this group (1 to 10 with 1 being weak and 10 being strong)</p>
 	<table style="width:90%">

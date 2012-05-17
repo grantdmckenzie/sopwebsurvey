@@ -30,11 +30,12 @@
 			$firstname = addslashes($_POST['firstname']);
 			$lastname = addslashes($_POST['lastname']);
 			$email = addslashes($_POST['email']);
+			$ip=$_SERVER['REMOTE_ADDR'];
 			
 			require "inc/dbase.inc";
 			require "inc/user.inc";
 			
-			$query1 = "INSERT INTO users VALUES('','".$firstname."','".$lastname."','".$email."','".$password."','".date("Y-m-d H:i:s")."','".date("Y-m-d H:i:s")."','','2')";
+			$query1 = "INSERT INTO users VALUES('','".$firstname."','".$lastname."','".$email."','".$password."','".date("Y-m-d H:i:s")."','".date("Y-m-d H:i:s")."','','2','".$ip."')";
 			mysql_query($query1) or die(mysql_error());
 			$insertid = mysql_insert_id();
 			
@@ -66,6 +67,7 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
+ 	<a href="about.html" target="_blank"><img src="img/info.png" alt="info" title="More Information"/></a>
  		<h2>Consent Information</h2>
  		<p>PURPOSE: <br>
 You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 

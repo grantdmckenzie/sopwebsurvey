@@ -62,7 +62,7 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<p>First, we would like to gain an understanding of your social involvement and roles.  In a typical week, I interact with the following groups of people:</p>
+ 		<p><b>First, we would like to gain an understanding of your social involvement and roles.  In a typical week, I interact with the following groups of people:</b></p>
  	<form name="three" id="three" method="post" action="3.php">
 	<table style="float:left">
  	 <tr>

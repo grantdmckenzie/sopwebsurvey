@@ -21,9 +21,6 @@
             dojo.connect(dijit.byId('map'), 'resize', map,map.resize);
             map.disableScrollWheelZoom();
 			map.disableDoubleClickZoom();
-			map.disableKeyboardNavigation();
-			map.showPanArrows();
-			map.hideZoomSlider();
 			toolbar.activate(esri.toolbars.Draw.POLYGON);
         });
         

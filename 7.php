@@ -40,7 +40,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.7/js/dojo/dijit/themes/claro/claro.css" />
   <link rel="stylesheet" href="css/main.css" />
-  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8" type="text/javascript"></script>
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact" type="text/javascript"></script>
   <script type="text/javascript" src="js/json2.js"></script>
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
  <script type="text/javascript" src="js/main.js"></script>
@@ -58,10 +58,10 @@
  	<div id="wrapperContent">
 <!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->
  		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
- 		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u>places you go shopping</u></p>
+ 		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be<br/><u>places you go shopping</u></p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="seven" id="seven" method="post" action="7.php">
- 	<a href="help.html" target="_blank" style="float:right">Need Help?</a>
+ 	<a href="help.html" target="_blank" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
  		<input type="hidden" name="geom" id="geom"/>

@@ -38,9 +38,9 @@
  <head>
   <title>Sense of Place: Web Survey</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.7/js/dojo/dijit/themes/claro/claro.css" />
+  <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.8/js/dojo/dijit/themes/claro/claro.css">
   <link rel="stylesheet" href="css/main.css" />
-  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8" type="text/javascript"></script>
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact" type="text/javascript"></script>
   <script type="text/javascript" src="js/json2.js"></script>
   <script type="text/javascript" src="js/hex2.js"></script>
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -62,7 +62,7 @@
 </p>
  	<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="five" id="five" method="post" action="5.php">
- 	<a href="help.html" target="_blank" style="float:right">Need Help?</a>
+ 	<a href="help.html" target="_blank" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
  		<input type="hidden" name="geom" id="geom"/>
