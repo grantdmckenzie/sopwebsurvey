@@ -82,14 +82,59 @@
 		Street number and street name<br/>
 		<br/>
 		<select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select>
-		<select id="zip" name="zip"><option value="Select">Select</option><option value="93101">93101</option><option value="93102">93102</option></select><br/>
+		<select id="zip" name="zip">
+		<option value="Select">Select</option>
+			<option value="93101">93101</option>
+			<option value="93102">93102</option>
+			<option value="93103">93103</option>
+			<option value="93105">93105</option>
+			<option value="93106">93106</option>
+			<option value="93107">93107</option>
+			<option value="93108">93108</option>
+			<option value="93109">93109</option>
+			<option value="93110">93110</option>
+			<option value="93111">93111</option>
+			<option value="93120">93120</option>
+			<option value="93121">93121</option>
+			<option value="93130">93130</option>
+			<option value="93140">93140</option>
+			<option value="93150">93150</option>
+			<option value="93160">93160</option>
+			<option value="93190">93190</option>
+		</select><br/>
 		City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip Code<br/><br/>
-		2) How many members are in your household?<br/>
-		<select id="members" name="members"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select>
-		<br/><br/>
+		2) How many members are in your household? (a household is defined as persons living together sharing a common cooking facility)<br/>
+		<select id="members" name="members">
+		<option value="Select">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">more than 10</option>
+		</select><br/><br/>
 		
 		3) How many children (under the age of 18) are in your household?<br/>
-		<select id="children" name="children"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		<select id="children" name="children">
+		<option value="Select">Select</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">more than 10</option>
+		</select><br/><br/>
 		<p>
 		4) How are you related to the other members in your household?<br/>
 		<table style='float:left;clear:both;'><tr>
@@ -117,12 +162,12 @@
 		<br/><br/>
 		5) What description best represents your house<br/>
 		<table style='float:left;clear:both;'><tr>
-		<td>I own my home</td>
+		<td>My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
 		<td><input type="radio" name="house" value="1"/></td>
 		<td>My home is provided by a job/military</td>
 		<td><input type="radio" name="house" value="3"/></td>
 		</tr><tr>
-		<td>I rent</td>
+		<td>My home is rented by myself or someone else who makes payments on my behalf</td>
 		<td><input type="radio" name="house" value="2"/></td>
 		<td>Other</td>
 		<td><input type="radio" name="house" value="4"/></td>
@@ -135,7 +180,31 @@
 		<p style='clear:both;'>
 		<br/><br/>
 		6) How many years have you lived in your current house?<br/>
-		<select id="years" name="years"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select>
+		<select id="years" name="years">
+		<option value="Select">Select</option>
+		<option value="0">less than one year</option>
+			<option value="1">1 year</option>
+			<option value="2">2 years</option>
+			<option value="3">3 years</option>
+			<option value="4">4 years</option>
+			<option value="5">5 years</option>
+			<option value="6">6 years</option>
+			<option value="7">7 years</option>
+			<option value="8">8 years</option>
+			<option value="9">9 years</option>
+			<option value="10">10 years</option>
+			<option value="11">11 years</option>
+			<option value="12">12 years</option>
+			<option value="13">13 years</option>
+			<option value="14">14 years</option>
+			<option value="15">15 years</option>
+			<option value="16">16 years</option>
+			<option value="17">17 years</option>
+			<option value="18">18 years</option>
+			<option value="19">19 years</option>
+			<option value="20">20 years</option>
+			<option value="21">more than 20 years</option>
+		</select>
 		</p><p style='clear:both;'>
 		<br/>
 		7) What is your annual household income?<br/>
@@ -186,18 +255,44 @@
 		<p style='clear:both;'>
 		<br/><br/>
 		8) How many vehicles does your household own?<br/>
-		<select id="vehicles" name="vehicles"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		<select id="vehicles" name="vehicles">
+		<option value="Select">Select</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">more than 6</option>
+		</select><br/><br/>
 		</p>
 		<p style='clear:both;'>
 		9) How many licensed drivers are there in your household?<br/>
-		<select id="drivers" name="drivers"><option value="Select">Select</option><option value="1">1</option><option value="2">2</option></select><br/><br/>
+		<select id="drivers" name="drivers">
+			<option value="Select">Select</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">more than 6</option>
+		</select><br/><br/>
 		</p>
 		<p style='clear:both;'>
 		10) How many bicycles does your household own?<br/>
 		<select id="bicycles" name="bicycles">
 			<option value="Select">Select</option>
-			<option value="1">0</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
 			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">more than 6</option>
 		</select><br/><br/>
 		</p>
 		</p><p style='clear:both;'>
