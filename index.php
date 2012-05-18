@@ -44,8 +44,17 @@
 	 		  <td>Retype Password</td>
 	 		  <td><input type="password" value="" id="password2" name="password2" class="txt" /></td>
 	 		 </tr>
+	 		 <tr>
+	 		  <td colspan="2" style="font-size:0.7em">
+	 		  	
+	 		  	<img src="http://captchator.com/captcha/image/grantisawesome" /><br/>
+	 		  	As a security check, please type the<br/>text you see in the image above:
+	 		  	<br/>
+	 		  	<input type="text" class="txt" name="captcha1" style="width:100px"/>
+	 		  </td>
+	 		 </tr>
 	 		</table>
-	 		<p>Please enter your valid email address.  We will not use your email address for any other purposes than to contact you for password retrieval, follow up survey participation if you choose to and for information regarding payment for participation in this survey</p>
+	 		<p style='font-size:0.8em'>Please enter your valid email address.  We will not use your email address for any other purposes than to contact you for password retrieval, follow up survey participation if you choose to and for information regarding payment for participation in this survey</p>
 	 		<div class="bigBtn" id="start" onclick="start()">START ></div>
 	 		</form>
  		</td>
