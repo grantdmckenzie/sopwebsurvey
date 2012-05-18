@@ -93,13 +93,13 @@
 <br/>
  		<input type="radio" name="size" value="2"/>&nbsp;&nbsp;6 - 10 persons
 <br/>
- 		<input type="radio" name="size" value="3"/>&nbsp;&nbsp;10-20
+ 		<input type="radio" name="size" value="3"/>&nbsp;&nbsp;10-20 persons
 <br/>
- 		<input type="radio" name="size" value="4"/>&nbsp;&nbsp;20-50
+ 		<input type="radio" name="size" value="4"/>&nbsp;&nbsp;20-50 persons
 <br/>
-		<input type="radio" name="size" value="5"/>&nbsp;&nbsp;50-100
+		<input type="radio" name="size" value="5"/>&nbsp;&nbsp;50-100 persons
 <br/>
-		<input type="radio" name="size" value="6"/>&nbsp;&nbsp;larger than 100
+		<input type="radio" name="size" value="6"/>&nbsp;&nbsp;larger than 100 persons
 <br/>
 
 

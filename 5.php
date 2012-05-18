@@ -57,9 +57,9 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<p style="text-align:center;">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
- 		<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u>places that I consider to be important areas that of Santa Barbara</u>
-</p>
+ 		<p style="text-align:center;">Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</p>
+ 	 	<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u>places that I consider to be important areas that of Santa Barbara.</u>  To do this, please click on the map to begin drawing a shape, and double click the mouse to close the shape.  If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. </p>
+ 
  	<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="five" id="five" method="post" action="5.php">
  	<a href="help.html" target="_blank" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>

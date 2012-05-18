@@ -87,11 +87,11 @@
 	 </tr>
 	 <tr>
 	  <td><input type="checkbox" name="f" id="mentor" style="float:left" /></td>
-	  <td>Students (as a mentor, teacher etc)</td>
+	  <td>Students (as a mentor, teacher, coach, etc.)</td>
 	 </tr>
 	 <tr>
 	  <td><input type="checkbox" name="g" id="org" style="float:left" /></td>
-	  <td>Organization group (church, non profit, etc.)</td>
+	  <td>Organization (religious, non profit, sport, etc.)</td>
 	 </tr>
 	</table>
 	</form>
