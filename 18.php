@@ -40,7 +40,7 @@
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.6/js/dojo/dijit/themes/tundra/tundra.css">
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.8/js/esri/dijit/css/Popup.css">
   <link rel="stylesheet" href="css/main.css" />
-  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8" type="text/javascript"></script>
+  <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact" type="text/javascript"></script>
   <script type="text/javascript" src="js/json2.js"></script>
   <script type="text/javascript" src="js/hex2.js"></script>
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -63,12 +63,12 @@
  		<p style="text-align:center;">
  			-5 (strongly disagree) <img src="img/colors.png" alt="colors" /> 5 (strongly agree)
  		</p>
- 		<p>This area is a dangerous area of Santa Barbara.</p>
+ 		<p style="text-align:center;">This area is a dangerous area of Santa Barbara.</p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="eighteen" id="eighteen" method="post" action="18.php">
- 	<a href="help.html" target="_blank" style="float:right">Need Help?</a>
+ 	<a href="help.html" target="_blank" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
  	<p>	
- 		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
+ 		<div id="map" dojotype="dijit.layout.ContentPane" region="center" style="width:90%"></div>
  		<input type="hidden" name="s0" id="s0"/>
  		<input type="hidden" name="s1" id="s1"/>
  		<input type="hidden" name="s2" id="s2"/>

@@ -94,8 +94,8 @@
  <p>Respondent history / lifestyle in Santa Barbara</p>
 <!-- QUESTION #2 -->
 <hr/>
- 	<p>How many years have you lived in SB <input type="text" name="years"/></p>
- 	<p>How many times have you move to a new residence in SB <input type="text" name="times"/></p>
+ 	<p>How many years have you lived in SB<br/><input id="years" type="text" name="years" class="txt" style="width:150px;" /></p>
+ 	<p>How many times have you move to a new residence in SB<br/><input id="times" type="text" name="times" class="txt" style="width:150px;"/></p>
  	<p>Please respond to the following questions with how well the statement describes your lifestyle:</p>
  	<table><tr><td style="padding-right:20px">I spend a lot of my free time outside doing physical activities</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>

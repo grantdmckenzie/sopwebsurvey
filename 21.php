@@ -59,86 +59,84 @@
  	<form name="twentyone" id="twentyone" method="post" action="21.php">
  	<p>
  		<p>
-			<table style='float:left;clear:both;'><tr>
-			<td>Proximity to home</td>
-			<td>
-				<input type="radio" name="proximity" value="1"/>
-				<input type="radio" name="proximity" value="2"/>
-				<input type="radio" name="proximity" value="3"/>
-				<input type="radio" name="proximity" value="4"/>
-				<input type="radio" name="proximity" value="5"/>
-				<input type="radio" name="proximity" value="6"/>
-				<input type="radio" name="proximity" value="7"/>
-				<input type="radio" name="proximity" value="8"/>
-				<input type="radio" name="proximity" value="9"/>
-				<input type="radio" name="proximity" value="10"/>
+			<table style='float:left;clear:both;width:100%'><tr>
+			<tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+			<tr>
+			<td width="70%">Proximity to home</td>
+			<td><input type="radio" name="proximity" value="1"/></td>
+			<td><input type="radio" name="proximity" value="2"/></td>
+			<td><input type="radio" name="proximity" value="3"/></td>
+			<td><input type="radio" name="proximity" value="4"/></td>
+			<td><input type="radio" name="proximity" value="5"/></td>
+			<td><input type="radio" name="proximity" value="6"/></td>
+			<td><input type="radio" name="proximity" value="7"/></td>
+			<td><input type="radio" name="proximity" value="8"/></td>
+			<td><input type="radio" name="proximity" value="9"/></td>
+			<td><input type="radio" name="proximity" value="10"/>
 			</td>
 			</tr>
 			<tr>
 			<td>Perception of danger</td>
-			<td>
-				<input type="radio" name="danger" value="1"/>
-				<input type="radio" name="danger" value="2"/>
-				<input type="radio" name="danger" value="3"/>
-				<input type="radio" name="danger" value="4"/>
-				<input type="radio" name="danger" value="5"/>
-				<input type="radio" name="danger" value="6"/>
-				<input type="radio" name="danger" value="7"/>
-				<input type="radio" name="danger" value="8"/>
-				<input type="radio" name="danger" value="9"/>
-				<input type="radio" name="danger" value="10"/>
+			<td><input type="radio" name="danger" value="1"/></td>
+			<td><input type="radio" name="danger" value="2"/></td>
+			<td><input type="radio" name="danger" value="3"/></td>
+			<td><input type="radio" name="danger" value="4"/></td>
+			<td><input type="radio" name="danger" value="5"/></td>
+			<td><input type="radio" name="danger" value="6"/></td>
+			<td><input type="radio" name="danger" value="7"/></td>
+			<td><input type="radio" name="danger" value="8"/></td>
+			<td><input type="radio" name="danger" value="9"/></td>
+			<td><input type="radio" name="danger" value="10"/>
 			</td>
 			</tr>
 			<tr>
 			<td>Attractive</td>
-			<td>
-				<input type="radio" name="attractive" value="1"/>
-				<input type="radio" name="attractive" value="2"/>
-				<input type="radio" name="attractive" value="3"/>
-				<input type="radio" name="attractive" value="4"/>
-				<input type="radio" name="attractive" value="5"/>
-				<input type="radio" name="attractive" value="6"/>
-				<input type="radio" name="attractive" value="7"/>
-				<input type="radio" name="attractive" value="8"/>
-				<input type="radio" name="attractive" value="9"/>
-				<input type="radio" name="attractive" value="10"/>
+			<td><input type="radio" name="attractive" value="1"/></td>
+			<td><input type="radio" name="attractive" value="2"/></td>
+			<td><input type="radio" name="attractive" value="3"/></td>
+			<td><input type="radio" name="attractive" value="4"/></td>
+			<td><input type="radio" name="attractive" value="5"/></td>
+			<td><input type="radio" name="attractive" value="6"/></td>
+			<td><input type="radio" name="attractive" value="7"/></td>
+			<td><input type="radio" name="attractive" value="8"/></td>
+			<td><input type="radio" name="attractive" value="9"/></td>
+			<td><input type="radio" name="attractive" value="10"/>
 			</td>
 			</tr>
 			<tr>
 			<td>Familiarity with the area</td>
-			<td>
-				<input type="radio" name="familiarity" value="1"/>
-				<input type="radio" name="familiarity" value="2"/>
-				<input type="radio" name="familiarity" value="3"/>
-				<input type="radio" name="familiarity" value="4"/>
-				<input type="radio" name="familiarity" value="5"/>
-				<input type="radio" name="familiarity" value="6"/>
-				<input type="radio" name="familiarity" value="7"/>
-				<input type="radio" name="familiarity" value="8"/>
-				<input type="radio" name="familiarity" value="9"/>
-				<input type="radio" name="familiarity" value="10"/>
+			<td><input type="radio" name="familiarity" value="1"/></td>
+			<td><input type="radio" name="familiarity" value="2"/></td>
+			<td><input type="radio" name="familiarity" value="3"/></td>
+			<td><input type="radio" name="familiarity" value="4"/></td>
+			<td><input type="radio" name="familiarity" value="5"/></td>
+			<td><input type="radio" name="familiarity" value="6"/></td>
+			<td><input type="radio" name="familiarity" value="7"/></td>
+			<td><input type="radio" name="familiarity" value="8"/></td>
+			<td><input type="radio" name="familiarity" value="9"/></td>
+			<td><input type="radio" name="familiarity" value="10"/>
 			</td>
 			</tr>
 			<tr>
 			<td>Provides a lot of things to do</td>
-			<td>
-				<input type="radio" name="todo" value="1"/>
-				<input type="radio" name="todo" value="2"/>
-				<input type="radio" name="todo" value="3"/>
-				<input type="radio" name="todo" value="4"/>
-				<input type="radio" name="todo" value="5"/>
-				<input type="radio" name="todo" value="6"/>
-				<input type="radio" name="todo" value="7"/>
-				<input type="radio" name="todo" value="8"/>
-				<input type="radio" name="todo" value="9"/>
-				<input type="radio" name="todo" value="10"/>
+			<td><input type="radio" name="todo" value="1"/></td>
+			<td><input type="radio" name="todo" value="2"/></td>
+			<td><input type="radio" name="todo" value="3"/></td>
+			<td><input type="radio" name="todo" value="4"/></td>
+			<td><input type="radio" name="todo" value="5"/></td>
+			<td><input type="radio" name="todo" value="6"/></td>
+			<td><input type="radio" name="todo" value="7"/></td>
+			<td><input type="radio" name="todo" value="8"/></td>
+			<td><input type="radio" name="todo" value="9"/></td>
+			<td><input type="radio" name="todo" value="10"/>
 			</td>
 			</tr>
 			</table>
 		</p>
+		<br/><br/>
 	</p>
  	</form>
-<br/><br/>
+<br/><br/><br/><br/>
  		<div class="bigBtn" style="clear:both;" onclick="continue21();">CONTINUE ></div>
  	</div>
  </body>

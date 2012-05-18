@@ -108,7 +108,7 @@
  		<h2>Now, we would like to know a little about you</h2>
  	<form name="sixteen" id="sixteen" method="post" action="16.php">
  	<p>
- 		1) What is your birth month? 
+ 		<b>1) What is your birth month?</b>
  		<select id="month" name="month">
  			<option value="Select">Select</option>
  			<option value="1">January</option>
@@ -218,15 +218,15 @@
  			
  		</select> 
  		<br/><br/>
- 		2) What is your gender?<br/>
- 		<table style="float:left;"><tr>
+ 		<b>2) What is your gender?</b><br/>
+ 		<table style="float:left;padding-left:20px;"><tr>
  			<td>Male</td><td><input type="radio" name="gender" value="m"/></td>
  			<td>Female</td><td><input type="radio" name="gender" value="f"/></td>
  		</tr></table>
 		<br/><br/>
 		<p style='clear:both;'>
-		3) What is your employment status (select all that apply)?<br/>
-		<table style='float:left;clear:both;'><tr>
+		<b>3) What is your employment status (select all that apply)?</b><br/>
+		<table style='float:left;clear:both;width:100%'><tr>
 		<td>Employed full time</td>
 		<td><input type="checkbox" id="em_1" name="em_1" value="1"/></td>
 		<td>Unemployed</td>
@@ -250,102 +250,93 @@
 		<td>Self employed</td>
 		<td><input type="checkbox" id="em_5" name="em_5" value="5"/></td>
 		<td>Other</td>
-		<td><input type="text" id="em_11" name="em_11" value=""/></td>
+		<td><input type="checkbox"/></td>
 		</tr><tr>
-		<td>Home duties full time</td>
-		<td><input type="checkbox" id="em_6" name="em_6" value="6"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td valign="top">Home duties full time</td>
+		<td valign="top"><input type="checkbox" id="em_6" name="em_6" value="6"/></td>
+		<td colspan="2">&nbsp;&nbsp;Please explain:<br/>&nbsp;&nbsp;<input type="text" id="em_11" name="em_11" value="" /></td>
 		</tr><tr>
 		</table>
 		</p><p style='clear:both;'>
 		<br/><br/>
-		4) What is your occupation (ex. registered nurse, auto mechanic, accountant, retail sales clerk, etc.)?<br/>
-		<input type="text" id="occupation" name="occupation"/>
+		<b>4) What is your occupation (ex. registered nurse, auto mechanic,<br/>accountant, retail sales clerk, etc.)?</b><br/>
+		<input type="text" id="occupation" name="occupation" class="txt" />
 		
 		</p><p style='clear:both;'>
-		5) Are you of Hispanic, Latino or Spanish origin?<br/>
-		<table style='float:left;clear:both;'><tr>
-		<td>No, not of Hispanic, Latino or Spanish origin</td>
-		<td><input type="checkbox" id="hi_1" name="hi_1" value="1"/></td>
-		<td>Yes, Cuban</td>
-		<td><input type="checkbox" id="hi_4" name="hi_4" value="4"/></td>
+		<b>5) Are you of Hispanic, Latino or Spanish origin?</b><br/>
+		<table style='float:left;clear:both;width:100%;'><tr>
+		<td valign="top">No, not of Hispanic, Latino or Spanish origin</td>
+		<td valign="top"><input type="checkbox" id="hi_1" name="hi_1" value="1"/></td>
+		<td valign="top">Yes, Cuban</td>
+		<td valign="top"><input type="checkbox" id="hi_4" name="hi_4" value="4"/></td>
 		</tr><tr>
-		<td>Yes, Mexican, Mexican American, Chicano</td>
-		<td><input type="checkbox" id="hi_2" name="hi_2" value="2"/></td>
-		<td>Yes, another Hispanic, Latino or Spanish origin</td>
-		<td><input type="text" id="hi_5" name="hi_5" value=""/></td>
+		<td valign="top">Yes, Mexican, Mexican American, Chicano</td>
+		<td valign="top"><input type="checkbox" id="hi_2" name="hi_2" value="2"/></td>
+		<td valign="top">Yes, another Hispanic, Latino or Spanish origin</td>
+		<td valign="top"><input type="checkbox"/></td>
 		</tr><tr>
-		<td>Yes, Puerto Rican</td>
-		<td><input type="checkbox" id="hi_3" name="hi_3" value="1"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td valign="top">Yes, Puerto Rican</td>
+		<td valign="top"><input type="checkbox" id="hi_3" name="hi_3" value="1"/></td>
+		<td colspan="2">&nbsp;&nbsp;Please explain:<br/>&nbsp;&nbsp;<input type="text" id="hi_5" name="hi_5" value=""/></td>
 		</tr>
 		</table>
 
 		</p><p style='clear:both;'>
 		<br/><br/>
-		6) What is your race (select all that apply) ?<br/>
-		<table style='float:left;clear:both;'><tr>
+		<b>6) What is your race (select all that apply)?</b><br/>
+		<table style='float:left;clear:both;width:100%;'><tr>
 		<td>White</td>
 		<td><input type="checkbox" id="ra_1" name="ra_1" value="1"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		</tr><tr>
 		<td>Black or African American</td>
 		<td><input type="checkbox" id="ra_2" name="ra_2" value="2"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
 		</tr><tr>
 		<td>American Indian or Alaska Native</td>
 		<td><input type="checkbox" id="ra_3" name="ra_3" value="3"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		</tr><tr>
 		<td>Asian Indian</td>
 		<td><input type="checkbox" id="ra_4" name="ra_4" value="4"/></td>
+		</tr><tr>
 		<td>Guamanian or Chamorro</td>
 		<td><input type="checkbox" id="ra_10" name="ra_10" value="10"/></td>
-		</tr><tr>
 		<td>Japanese</td>
 		<td><input type="checkbox" id="ra_5" name="ra_5" value="5"/></td>
+		</tr><tr>
 		<td>Filipino</td>
 		<td><input type="checkbox" id="ra_11" name="ra_11" value="11"/></td>
-		</tr><tr>
 		<td>Native Hawaiian</td>
 		<td><input type="checkbox" id="ra_6" name="ra_6" value="6"/></td>
+		</tr><tr>
 		<td>Vietnamese</td>
 		<td><input type="checkbox" id="ra_12" name="ra_12" value="12"/></td>
-		</tr><tr>
 		<td>Chinese</td>
 		<td><input type="checkbox" id="ra_7" name="ra_7" value="7"/></td>
+		</tr><tr>
 		<td>Samoan</td>
 		<td><input type="checkbox" id="ra_13" name="ra_13" value="13"/></td>
-		</tr><tr>
 		<td>Korean</td>
 		<td><input type="checkbox" id="ra_8" name="ra_8" value="8"/></td>
-		<td>Other Asian or other Pacific Islander</td>
-		<td><input type="text" id="ra_14" name="ra_14" value=""/></td>
 		</tr><tr>
+		<td>Other Asian or other Pacific Islander</td>
+		<td><input type="checkbox"/></td>
 		<td>Other race not listed</td>
-		<td><input type="text" id="ra_9" name="ra_9" value=""/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td><input type="checkbox"/></td>
+		</tr><tr>
+		<td colspan="2">&nbsp;&nbsp;Please explain:<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="ra_14" name="ra_14" value=""/></td>
+		<td colspan="2">&nbsp;&nbsp;Please explain:<br/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="ra_9" name="ra_9" value=""/></td>
 		</tr>
 		</table>
 		
 		</p><p style='clear:both;'>
 		<br/><br/>
-		7) Do you have a drivers license?<br/>
+		<b>7) Do you have a drivers license?</b><br/>
 		<table style="float:left;"><tr>
  			<td>Yes</td><td><input type="radio" name="license" value="1"/></td>
  			<td>No</td><td><input type="radio" name="license" value="0"/></td>
  		</tr></table>
 		<br/><br/>
 		</p><p style='clear:both;'>
-		8) What is your education level?<br/>
+		<b>8) What is your education level?</b><br/>
 
-		<table style='float:left;clear:both;'>
+		<table style='float:left;clear:both;width:100%'>
 		<tr>
 		<td>No school completed</td>
 		<td><input type="radio" name="education" value="1"/></td>
@@ -376,11 +367,11 @@
 		
 		<p style='clear:both;'>
 		<br/><br/>
-		9) What is your marital status?<br/>
+		<b>9) What is your marital status?</b><br/>
 
-		<table style='float:left;clear:both;'>
+		<table style='float:left;clear:both;width:100%'>
 		<tr>
-		<td>Single, never married</td>
+		<td width="50%">Single, never married</td>
 		<td><input type="radio" name="marital" value="1"/></td>
 		<td>Divorced</td>
 		<td><input type="radio" name="marital" value="4"/></td>
@@ -397,16 +388,20 @@
 		
 		<p style='clear:both;'>
 		<br/><br/>
-		10) What is your work address?<br/>
-		<input type="text" value="" name="address" style="width:400px" id="address" />
+		<b>10) What is your work address?</b><br/>
+		<input type="text" value="" name="address" style="width:400px" id="address" class="txt" />
 		<br/>
-		Street number and street name<br/>
+		<span style='font-size:0.8em'>Street number and street name</span>
 		<br/>
-		<input type="text" value="" name="city" id="city" />
-		<input type="text" value="" name="zip" id="zip" /><br/>
-		City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip Code<br/><br/>
-		</p>
-		
+		<table style='float:left;clear:both;'>
+		<tr>
+			<td style='width:200px'><input type="text" value="" name="city" id="city" class="txt" style="width:100px;" /></td>
+			<td><input type="text" value="" name="zip" id="zip" class="txt" style="width:100px;" /></td>
+		</tr><tr>
+			<td><span style='font-size:0.8em'>City</span></td>
+			<td><span style='font-size:0.8em'>Zip Code</span></td>
+		</tr>
+		</table>
 		<input type="hidden" value="1" name="firsttime"/>
 	</p>
  	</form>

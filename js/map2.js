@@ -14,7 +14,7 @@
       var id = null;
 
       function init() {
-        var initExtent = new esri.geometry.Extent({"xmin":-119.925,"ymin":34.3777,"xmax":-119.626,"ymax":34.4669,"spatialReference":{"wkid":4326}});
+        var initExtent = new esri.geometry.Extent({"xmin":-120,"ymin":34.35,"xmax":-119.5,"ymax":34.5,"spatialReference":{"wkid":4326}});
         
         var popup = new esri.dijit.Popup({
           fillSymbol: new esri.symbol.SimpleFillSymbol(esri.symbol.SimpleFillSymbol.STYLE_SOLID, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([255,0,0]), 2), new dojo.Color([255,255,0,0.25]))

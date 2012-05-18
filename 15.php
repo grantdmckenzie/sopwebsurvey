@@ -76,14 +76,16 @@
  		<?php echo $error; ?>
  	<form name="fifteen" id="fifteen" method="post" action="15.php">
  	<p>
- 		1) What is your home address?<br/>
-		<input type="text" value="" name="address" style="width:400px" id="address" />
+ 		<b>1) What is your home address?</b><br/><br/>
+		<input type="text" value="" name="address" style="width:400px" id="address" class="txt" />
 		<br/>
-		Street number and street name<br/>
+		<span style='font-size:0.8em'>Street number and street name</span>
 		<br/>
-		<select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select>
-		<select id="zip" name="zip">
-		<option value="Select">Select</option>
+		<table style='float:left;clear:both;'>
+		<tr>
+			<td style='width:200px'><select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select></td>
+		<td><select id="zip" name="zip">
+			<option value="Select">Select</option>
 			<option value="93101">93101</option>
 			<option value="93102">93102</option>
 			<option value="93103">93103</option>
@@ -101,9 +103,15 @@
 			<option value="93150">93150</option>
 			<option value="93160">93160</option>
 			<option value="93190">93190</option>
-		</select><br/>
-		City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip Code<br/><br/>
-		2) How many members are in your household? (a household is defined as persons living together sharing a common cooking facility)<br/>
+		</select></td>
+		</tr><tr>
+			<td><span style='font-size:0.8em'>City</span></td>
+			<td><span style='font-size:0.8em'>Zip Code</span></td>
+		</tr>
+		</table>
+	</p>
+	<p style='clear:both;'><br/>
+		<b>2) How many members are in your household? (a household is defined as persons living together sharing a common cooking facility)</b><br/>
 		<select id="members" name="members">
 		<option value="Select">Select</option>
 			<option value="1">1</option>
@@ -117,9 +125,10 @@
 			<option value="9">9</option>
 			<option value="10">10</option>
 			<option value="11">more than 10</option>
-		</select><br/><br/>
-		
-		3) How many children (under the age of 18) are in your household?<br/>
+		</select>
+	</p>
+	<p style='clear:both;'><br/>
+		<b>3) How many children (under the age of 18) are in your household?</b><br/>
 		<select id="children" name="children">
 		<option value="Select">Select</option>
 			<option value="0">0</option>
@@ -134,10 +143,11 @@
 			<option value="9">9</option>
 			<option value="10">10</option>
 			<option value="11">more than 10</option>
-		</select><br/><br/>
-		<p>
-		4) How are you related to the other members in your household?<br/>
-		<table style='float:left;clear:both;'><tr>
+		</select><br/>
+	</p>
+	<p style='clear:both;'><br/>
+		<b>4) How are you related to the other members in your household?</b><br/>
+		<table style='float:left;clear:both;width:100%'><tr>
 		<td>I live alone</td>
 		<td><input type="radio" name="related" value="1"/></td>
 		<td>I live with acquaintances</td>
@@ -150,36 +160,41 @@
 		</tr><tr>
 		<td>I live with my extended family members</td>
 		<td><input type="radio" name="related" value="3"/></td>
-		<td><input type="text" name="relatedother"/></td>
-		<td>&nbsp;</td>
+		<td>&nbsp;&nbsp;Please explain:</td>
+		<td></td>
 		</tr><tr>
 		<td>I live with friends</td>
 		<td><input type="radio" name="related" value="4"/></td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="relatedother" class="txt"/></td>
 		</tr></table>
-		</p><p style='clear:both;'>
+	</p>
+	<p style='clear:both;'>
 		<br/><br/>
-		5) What description best represents your house<br/>
+		<b>5) What description best represents your house</b><br/>
 		<table style='float:left;clear:both;'><tr>
-		<td>My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
-		<td><input type="radio" name="house" value="1"/></td>
-		<td>My home is provided by a job/military</td>
-		<td><input type="radio" name="house" value="3"/></td>
+		<td width="35%">My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
+		<td width="15%" style='text-align:right'><input type="radio" name="house" value="1"/></td>
+		<td width="35%">My home is provided by a job/military</td>
+		<td width="15%" style='text-align:right'><input type="radio" name="house" value="3"/></td>
 		</tr><tr>
-		<td>My home is rented by myself or someone else who makes payments on my behalf</td>
-		<td><input type="radio" name="house" value="2"/></td>
-		<td>Other</td>
-		<td><input type="radio" name="house" value="4"/></td>
+		<td width="35%">My home is rented by myself or someone else who makes payments on my behalf</td>
+		<td width="15%" style='text-align:right'><input type="radio" name="house" value="2"/></td>
+		<td width="35%">Other</td>
+		<td width="15%" style='text-align:right'><input type="radio" name="house" value="4"/></td>
 		</tr><tr>
 		<td>&nbsp;</td>
 		<td>&nbsp;</td>
-		<td><input type="text" name="houseother"/></td>
-		<td>&nbsp;</td>
+		<td>&nbsp;&nbsp;Please explain:</td>
+		<td></td>
+		</tr><tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td colspan="2">&nbsp;&nbsp;<input type="text" name="houseother" class="txt"/></td>
 		</tr></table>
-		<p style='clear:both;'>
+	</p>
+	<p style='clear:both;'>
 		<br/><br/>
-		6) How many years have you lived in your current house?<br/>
+		<b>6) How many years have you lived in your current house?</b><br/>
 		<select id="years" name="years">
 		<option value="Select">Select</option>
 		<option value="0">less than one year</option>
@@ -205,11 +220,12 @@
 			<option value="20">20 years</option>
 			<option value="21">more than 20 years</option>
 		</select>
-		</p><p style='clear:both;'>
-		<br/>
-		7) What is your annual household income?<br/>
+	</p>
+	<p style='clear:both;'>
+		<br/><br/>
+		<b>7) What is your annual household income?</b><br/>
 
-		<table style='float:left;clear:both;'>
+		<table style='float:left;clear:both;width:100%'>
 		<tr>
 		<td>Less than $10,000</td>
 		<td><input type="radio" name="income" value="1"/></td>
@@ -254,7 +270,7 @@
 		</tr></table>
 		<p style='clear:both;'>
 		<br/><br/>
-		8) How many vehicles does your household own?<br/>
+		<b>8) How many vehicles does your household own?</b><br/>
 		<select id="vehicles" name="vehicles">
 		<option value="Select">Select</option>
 			<option value="0">0</option>
@@ -268,7 +284,7 @@
 		</select><br/><br/>
 		</p>
 		<p style='clear:both;'>
-		9) How many licensed drivers are there in your household?<br/>
+		<b>9) How many licensed drivers are there in your household?</b><br/>
 		<select id="drivers" name="drivers">
 			<option value="Select">Select</option>
 			<option value="0">0</option>
@@ -282,7 +298,7 @@
 		</select><br/><br/>
 		</p>
 		<p style='clear:both;'>
-		10) How many bicycles does your household own?<br/>
+		<b>10) How many bicycles does your household own?</b><br/>
 		<select id="bicycles" name="bicycles">
 			<option value="Select">Select</option>
 			<option value="0">0</option>

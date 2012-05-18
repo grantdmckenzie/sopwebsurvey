@@ -19,9 +19,10 @@
 		$diary = 0;
 		$osn = 0;
 		$nosurveys = 0;
-		$firstname = $_POST['firstname'];
-		$lastname = $_POST['lastname'];
-		$email = $_POST['email'];
+		$firstname = addslashes($_POST['firstname']);
+		$lastname = addslashes($_POST['lastname']);
+		$email = addslashes($_POST['email']);
+		$comments = addslashes($_POST['comments']);
 		if (isset($_POST['android'])) { $android = $_POST['android']; }
 		if (isset($_POST['diary'])) { $diary = $_POST['diary']; }
 		if (isset($_POST['osn'])) { $osn = $_POST['osn']; }
@@ -34,7 +35,8 @@
 		$query .= $android.",";
 		$query .= $diary.",";
 		$query .= $osn.",";
-		$query .= $nosurveys;
+		$query .= $nosurveys.",";
+		$query .= "'".$comments."'";
 		$query .= ");";
 		// echo $query;
 		mysql_query($query) or die(mysql_error());
@@ -85,21 +87,26 @@ Below is a list of survey opportunities we would like you to consider (check all
 			<table style='float:left;clear:both;'>
 			<tr>
 			<td><input type="checkbox" name="android" value="1" checked /></td>
-			<td>Android based travel and activity diary</td>
+			<td>Android based travel and activity diary <a href="android.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="diary" value="1"checked /></td>
-			<td>Online based travel diary</td>
+			<td>Online based travel diary <a href="diary.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="osn" value="1" checked /></td>
-			<td>Online social network questionnaire</td>
+			<td>Online social network questionnaire <a href="osn.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="nosurveys" value="1"/></td>
 			<td>I am not interested in any additional surveys</td>
 			</tr>
 			</table>
+	</p>
+	<p style="clear:both;text-align:center;">
+	<br/><br/>
+	Additional comments?<br/>
+	<textarea name="comments" id="comments" style="width:690px;height:100px;font-size:1.2em;padding:5px;"></textarea>
 	</p>
  	</form>
 <br/><br/>
