@@ -67,7 +67,7 @@
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 	<a href="about.html" target="_blank"><img src="img/info.png" alt="info" title="More Information"/></a>
+ 	<a href="about.html" onClick="return popup(this, 'notes')"><img src="img/info.png" alt="info" title="More Information"/></a>
  		<h2>Consent Information</h2>
  		<p><b>PURPOSE:</b><br>
 You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 

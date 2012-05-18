@@ -154,71 +154,71 @@ function continue12() {
 	}
 }
 function continue13() {
-	if (!$('input:radio[name=goods5]:checked').val()) {
+	if (!$('input:radio[name=goods1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=identity5]:checked').val()) {
+	} else if (!$('input:radio[name=identity1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=quality5]:checked').val()) {
+	} else if (!$('input:radio[name=quality1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=social5]:checked').val()) {
+	} else if (!$('input:radio[name=social1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=timetravel5]:checked').val()) {
+	} else if (!$('input:radio[name=timetravel1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=culture5]:checked').val()) {
+	} else if (!$('input:radio[name=culture1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=distance5]:checked').val()) {
+	} else if (!$('input:radio[name=distance1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=place5]:checked').val()) {
+	} else if (!$('input:radio[name=place1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=proximity5]:checked').val()) {
+	} else if (!$('input:radio[name=proximity1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=dependence5]:checked').val()) {
+	} else if (!$('input:radio[name=dependence1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=atmosphere5]:checked').val()) {
+	} else if (!$('input:radio[name=atmosphere1]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=goods6]:checked').val()) {
+	} else if (!$('input:radio[name=goods2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=identity6]:checked').val()) {
+	} else if (!$('input:radio[name=identity2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=quality6]:checked').val()) {
+	} else if (!$('input:radio[name=quality2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=social6]:checked').val()) {
+	} else if (!$('input:radio[name=social2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=timetravel6]:checked').val()) {
+	} else if (!$('input:radio[name=timetravel2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=culture6]:checked').val()) {
+	} else if (!$('input:radio[name=culture2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=distance6]:checked').val()) {
+	} else if (!$('input:radio[name=distance2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=place6]:checked').val()) {
+	} else if (!$('input:radio[name=place2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=proximity6]:checked').val()) {
+	} else if (!$('input:radio[name=proximity2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=dependence6]:checked').val()) {
+	} else if (!$('input:radio[name=dependence2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=atmosphere6]:checked').val()) {
+	} else if (!$('input:radio[name=atmosphere2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=goods7]:checked').val()) {
+	} else if (!$('input:radio[name=goods3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=identity7]:checked').val()) {
+	} else if (!$('input:radio[name=identity3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=quality7]:checked').val()) {
+	} else if (!$('input:radio[name=quality3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=social7]:checked').val()) {
+	} else if (!$('input:radio[name=social3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=timetravel7]:checked').val()) {
+	} else if (!$('input:radio[name=timetravel3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=culture7]:checked').val()) {
+	} else if (!$('input:radio[name=culture3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=distance7]:checked').val()) {
+	} else if (!$('input:radio[name=distance3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=place7]:checked').val()) {
+	} else if (!$('input:radio[name=place3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=proximity7]:checked').val()) {
+	} else if (!$('input:radio[name=proximity3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=dependence7]:checked').val()) {
+	} else if (!$('input:radio[name=dependence3]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=atmosphere7]:checked').val()) {
+	} else if (!$('input:radio[name=atmosphere3]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else {
 		$("#thirteen").submit();	
@@ -249,7 +249,11 @@ function continue14() {
 		alert('Please answer all questions before continuing');
 	} else if (!$('input:radio[name=likert10]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('input:radio[name=likert1]:checked').val()) {
+	} else if (!$('input:radio[name=likert11]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('input:radio[name=likert12]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('input:radio[name=likert13]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else {
 		$("#fourteen").submit();	
@@ -387,4 +391,14 @@ function logmein() {
 function isNumeric(input)
 {
     return (input - 0) == input && input.length > 0;
+}
+function popup(mylink, windowname) {
+	if (! window.focus)return true;
+	var href;
+	if (typeof(mylink) == 'string')
+	   href=mylink;
+	else
+	   href=mylink.href;
+	window.open(href, windowname, 'width=4500,height=400,scrollbars=yes');
+	return false;
 }

@@ -59,7 +59,7 @@
  	 	<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be a part of <u>(downtown).</u>  To do this, please click on the map to begin drawing a shape, and double click the mouse to close the shape.  If you are unsatisfied with the shape you have drawn, right click on the shape to delete it.</p>
       <p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="nine" id="nine" method="post" action="9.php">
- 	<a href="help.html" target="_blank" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
+ 	<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
  		<input type="hidden" name="geom" id="geom"/>

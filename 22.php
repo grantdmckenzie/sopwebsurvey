@@ -87,15 +87,15 @@ Below is a list of survey opportunities we would like you to consider (check all
 			<table style='float:left;clear:both;'>
 			<tr>
 			<td><input type="checkbox" name="android" value="1" checked /></td>
-			<td>Android based travel and activity diary <a href="android.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Android based travel and activity diary <a href="android.html" onClick="return popup(this, 'android')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="diary" value="1"checked /></td>
-			<td>Online based travel diary <a href="diary.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Online based travel diary <a href="diary.html" onClick="return popup(this, 'diary')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="osn" value="1" checked /></td>
-			<td>Online social network questionnaire <a href="osn.html" target="_blank"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Online social network questionnaire <a href="osn.html" onClick="return popup(this, 'osn')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="nosurveys" value="1"/></td>
