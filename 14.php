@@ -47,12 +47,10 @@
  		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
- 	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>	
+ 	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="fourteen" id="fourteen" method="post" action="14.php">
-	<p>Sense of place development/ strength</p>
-<!-- QUESTION #1 -->
+
  	<p><b>To what degree do the following statements describe you? </b>
 </p>
  	<hr/>

@@ -49,8 +49,7 @@
  		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
- 	<div id="wrapperContent">
- 		<h2 style="text-align:center;">Place Questions:</h2>	
+ 	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="thirteen" id="thirteen" method="post" action="13.php">
 
