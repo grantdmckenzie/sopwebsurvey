@@ -23,6 +23,9 @@
 		} else if ($_POST['password1'] != $_POST['password2']) {
 			$error = "Please make sure that the two passwords match";
 			header("location: index.php?e=".$error);
+		} else if (file_get_contents("http://www.opencaptcha.com/validate.php?ans=".$_POST['code']."&img=".$_POST['img'])!='pass'){
+			$error = "Sorry, the image text did not match.";
+			header("location: index.php?e=".$error);
 		} else {
 		
 			$username = addslashes($_POST['username']);
@@ -55,17 +58,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>GeoTRIPS</title>
+  <title>Sense of Place: Web Survey</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="css/main.css" />
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
 
  <body>
- 	<div id="wrapperHeader">
- 		logo / header
+ 	<div id="wrapperHeader"></div>
+ 	<div id="wrapperProgress">
+ 		<table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table>
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
  	<a href="about.html" onClick="return popup(this, 'notes')"><img src="img/info.png" alt="info" title="More Information"/></a>
  		<h2>Consent Information</h2>
