@@ -70,25 +70,24 @@
  <script type="text/javascript" src="js/main.js"></script>
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
  		<h2>Social Roles</h2>
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>
  	<form name="four" id="four" method="post" action="4.php">
- 	<p>1) In the social group, <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play:</p>
- 		<input type="checkbox" name="decison" value="1"/>&nbsp;&nbsp;Decision maker (I generally have a large say in the decisions made)
+ 	<p>1) When decisions are made with your, <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play in the decision making process:<i>(select all that apply)</i></p>
+ 		<input type="checkbox" name="decison" value="1"/>&nbsp;&nbsp;I generally have a large say in the decision making process.
 <br/>
- 		<input type="checkbox" name="group" value="2"/>&nbsp;&nbsp;Group member (I partake in decision making, but not more than most others)
+ 		<input type="checkbox" name="group" value="2"/>&nbsp;&nbsp;I partake in decision making, but not more than most others.
 <br/>
- 		<input type="checkbox" name="follower" value="3"/>&nbsp;&nbsp;Follower (I go along with decisions made by others)
+ 		<input type="checkbox" name="follower" value="3"/>&nbsp;&nbsp;I usually just go along with decisions made by others.
 <br/>
  		<input type="checkbox"/>&nbsp;&nbsp;Other<br/>
- 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please explain: <input type="text" name="other" id="other" class="txt" /><br/>
+ 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please explain why you chose the options you did: <input type="text" name="other" id="other" class="txt" /><br/>
  		
  		<input type="hidden" name="socialgroup" value="<?php echo $social; ?>"/>
- 	<p>2) For the social group, <b><?php echo $types[$social]; ?></b>, please indicate the approximate size of the group:</p>
+ 	<p>2) Please consider the size of the group of your <b><?php echo $types[$social]; ?></b>, and select the option that best fits:</p>
  		<input type="radio" name="size" value="1"/>&nbsp;&nbsp;1 - 5 persons
 <br/>
  		<input type="radio" name="size" value="2"/>&nbsp;&nbsp;6 - 10 persons
@@ -103,7 +102,7 @@
 <br/>
 
 
- 	<p>3) In the social group, <b><?php echo $types[$social]; ?></b>, how much contact do you have with the people within this social group?</p>
+ 	<p>3) How often do you spend time in the same place as your <b><?php echo $types[$social]; ?></b>?</p>
  		<input type="radio" name="contact" value="1"/>&nbsp;&nbsp;Every day<br/>
  		<input type="radio" name="contact" value="2"/>&nbsp;&nbsp;A few times a week<br/>
  		<input type="radio" name="contact" value="3"/>&nbsp;&nbsp;Once a week<br/>
@@ -111,7 +110,7 @@
  		<input type="radio" name="contact" value="5"/>&nbsp;&nbsp;Once a month<br/>
  		<input type="radio" name="contact" value="6"/>&nbsp;&nbsp;Less than once a month<br/>
 
-<p>4) How strong are your relationships to people within this group (1 to 10 with 1 being weak and 10 being strong)</p>
+<p>4) Please rate the strength of your relationships with people within this group (1 to 10 with 1 being weak and 10 being strong)</p>
 	<table style="width:90%">
 	 <tr>
 	  <td>1</td>

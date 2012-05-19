@@ -51,23 +51,21 @@
  <script type="text/javascript" src="js/map.js"></script>
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
-	<p style="text-align:center;">Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</p>
- 	 	<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u><b>part of your neighborhood.</b></u>  </p>
+	<p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>
+ 	 	<p style="text-align:center;">Please use the map and draw with the shape tool </p>
  	 	<br></br>
- 	 	<b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  
- 	 	<br></br> 
- 	 	<br></br> If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. 
+ 	 	<font color="#003c73"> <b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  <br></br> 3) If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. 
  	 	<br></br> 
  	 	<br></br> <b>Navigation:</b>
  	 	<br></br> To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
- 	 	<br></br> To move the map view, left click the map and drag the mouse while holding the left mouse button.  </p>
- 	 	 
- 		<p style="text-align:center;"> <b><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></b></p>
-
+ 	 	<br></br> To move the map view, press and hold the left mouse button and move the mouse to drag the map in the desired direction.  </p>
+ 	 	</font>
+ <p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></font></p>
+ 
+ <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <u><b>a part of your neighborhood </b></u>(remember to zoom in for a more detailed map.)</font> 
 
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="ten" id="ten" method="post" action="10.php">

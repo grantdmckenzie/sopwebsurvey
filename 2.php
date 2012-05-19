@@ -58,7 +58,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>Sense of Place: Web Survey</title>
+  <title>GeoTRIPS</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="css/main.css" />
   <script type="text/javascript" src="js/main.js"></script>
@@ -76,7 +76,10 @@
  		</tr></table>
  	</div>
  	<div id="wrapperContent">
- 	<a href="about.html" onClick="return popup(this, 'notes')"><img src="img/info.png" alt="info" title="More Information"/></a>
+ 	<font size="3" color= "8c8c8c"> <i> Thank you for participating in this research study.  Your responses to the questions in this survey are greatly appreciated, and will be very useful in gaining a better understanding of everyday travel around Santa Barbara.  The success of this research is highly dependent on public participation from a large variety of residents of the Santa Barbara area.  Your opinions are valued.  Thank you in advance for completing this survey and making Santa Barbara a better place to live!</i> </font> 
+ 	<p> 
+	<a href="about.html" onClick="return popup(this, 'notes')"> Click here if you would like to know more about this survey </a> 	
+ 	<!--<a href="about.html" onClick="return popup(this, 'notes')"><img src="img/info.png" alt="info" title="More Information"/></a> -->
  		<h2>Consent Information</h2>
  		<p><b>PURPOSE:</b><br>
 You are being asked to participate in a research study. The purpose of the study is to understand how decisions related to everyday travel behavior are made. 

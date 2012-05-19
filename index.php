@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>Sense of Place: Web Survey</title>
+  <title>GeoTRIPS</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   
   <link rel="stylesheet" href="css/main.css" />
@@ -67,7 +67,7 @@
  		<td valign="top" style='border-left:solid 1px #666666;padding:10px;'>
  			<h1>Login</h1>
  		 	<form id="login1" name="login1" method="post" action="login.php">
- 		 	<p>Log in with your existing email address and password</p>
+ 		 	<p>Log in with your existing email address and password. <br></br><i><font size="3">(Please only use this if you are returning to the survey)</font></i></p>
 	 		<table>
 	 		 <tr>
 	 		  <td>Username (E-mail)</td>

@@ -46,49 +46,50 @@
 
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="twelve" id="twelve" method="post" action="12.php">
 
+<p><i>Next, we would like to gain an understanding of what is important to you in deciding where to go for different activities.</i></p>
+
 <!-- QUESTION #1 -->
  	<p><b>1) For grocery shopping activities, on a scale of one to ten, how much does each of these criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b></p>
  	
  	<table style='float:left;width:100%;'><tr>
- 		<td style="padding-right:20px">Cost of goods/ services</td>
+ 		<td style="padding-right:20px">The cost of goods or services provided at the place</td>
 		<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods1" value="1"/></td><td><input type="radio" name="goods1" value="2"/></td><td><input type="radio" name="goods1" value="3"/></td><td><input type="radio" name="goods1" value="4"/></td><td><input type="radio" name="goods1" value="5"/></td><td><input type="radio" name="goods1" value="6"/></td><td><input type="radio" name="goods1" value="7"/></td><td><input type="radio" name="goods1" value="8"/></td><td><input type="radio" name="goods1" value="9"/></td><td><input type="radio" name="goods1" value="10"/></td></tr></table></td>
 		</tr><tr>
-		<td>Place identity</td>
+		<td>Whether the place is a good reflection of the type of person I am</td>
 		<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="identity1" value="1"/></td><td><input type="radio" name="identity1" value="2"/></td><td><input type="radio" name="identity1" value="3"/></td><td><input type="radio" name="identity1" value="4"/></td><td><input type="radio" name="identity1" value="5"/></td><td><input type="radio" name="identity1" value="6"/></td><td><input type="radio" name="identity1" value="7"/></td><td><input type="radio" name="identity1" value="8"/></td><td><input type="radio" name="identity1" value="9"/></td><td><input type="radio" name="identity1" value="10"/></td></tr></table>
 		</td></tr>
 	
-	<tr><td style="padding-right:20px">Quality of goods/ services</td>
+	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="quality1" value="1"/></td><td><input type="radio" name="quality1" value="2"/></td><td><input type="radio" name="quality1" value="3"/></td><td><input type="radio" name="quality1" value="4"/></td><td><input type="radio" name="quality1" value="5"/></td><td><input type="radio" name="quality1" value="6"/></td><td><input type="radio" name="quality1" value="7"/></td><td><input type="radio" name="quality1" value="8"/></td><td><input type="radio" name="quality1" value="9"/></td><td><input type="radio" name="quality1" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Social place</td>
+	<td>Whether the place has a positive social atmosphere</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="social1" value="1"/></td><td><input type="radio" name="social1" value="2"/></td><td><input type="radio" name="social1" value="3"/></td><td><input type="radio" name="social1" value="4"/></td><td><input type="radio" name="social1" value="5"/></td><td><input type="radio" name="social1" value="6"/></td><td><input type="radio" name="social1" value="7"/></td><td><input type="radio" name="social1" value="8"/></td><td><input type="radio" name="social1" value="9"/></td><td><input type="radio" name="social1" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Cost and time of travel to the place</td>
+	<tr><td style="padding-right:20px">How much time it will take me to travel to the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="timetravel1" value="1"/></td><td><input type="radio" name="timetravel1" value="2"/></td><td><input type="radio" name="timetravel1" value="3"/></td><td><input type="radio" name="timetravel1" value="4"/></td><td><input type="radio" name="timetravel1" value="5"/></td><td><input type="radio" name="timetravel1" value="6"/></td><td><input type="radio" name="timetravel1" value="7"/></td><td><input type="radio" name="timetravel1" value="8"/></td><td><input type="radio" name="timetravel1" value="9"/></td><td><input type="radio" name="timetravel1" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Culture of SB</td>
+	<td>How well the place reflects the Santa Barbara lifestyle</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="culture1" value="1"/></td><td><input type="radio" name="culture1" value="2"/></td><td><input type="radio" name="culture1" value="3"/></td><td><input type="radio" name="culture1" value="4"/></td><td><input type="radio" name="culture1" value="5"/></td><td><input type="radio" name="culture1" value="6"/></td><td><input type="radio" name="culture1" value="7"/></td><td><input type="radio" name="culture1" value="8"/></td><td><input type="radio" name="culture1" value="9"/></td><td><input type="radio" name="culture1" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Distance from home</td>
+	<tr><td style="padding-right:20px">How close the place is to my home</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="distance1" value="1"/></td><td><input type="radio" name="distance1" value="2"/></td><td><input type="radio" name="distance1" value="3"/></td><td><input type="radio" name="distance1" value="4"/></td><td><input type="radio" name="distance1" value="5"/></td><td><input type="radio" name="distance1" value="6"/></td><td><input type="radio" name="distance1" value="7"/></td><td><input type="radio" name="distance1" value="8"/></td><td><input type="radio" name="distance1" value="9"/></td><td><input type="radio" name="distance1" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Place attachment</td>
+	<td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="place1" value="1"/></td><td><input type="radio" name="place1" value="2"/></td><td><input type="radio" name="place1" value="3"/></td><td><input type="radio" name="place1" value="4"/></td><td><input type="radio" name="place1" value="5"/></td><td><input type="radio" name="place1" value="6"/></td><td><input type="radio" name="place1" value="7"/></td><td><input type="radio" name="place1" value="8"/></td><td><input type="radio" name="place1" value="9"/></td><td><input type="radio" name="place1" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Proximity to last or next place visited</td>
+	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="proximity1" value="1"/></td><td><input type="radio" name="proximity1" value="2"/></td><td><input type="radio" name="proximity1" value="3"/></td><td><input type="radio" name="proximity1" value="4"/></td><td><input type="radio" name="proximity1" value="5"/></td><td><input type="radio" name="proximity1" value="6"/></td><td><input type="radio" name="proximity1" value="7"/></td><td><input type="radio" name="proximity1" value="8"/></td><td><input type="radio" name="proximity1" value="9"/></td><td><input type="radio" name="proximity1" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Place dependence</td>
+	<td>Whether that place meets all my grocery needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="dependence1" value="1"/></td><td><input type="radio" name="dependence1" value="2"/></td><td><input type="radio" name="dependence1" value="3"/></td><td><input type="radio" name="dependence1" value="4"/></td><td><input type="radio" name="dependence1" value="5"/></td><td><input type="radio" name="dependence1" value="6"/></td><td><input type="radio" name="dependence1" value="7"/></td><td><input type="radio" name="dependence1" value="8"/></td><td><input type="radio" name="dependence1" value="9"/></td><td><input type="radio" name="dependence1" value="10"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">Atmosphere of the place</td>
+	<tr><td style="padding-right:20px">Whether the place makes me feel happy</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="atmosphere1" value="1"/></td><td><input type="radio" name="atmosphere1" value="2"/></td><td><input type="radio" name="atmosphere1" value="3"/></td><td><input type="radio" name="atmosphere1" value="4"/></td><td><input type="radio" name="atmosphere1" value="5"/></td><td><input type="radio" name="atmosphere1" value="6"/></td><td><input type="radio" name="atmosphere1" value="7"/></td><td><input type="radio" name="atmosphere1" value="8"/></td><td><input type="radio" name="atmosphere1" value="9"/></td><td><input type="radio" name="atmosphere1" value="10"/></td></tr></table></td><td>&nbsp;</td></tr></table>
  
  
@@ -97,69 +98,69 @@
  	<p><b>2) For other shopping activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">Cost of goods/ services</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods2" value="1"/></td><td><input type="radio" name="goods2" value="2"/></td><td><input type="radio" name="goods2" value="3"/></td><td><input type="radio" name="goods2" value="4"/></td><td><input type="radio" name="goods2" value="5"/></td><td><input type="radio" name="goods2" value="6"/></td><td><input type="radio" name="goods2" value="7"/></td><td><input type="radio" name="goods2" value="8"/></td><td><input type="radio" name="goods2" value="9"/></td><td><input type="radio" name="goods2" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Place identity</td>
+	<td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="identity2" value="1"/></td><td><input type="radio" name="identity2" value="2"/></td><td><input type="radio" name="identity2" value="3"/></td><td><input type="radio" name="identity2" value="4"/></td><td><input type="radio" name="identity2" value="5"/></td><td><input type="radio" name="identity2" value="6"/></td><td><input type="radio" name="identity2" value="7"/></td><td><input type="radio" name="identity2" value="8"/></td><td><input type="radio" name="identity2" value="9"/></td><td><input type="radio" name="identity2" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Quality of goods/ services</td>
+	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="quality2" value="1"/></td><td><input type="radio" name="quality2" value="2"/></td><td><input type="radio" name="quality2" value="3"/></td><td><input type="radio" name="quality2" value="4"/></td><td><input type="radio" name="quality2" value="5"/></td><td><input type="radio" name="quality2" value="6"/></td><td><input type="radio" name="quality2" value="7"/></td><td><input type="radio" name="quality2" value="8"/></td><td><input type="radio" name="quality2" value="9"/></td><td><input type="radio" name="quality2" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Social place</td>
+	<td>Whether the place has a positive social atmosphere</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="social2" value="1"/></td><td><input type="radio" name="social2" value="2"/></td><td><input type="radio" name="social2" value="3"/></td><td><input type="radio" name="social2" value="4"/></td><td><input type="radio" name="social2" value="5"/></td><td><input type="radio" name="social2" value="6"/></td><td><input type="radio" name="social2" value="7"/></td><td><input type="radio" name="social2" value="8"/></td><td><input type="radio" name="social2" value="9"/></td><td><input type="radio" name="social2" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Cost and time of travel to the place</td>
+	<tr><td style="padding-right:20px">How much time it will take me to travel to the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="timetravel2" value="1"/></td><td><input type="radio" name="timetravel2" value="2"/></td><td><input type="radio" name="timetravel2" value="3"/></td><td><input type="radio" name="timetravel2" value="4"/></td><td><input type="radio" name="timetravel2" value="5"/></td><td><input type="radio" name="timetravel2" value="6"/></td><td><input type="radio" name="timetravel2" value="7"/></td><td><input type="radio" name="timetravel2" value="8"/></td><td><input type="radio" name="timetravel2" value="9"/></td><td><input type="radio" name="timetravel2" value="10"/></td></tr></table></td>
 	</tr><tr>
-	<td>Culture of SB</td>
+	<td>How well the place reflects the Santa Barbara lifestyle</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="culture2" value="1"/></td><td><input type="radio" name="culture2" value="2"/></td><td><input type="radio" name="culture2" value="3"/></td><td><input type="radio" name="culture2" value="4"/></td><td><input type="radio" name="culture2" value="5"/></td><td><input type="radio" name="culture2" value="6"/></td><td><input type="radio" name="culture2" value="7"/></td><td><input type="radio" name="culture2" value="8"/></td><td><input type="radio" name="culture2" value="9"/></td><td><input type="radio" name="culture2" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Distance from home</td>
+	<tr><td style="padding-right:20px">How close the place is to my home</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="distance2" value="1"/></td><td><input type="radio" name="distance2" value="2"/></td><td><input type="radio" name="distance2" value="3"/></td><td><input type="radio" name="distance2" value="4"/></td><td><input type="radio" name="distance2" value="5"/></td><td><input type="radio" name="distance2" value="6"/></td><td><input type="radio" name="distance2" value="7"/></td><td><input type="radio" name="distance2" value="8"/></td><td><input type="radio" name="distance2" value="9"/></td><td><input type="radio" name="distance2" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place attachment</td>
+	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="place2" value="1"/></td><td><input type="radio" name="place2" value="2"/></td><td><input type="radio" name="place2" value="3"/></td><td><input type="radio" name="place2" value="4"/></td><td><input type="radio" name="place2" value="5"/></td><td><input type="radio" name="place2" value="6"/></td><td><input type="radio" name="place2" value="7"/></td><td><input type="radio" name="place2" value="8"/></td><td><input type="radio" name="place2" value="9"/></td><td><input type="radio" name="place2" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Proximity to last or next place visited</td>
+	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="proximity2" value="1"/></td><td><input type="radio" name="proximity2" value="2"/></td><td><input type="radio" name="proximity2" value="3"/></td><td><input type="radio" name="proximity2" value="4"/></td><td><input type="radio" name="proximity2" value="5"/></td><td><input type="radio" name="proximity2" value="6"/></td><td><input type="radio" name="proximity2" value="7"/></td><td><input type="radio" name="proximity2" value="8"/></td><td><input type="radio" name="proximity2" value="9"/></td><td><input type="radio" name="proximity2" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place dependence</td>
+	</tr><tr><td>Whether that place meets all my shopping needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="dependence2" value="1"/></td><td><input type="radio" name="dependence2" value="2"/></td><td><input type="radio" name="dependence2" value="3"/></td><td><input type="radio" name="dependence2" value="4"/></td><td><input type="radio" name="dependence2" value="5"/></td><td><input type="radio" name="dependence2" value="6"/></td><td><input type="radio" name="dependence2" value="7"/></td><td><input type="radio" name="dependence2" value="8"/></td><td><input type="radio" name="dependence2" value="9"/></td><td><input type="radio" name="dependence2" value="10"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">Atmosphere of the place</td>
+	<tr><td style="padding-right:20px">Whether the place makes me feel happy</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="atmosphere2" value="1"/></td><td><input type="radio" name="atmosphere2" value="2"/></td><td><input type="radio" name="atmosphere2" value="3"/></td><td><input type="radio" name="atmosphere2" value="4"/></td><td><input type="radio" name="atmosphere2" value="5"/></td><td><input type="radio" name="atmosphere2" value="6"/></td><td><input type="radio" name="atmosphere2" value="7"/></td><td><input type="radio" name="atmosphere2" value="8"/></td><td><input type="radio" name="atmosphere2" value="9"/></td><td><input type="radio" name="atmosphere2" value="10"/></td></tr></table></td><td>&nbsp;</td></tr></table>
  
  
-<!-- QUESTION #3 -->
+<!-- QUESTION #3-- delete or develop new question -->
 <hr/>
  	<p><b>3) For spending time with family, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">Cost of goods/ services</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods3" value="1"/></td><td><input type="radio" name="goods3" value="2"/></td><td><input type="radio" name="goods3" value="3"/></td><td><input type="radio" name="goods3" value="4"/></td><td><input type="radio" name="goods3" value="5"/></td><td><input type="radio" name="goods3" value="6"/></td><td><input type="radio" name="goods3" value="7"/></td><td><input type="radio" name="goods3" value="8"/></td><td><input type="radio" name="goods3" value="9"/></td><td><input type="radio" name="goods3" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place identity</td>
+	</tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="identity3" value="1"/></td><td><input type="radio" name="identity3" value="2"/></td><td><input type="radio" name="identity3" value="3"/></td><td><input type="radio" name="identity3" value="4"/></td><td><input type="radio" name="identity3" value="5"/></td><td><input type="radio" name="identity3" value="6"/></td><td><input type="radio" name="identity3" value="7"/></td><td><input type="radio" name="identity3" value="8"/></td><td><input type="radio" name="identity3" value="9"/></td><td><input type="radio" name="identity3" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Quality of goods/ services</td>
+	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="quality3" value="1"/></td><td><input type="radio" name="quality3" value="2"/></td><td><input type="radio" name="quality3" value="3"/></td><td><input type="radio" name="quality3" value="4"/></td><td><input type="radio" name="quality3" value="5"/></td><td><input type="radio" name="quality3" value="6"/></td><td><input type="radio" name="quality3" value="7"/></td><td><input type="radio" name="quality3" value="8"/></td><td><input type="radio" name="quality3" value="9"/></td><td><input type="radio" name="quality3" value="10"/></td></tr></table></td>
-	</tr><tr><td>Social place</td>
+	</tr><tr><td>Whether the place has a positive social atmosphere</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="social3" value="1"/></td><td><input type="radio" name="social3" value="2"/></td><td><input type="radio" name="social3" value="3"/></td><td><input type="radio" name="social3" value="4"/></td><td><input type="radio" name="social3" value="5"/></td><td><input type="radio" name="social3" value="6"/></td><td><input type="radio" name="social3" value="7"/></td><td><input type="radio" name="social3" value="8"/></td><td><input type="radio" name="social3" value="9"/></td><td><input type="radio" name="social3" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Cost and time of travel to the place</td>
+	<tr><td style="padding-right:20px">How much time it will take me to travel to the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="timetravel3" value="1"/></td><td><input type="radio" name="timetravel3" value="2"/></td><td><input type="radio" name="timetravel3" value="3"/></td><td><input type="radio" name="timetravel3" value="4"/></td><td><input type="radio" name="timetravel3" value="5"/></td><td><input type="radio" name="timetravel3" value="6"/></td><td><input type="radio" name="timetravel3" value="7"/></td><td><input type="radio" name="timetravel3" value="8"/></td><td><input type="radio" name="timetravel3" value="9"/></td><td><input type="radio" name="timetravel3" value="10"/></td></tr></table></td>
-	</tr><tr><td>Culture of SB</td>
+	</tr><tr><td>How well the place reflects the Santa Barbara lifestyle</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="culture3" value="1"/></td><td><input type="radio" name="culture3" value="2"/></td><td><input type="radio" name="culture3" value="3"/></td><td><input type="radio" name="culture3" value="4"/></td><td><input type="radio" name="culture3" value="5"/></td><td><input type="radio" name="culture3" value="6"/></td><td><input type="radio" name="culture3" value="7"/></td><td><input type="radio" name="culture3" value="8"/></td><td><input type="radio" name="culture3" value="9"/></td><td><input type="radio" name="culture3" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Distance from home</td>
+	<tr><td style="padding-right:20px">How close the place is to my home</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="distance3" value="1"/></td><td><input type="radio" name="distance3" value="2"/></td><td><input type="radio" name="distance3" value="3"/></td><td><input type="radio" name="distance3" value="4"/></td><td><input type="radio" name="distance3" value="5"/></td><td><input type="radio" name="distance3" value="6"/></td><td><input type="radio" name="distance3" value="7"/></td><td><input type="radio" name="distance3" value="8"/></td><td><input type="radio" name="distance3" value="9"/></td><td><input type="radio" name="distance3" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place attachment</td>
+	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="place3" value="1"/></td><td><input type="radio" name="place3" value="2"/></td><td><input type="radio" name="place3" value="3"/></td><td><input type="radio" name="place3" value="4"/></td><td><input type="radio" name="place3" value="5"/></td><td><input type="radio" name="place3" value="6"/></td><td><input type="radio" name="place3" value="7"/></td><td><input type="radio" name="place3" value="8"/></td><td><input type="radio" name="place3" value="9"/></td><td><input type="radio" name="place3" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Proximity to last or next place visited</td>
+	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="proximity3" value="1"/></td><td><input type="radio" name="proximity3" value="2"/></td><td><input type="radio" name="proximity3" value="3"/></td><td><input type="radio" name="proximity3" value="4"/></td><td><input type="radio" name="proximity3" value="5"/></td><td><input type="radio" name="proximity3" value="6"/></td><td><input type="radio" name="proximity3" value="7"/></td><td><input type="radio" name="proximity3" value="8"/></td><td><input type="radio" name="proximity3" value="9"/></td><td><input type="radio" name="proximity3" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place dependence</td>
+	</tr><tr><td>Whether that place meets all my needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="dependence3" value="1"/></td><td><input type="radio" name="dependence3" value="2"/></td><td><input type="radio" name="dependence3" value="3"/></td><td><input type="radio" name="dependence3" value="4"/></td><td><input type="radio" name="dependence3" value="5"/></td><td><input type="radio" name="dependence3" value="6"/></td><td><input type="radio" name="dependence3" value="7"/></td><td><input type="radio" name="dependence3" value="8"/></td><td><input type="radio" name="dependence3" value="9"/></td><td><input type="radio" name="dependence3" value="10"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">Atmosphere of the place</td>
+	<tr><td style="padding-right:20px">Whether the place makes me feel happy</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="atmosphere3" value="1"/></td><td><input type="radio" name="atmosphere3" value="2"/></td><td><input type="radio" name="atmosphere3" value="3"/></td><td><input type="radio" name="atmosphere3" value="4"/></td><td><input type="radio" name="atmosphere3" value="5"/></td><td><input type="radio" name="atmosphere3" value="6"/></td><td><input type="radio" name="atmosphere3" value="7"/></td><td><input type="radio" name="atmosphere3" value="8"/></td><td><input type="radio" name="atmosphere3" value="9"/></td><td><input type="radio" name="atmosphere3" value="10"/></td></tr></table></td><td>&nbsp;</td></tr></table>
  
 
@@ -168,32 +169,32 @@
 <hr/>
  	<p><b>4) For outdoor recreation activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b></p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">Cost of goods/ services</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods4" value="1"/></td><td><input type="radio" name="goods4" value="2"/></td><td><input type="radio" name="goods4" value="3"/></td><td><input type="radio" name="goods4" value="4"/></td><td><input type="radio" name="goods4" value="5"/></td><td><input type="radio" name="goods4" value="6"/></td><td><input type="radio" name="goods4" value="7"/></td><td><input type="radio" name="goods4" value="8"/></td><td><input type="radio" name="goods4" value="9"/></td><td><input type="radio" name="goods4" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place identity</td>
+	</tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="identity4" value="1"/></td><td><input type="radio" name="identity4" value="2"/></td><td><input type="radio" name="identity4" value="3"/></td><td><input type="radio" name="identity4" value="4"/></td><td><input type="radio" name="identity4" value="5"/></td><td><input type="radio" name="identity4" value="6"/></td><td><input type="radio" name="identity4" value="7"/></td><td><input type="radio" name="identity4" value="8"/></td><td><input type="radio" name="identity4" value="9"/></td><td><input type="radio" name="identity4" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Quality of goods/ services</td>
+	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="quality4" value="1"/></td><td><input type="radio" name="quality4" value="2"/></td><td><input type="radio" name="quality4" value="3"/></td><td><input type="radio" name="quality4" value="4"/></td><td><input type="radio" name="quality4" value="5"/></td><td><input type="radio" name="quality4" value="6"/></td><td><input type="radio" name="quality4" value="7"/></td><td><input type="radio" name="quality4" value="8"/></td><td><input type="radio" name="quality4" value="9"/></td><td><input type="radio" name="quality4" value="10"/></td></tr></table></td>
-	</tr><tr><td>Social place</td>
+	</tr><tr><td>Whether the place has a positive social atmosphere</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="social4" value="1"/></td><td><input type="radio" name="social4" value="2"/></td><td><input type="radio" name="social4" value="3"/></td><td><input type="radio" name="social4" value="4"/></td><td><input type="radio" name="social4" value="5"/></td><td><input type="radio" name="social4" value="6"/></td><td><input type="radio" name="social4" value="7"/></td><td><input type="radio" name="social4" value="8"/></td><td><input type="radio" name="social4" value="9"/></td><td><input type="radio" name="social4" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Cost and time of travel to the place</td>
+	<tr><td style="padding-right:20px">How much time it will take me to travel to the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="timetravel4" value="1"/></td><td><input type="radio" name="timetravel4" value="2"/></td><td><input type="radio" name="timetravel4" value="3"/></td><td><input type="radio" name="timetravel4" value="4"/></td><td><input type="radio" name="timetravel4" value="5"/></td><td><input type="radio" name="timetravel4" value="6"/></td><td><input type="radio" name="timetravel4" value="7"/></td><td><input type="radio" name="timetravel4" value="8"/></td><td><input type="radio" name="timetravel4" value="9"/></td><td><input type="radio" name="timetravel4" value="10"/></td></tr></table></td>
-	</tr><tr><td>Culture of SB</td>
+	</tr><tr><td>How well the place reflects the Santa Barbara lifestyle</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="culture4" value="1"/></td><td><input type="radio" name="culture4" value="2"/></td><td><input type="radio" name="culture4" value="3"/></td><td><input type="radio" name="culture4" value="4"/></td><td><input type="radio" name="culture4" value="5"/></td><td><input type="radio" name="culture4" value="6"/></td><td><input type="radio" name="culture4" value="7"/></td><td><input type="radio" name="culture4" value="8"/></td><td><input type="radio" name="culture4" value="9"/></td><td><input type="radio" name="culture4" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Distance from home</td>
+	<tr><td style="padding-right:20px">How close the place is to my home</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="distance4" value="1"/></td><td><input type="radio" name="distance4" value="2"/></td><td><input type="radio" name="distance4" value="3"/></td><td><input type="radio" name="distance4" value="4"/></td><td><input type="radio" name="distance4" value="5"/></td><td><input type="radio" name="distance4" value="6"/></td><td><input type="radio" name="distance4" value="7"/></td><td><input type="radio" name="distance4" value="8"/></td><td><input type="radio" name="distance4" value="9"/></td><td><input type="radio" name="distance4" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place attachment</td>
+	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="place4" value="1"/></td><td><input type="radio" name="place4" value="2"/></td><td><input type="radio" name="place4" value="3"/></td><td><input type="radio" name="place4" value="4"/></td><td><input type="radio" name="place4" value="5"/></td><td><input type="radio" name="place4" value="6"/></td><td><input type="radio" name="place4" value="7"/></td><td><input type="radio" name="place4" value="8"/></td><td><input type="radio" name="place4" value="9"/></td><td><input type="radio" name="place4" value="10"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Proximity to last or next place visited</td>
+	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="proximity4" value="1"/></td><td><input type="radio" name="proximity4" value="2"/></td><td><input type="radio" name="proximity4" value="3"/></td><td><input type="radio" name="proximity4" value="4"/></td><td><input type="radio" name="proximity4" value="5"/></td><td><input type="radio" name="proximity4" value="6"/></td><td><input type="radio" name="proximity4" value="7"/></td><td><input type="radio" name="proximity4" value="8"/></td><td><input type="radio" name="proximity4" value="9"/></td><td><input type="radio" name="proximity4" value="10"/></td></tr></table></td>
-	</tr><tr><td>Place dependence</td>
+	</tr><tr><td>Whether that place meets all my recreation needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="dependence4" value="1"/></td><td><input type="radio" name="dependence4" value="2"/></td><td><input type="radio" name="dependence4" value="3"/></td><td><input type="radio" name="dependence4" value="4"/></td><td><input type="radio" name="dependence4" value="5"/></td><td><input type="radio" name="dependence4" value="6"/></td><td><input type="radio" name="dependence4" value="7"/></td><td><input type="radio" name="dependence4" value="8"/></td><td><input type="radio" name="dependence4" value="9"/></td><td><input type="radio" name="dependence4" value="10"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">Atmosphere of the place</td>
+	<tr><td style="padding-right:20px">Whether the place makes me feel happy</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="atmosphere4" value="1"/></td><td><input type="radio" name="atmosphere4" value="2"/></td><td><input type="radio" name="atmosphere4" value="3"/></td><td><input type="radio" name="atmosphere4" value="4"/></td><td><input type="radio" name="atmosphere4" value="5"/></td><td><input type="radio" name="atmosphere4" value="6"/></td><td><input type="radio" name="atmosphere4" value="7"/></td><td><input type="radio" name="atmosphere4" value="8"/></td><td><input type="radio" name="atmosphere4" value="9"/></td><td><input type="radio" name="atmosphere4" value="10"/></td></tr></table></td><td>&nbsp;</td></tr></table>
  
 

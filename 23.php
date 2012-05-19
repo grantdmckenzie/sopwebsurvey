@@ -10,7 +10,6 @@
 
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">

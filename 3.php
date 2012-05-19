@@ -58,11 +58,11 @@
   <script type="text/javascript" src="js/main.js"></script>
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
- 		<p><b>First, we would like to gain an understanding of your social involvement and roles.  In a typical week, I interact with the following groups of people:</b></p>
+ 		<p><i>First, we would like to gain an understanding of your social involvement and roles.</i></p>
+ 		<p><b>In a typical week, which of the following types of people groups do you spend time with:</b></p>
  	<form name="three" id="three" method="post" action="3.php">
 	<table style="float:left">
  	 <tr>
@@ -83,7 +83,7 @@
 	 </tr>
 	 <tr>
 	  <td><input type="checkbox" name="e" id="peers" style="float:left" /></td>
-	  <td>Students (peers)</td>
+	  <td>Students (as peers)</td>
 	 </tr>
 	 <tr>
 	  <td><input type="checkbox" name="f" id="mentor" style="float:left" /></td>

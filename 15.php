@@ -68,11 +68,12 @@
 
  <body>
  	<div id="wrapperHeader">
- 		logo / header
  	</div>
  	<div id="wrapperProgress">Progress Bar</div>
  	<div id="wrapperContent">
-<!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->	
+<!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->
+
+<p><i>Next, we would like to know a little about your household.</i></p>	
  		<?php echo $error; ?>
  	<form name="fifteen" id="fifteen" method="post" action="15.php">
  	<p>
@@ -146,31 +147,67 @@
 		</select><br/>
 	</p>
 	<p style='clear:both;'><br/>
+	
+	
+	<!--
+	<tr><td style="padding-right:20px">I tend to frequent the same place often because I like it best</td>
+	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
+	<tr><td><input type="radio" name="likert2" value="1"/></td><td><input type="radio" name="likert2" value="2"/></td><td><input type="radio" name="likert2" value="3"/></td><td><input type="radio" name="likert2" value="4"/></td><td><input type="radio" name="likert2" value="5"/></td><td><input type="radio" name="likert2" value="6"/></td><td><input type="radio" name="likert2" value="7"/></td></tr></table></td></tr>
+	-->
+	
 		<b>4) How are you related to the other members in your household?</b><br/>
-		<table style='float:left;clear:both;width:100%'><tr>
+		<table style='float:left;clear:both;width:50%'><tr>
 		<td>I live alone</td>
 		<td><input type="radio" name="related" value="1"/></td>
-		<td>I live with acquaintances</td>
-		<td><input type="radio" name="related" value="5"/></td>
 		</tr><tr>
 		<td>I live with my immediate family</td>
 		<td><input type="radio" name="related" value="2"/></td>
-		<td>Other</td>
-		<td><input type="radio" name="related" value="6"/></td>
 		</tr><tr>
 		<td>I live with my extended family members</td>
 		<td><input type="radio" name="related" value="3"/></td>
-		<td>&nbsp;&nbsp;Please explain:</td>
-		<td></td>
 		</tr><tr>
 		<td>I live with friends</td>
 		<td><input type="radio" name="related" value="4"/></td>
+		</tr><tr>
+		<td>I live with acquaintances</td>
+		<td><input type="radio" name="related" value="5"/></td>
+		</tr><tr>
+		<td>Other</td>
+		<td><input type="radio" name="related" value="6"/></td>
+		</tr><tr>
+		<td>&nbsp;&nbsp;If "other", please explain:</td>
+		<td></td>
+		</tr><tr>
 		<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="relatedother" class="txt"/></td>
 		</tr></table>
+		
+		
 	</p>
 	<p style='clear:both;'>
 		<br/><br/>
 		<b>5) What description best represents your house</b><br/>
+		<table style='float:left;clear:both;width:80%'><tr>
+		<td>My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
+		<td><input type="radio" name="house" value="1"/></td>
+		</tr><tr>
+		<td>My home is rented by myself or someone else who makes payments on my behalf</td>
+		<td><input type="radio" name="house" value="2"/></td>
+		</tr><tr>
+		<td>My home is provided by a job/military</td>
+		<td><input type="radio" name="house" value="3"/></td>
+		</tr><tr>
+		<td>Other</td>
+		<td><input type="radio" name="house" value="4"/></td>
+		</tr><tr>
+		<td>&nbsp;&nbsp;If "other", please explain:</td>
+		<td></td>
+		</tr><tr>
+		<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="house" class="txt"/></td>
+		</tr></table>
+
+		
+		
+		<!--<b>5) What description best represents your house</b><br/>
 		<table style='float:left;clear:both;'><tr>
 		<td width="35%">My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
 		<td width="15%" style='text-align:right'><input type="radio" name="house" value="1"/></td>
@@ -190,7 +227,9 @@
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td colspan="2">&nbsp;&nbsp;<input type="text" name="houseother" class="txt"/></td>
-		</tr></table>
+		</tr></table> -->
+	
+	
 	</p>
 	<p style='clear:both;'>
 		<br/><br/>
