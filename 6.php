@@ -36,7 +36,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>Sense of Place: Web Survey</title>
+  <title>GeoTRIPS</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.7/js/dojo/dijit/themes/claro/claro.css" />
   <link rel="stylesheet" href="css/main.css" />
@@ -58,7 +58,19 @@
  	<div id="wrapperContent">
 <!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->
  		 <p style="text-align:center;">Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</p>
- 	 	<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u>places that I do not like to go to.</u>  To do this, please click on the map to begin drawing a shape, and double click the mouse to close the shape.  If you are unsatisfied with the shape you have drawn, right click on the shape to delete it.</p>
+ 	 	
+ 	 	 	 	<p style="text-align:center;">Please use the map and draw with the shape tool the area that you consider to be <u><b>Places that you do not like to visit.</b></u>  </p>
+ 	 	<br></br>
+ 	 	<b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  
+ 	 	<br></br> 
+ 	 	<br></br> If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. 
+ 	 	<br></br> 
+ 	 	<br></br> <b>Navigation:</b>
+ 	 	<br></br> To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
+ 	 	<br></br> To move the map view, left click the map and drag the mouse while holding the left mouse button.  </p>
+ 	 	 
+ 		<p style="text-align:center;"> <b><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></b></p>
+
       
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="six" id="six" method="post" action="6.php">

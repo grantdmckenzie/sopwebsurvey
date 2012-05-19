@@ -14,6 +14,7 @@ html, body {
 	border: solid 1px #333333;
 	position: relative;
 	background-color: #ffffff;
+    background-image: url(/img/banner.png);
 	padding: 20px;
 }
 #wrapperProgress {
@@ -59,7 +60,7 @@ input.txt {
 }
 .bigBtn {
 	padding:10px;
-	background-color: #1589FF;
+	background-color: #193c69;
 	font-size: 1.3em;	
 	font-weight: bold;
 	color: #ffffff;	
@@ -71,7 +72,7 @@ input.txt {
 	border-radius: 5px;
 }
 .bigBtn:hover {
-	background-color: #1569C7;
+	background-color: #1a2e63;
 }
 #map {
 	width:700px;

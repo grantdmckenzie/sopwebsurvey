@@ -35,7 +35,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>Sense of Place: Web Survey</title>
+  <title>GeoTRIPS</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.6/js/dojo/dijit/themes/tundra/tundra.css">
   <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.8/js/esri/dijit/css/Popup.css">
@@ -60,6 +60,10 @@
  	<div id="wrapperContent">
  		<p style="text-align:center;font-size:16px;font-weight:bold">Now, we would like to gain an understanding of your views about Santa Barbara.</p>
  		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree  </u></p>
+ 		<br></br> <b>Navigation:</b>
+ 	 	<br></br> To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
+ 	 	<br></br> To move the map view, left click the map and drag the mouse while holding the left mouse button.  </p>
+ 
  		<p style="text-align:center;">
  			-5 (strongly disagree) <img src="img/colors.png" alt="colors" /> 5 (strongly agree)
  		</p>

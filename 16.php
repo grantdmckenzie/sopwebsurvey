@@ -91,7 +91,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1101010/xhtml" xml:lang="fr" lang="fr">
  <head>
-  <title>Sense of Place: Web Survey</title>
+  <title>GeoTRIPS</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="css/main.css" />
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -259,7 +259,7 @@
 		</table>
 		</p><p style='clear:both;'>
 		<br/><br/>
-		<b>4) What is your occupation (ex. registered nurse, auto mechanic,<br/>accountant, retail sales clerk, etc.)?</b><br/>
+		<b>4) What is your occupation (ex. registered nurse, auto mechanic,<br/>accountant, retail sales clerk, etc.)?</b><i> (please use NA if you are not currently employed)</i><br/>
 		<input type="text" id="occupation" name="occupation" class="txt" />
 		
 		</p><p style='clear:both;'>

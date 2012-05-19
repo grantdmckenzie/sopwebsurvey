@@ -47,7 +47,7 @@
 	 		 <tr>
 	 		  <td colspan="2" style="font-size:0.7em">
 	 		  	
-	 		  	<img src="http://captchator.com/captcha/image/grantisawesome" /><br/>
+	 		  	<img src="http://captchator.com/captcha/image/grantisawesome" /><br/> <!--still debatable!! -->
 	 		  	As a security check, please type the<br/>text you see in the image above:
 	 		  	<br/>
 	 		  	<input type="text" class="txt" name="captcha1" style="width:100px"/>
@@ -61,7 +61,7 @@
  		<td valign="top" style='border-left:solid 1px #666666;padding:10px;'>
  			<h1>Login</h1>
  		 	<form id="login1" name="login1" method="post" action="login.php">
- 		 	<p>Log in with your existing email address and password</p>
+ 		 	<p>Log in with your existing email address and password. <br></br><i><font size="3">(Please only use this if you are returning to the survey)</font></i></p>
 	 		<table>
 	 		 <tr>
 	 		  <td>Username (E-mail)</td>
