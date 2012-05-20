@@ -76,7 +76,7 @@
 
       <p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="eleven" id="eleven" method="post" action="11.php">
- 	<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
+ 	<!--<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a> -->
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
  		<input type="hidden" name="geom" id="geom"/>

@@ -97,7 +97,7 @@ Below is a list of survey opportunities we would like you to consider (check all
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="diary" value="1"checked /></td>
-			<td>Online based travel diary <a href="diary.html" onClick="return popup(this, 'diary')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Web-based activity diary <a href="diary.html" onClick="return popup(this, 'diary')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="osn" value="1" checked /></td>

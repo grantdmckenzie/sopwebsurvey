@@ -60,7 +60,7 @@
  			<td><b>5. Santa Barbara</b></td>
  		</tr></table></div>
  	<div id="wrapperContent">
-	<p>On a scale of 1-10, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)</p>	
+	<p>On a scale of 1-10, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)?</p>	
  		<?php echo $error; ?>
  	<form name="twentyone" id="twentyone" method="post" action="21.php">
  	<p>
@@ -96,7 +96,7 @@
 			</td>
 			</tr>
 			<tr>
-			<td>Attractive</td>
+			<td>Attractiveness of the area</td>
 			<td><input type="radio" name="attractive" value="1"/></td>
 			<td><input type="radio" name="attractive" value="2"/></td>
 			<td><input type="radio" name="attractive" value="3"/></td>

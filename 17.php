@@ -65,7 +65,7 @@
  		</tr></table></div>
  	<div id="wrapperContent">
  		<p style="text-align:center"><i>Last, we would like to gain an understanding of your views about Santa Barbara.</i></p>
- 		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree  </u></p>
+ 		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree.</u>  <br>To do this, click on each of the hexagons and rank them when the box pops up.</p>
  		<font color="#003c73">
  		<b><p style="text-align:center;">Navigation: <br></br><br></br>
  	 	To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
@@ -78,7 +78,7 @@
  		<p style="text-align:center; font-size 16px; font-weight: bold">This area is an attractive area of Santa Barbara.</p>
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="seventeen" id="seventeen" method="post" action="17.php">
- 	<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>
+ 	<!--<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a> -->
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center" style="width:90%;"></div>
  		<input type="hidden" name="s0" id="s0"/>
