@@ -55,7 +55,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td><b>Section five</b></td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
  		<p style="text-align:center"><i>Last, we would like to gain an understanding of your views about Santa Barbara.</i></p>
  		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree  </u></p>

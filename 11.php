@@ -52,7 +52,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td><b>Section three</b></td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
 	<p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>
  	 	<p style="text-align:center;">Please use the map and draw with the shape tool </p>

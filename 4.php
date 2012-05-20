@@ -71,7 +71,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td><b>Section one</b></td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
  		<h2>Social Roles</h2>
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>

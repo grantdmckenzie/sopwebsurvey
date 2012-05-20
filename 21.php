@@ -51,7 +51,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td><b>Section five</b></td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
 	<p>On a scale of 1-10, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)</p>	
  		<?php echo $error; ?>

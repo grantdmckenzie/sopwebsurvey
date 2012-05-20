@@ -45,7 +45,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td><b>Section three</b></td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
  		<!-- <h2 style="text-align:center;">Place Questions:</h2> -->	
  		<?php echo $error; ?>

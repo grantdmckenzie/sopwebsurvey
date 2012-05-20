@@ -59,7 +59,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td><b>Section one</b></td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
  		<p><i>First, we would like to gain an understanding of your social involvement and roles.</i></p>
  		<p><b>In a typical week, which of the following types of people groups do you spend time with:</b></p>

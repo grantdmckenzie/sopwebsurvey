@@ -47,7 +47,12 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress">d>
+ 			<td>Section two</td>
+ 			<td><b>Section three</b></td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
  	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="twelve" id="twelve" method="post" action="12.php">

@@ -60,7 +60,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td>Section three</td>
+ 			<td>Section four</td>
+ 			<td><b>Section five</b></td>
+ 		</tr></table></div>
  	<div id="wrapperContent">
 	<p>Thank you for your participation!!!  We appreciate and value your time and response.  
 <br/><br/>

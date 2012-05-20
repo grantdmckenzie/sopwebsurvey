@@ -11,7 +11,7 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">Progress Bar</div>
+ 	<div id="wrapperProgress">&nbsp;</div>
  	<div id="wrapperContent">
 	<p>Thank you.</p>
  	
