@@ -23,7 +23,9 @@ html, body {
 	height: 50px;	
 	position: relative;
 	border: solid 1px #333333;
-	background-color: #ffffff;
+	background-color: #CBF6FF;
+	text-align: center;
+	padding:20px;
 }
 #wrapperContent {
 	margin: 0 auto;
