@@ -67,12 +67,12 @@
  <body>
  	<div id="wrapperHeader"></div>
  	<div id="wrapperProgress">
- 		<table width="100%"><tr>
- 			<td>Section one</td>
- 			<td>Section two</td>
- 			<td>Section three</td>
- 			<td>Section four</td>
- 			<td>Section five</td>
+ 		<table width="80%" align="right"><tr>
+ 			<td>1. People</td>
+ 			<td>2. Places</td>
+ 			<td>3. Activities</td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
  		</tr></table>
  	</div>
  	<div id="wrapperContent">

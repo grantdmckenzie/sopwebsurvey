@@ -53,12 +53,12 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress"><table width="100%"><tr>
- 			<td>Section one</td>
- 			<td><b>Section two</b></td>
- 			<td>Section three</td>
- 			<td>Section four</td>
- 			<td>Section five</td>
+ 	<div id="wrapperProgress"><table width="80%" align="right"><tr>
+ 			<td>1. People</td>
+ 			<td><b>2. Places</b></td>
+ 			<td>3. Activities</td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
  		</tr></table></div>
  	<div id="wrapperContent">
 		<p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>

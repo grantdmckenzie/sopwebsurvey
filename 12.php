@@ -47,12 +47,14 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">d>
- 			<td>Section two</td>
- 			<td><b>Section three</b></td>
- 			<td>Section four</td>
- 			<td>Section five</td>
- 		</tr></table></div>
+ 	<div id="wrapperProgress">
+ 	<table width="80%" align="right"><tr>
+ 			<td>1. People</td>
+ 			<td>2. Places</td>
+ 			<td><b>3. Activities</b></td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
+ 	</tr></table></div>
  	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="twelve" id="twelve" method="post" action="12.php">

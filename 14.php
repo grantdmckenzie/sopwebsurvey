@@ -45,12 +45,13 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress"><table width="100%"><tr>
- 			<td>Section one</td>
- 			<td>Section two</td>
- 			<td><b>Section three</b></td>
- 			<td>Section four</td>
- 			<td>Section five</td>
+ 	<div id="wrapperProgress">
+ 	<table width="80%" align="right"><tr>
+ 			<td>1. People</td>
+ 			<td>2. Places</td>
+ 			<td><b>3. Activities</b></td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
  		</tr></table></div>
  	<div id="wrapperContent">
  		<!-- <h2 style="text-align:center;">Place Questions:</h2> -->	
@@ -61,35 +62,35 @@
  	<p><b>To what degree do the following statements describe you? </b>
 </p>
  	<hr/>
- 	<table><tr><td style="padding-right:20px">I tend to develop favorite places</td>
+ 	<table><tr><td style="padding-right:20px">I tend to develop favorite places.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert1" value="1"/></td><td><input type="radio" name="likert1" value="2"/></td><td><input type="radio" name="likert1" value="3"/></td><td><input type="radio" name="likert1" value="4"/></td><td><input type="radio" name="likert1" value="5"/></td><td><input type="radio" name="likert1" value="6"/></td><td><input type="radio" name="likert1" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">I tend to frequent the same place often because I like it best</td>
+	<tr><td style="padding-right:20px">The only thing that matters to me in deciding where to go is convenience.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert2" value="1"/></td><td><input type="radio" name="likert2" value="2"/></td><td><input type="radio" name="likert2" value="3"/></td><td><input type="radio" name="likert2" value="4"/></td><td><input type="radio" name="likert2" value="5"/></td><td><input type="radio" name="likert2" value="6"/></td><td><input type="radio" name="likert2" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">I am very disappointed when I can no longer visit a place</td>
+	<tr><td style="padding-right:20px">There are places in the Santa Barbara area (besides home) that I would be disappointed if they didn't exist.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert3" value="1"/></td><td><input type="radio" name="likert3" value="2"/></td><td><input type="radio" name="likert3" value="3"/></td><td><input type="radio" name="likert3" value="4"/></td><td><input type="radio" name="likert3" value="5"/></td><td><input type="radio" name="likert3" value="6"/></td><td><input type="radio" name="likert3" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">Certain places in SB (besides my home) make me feel: Happy, </td>
+	<tr><td style="padding-right:20px">Certain places in the Santa Barbara area (besides my home) make me feel happy. </td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert4" value="1"/></td><td><input type="radio" name="likert4" value="2"/></td><td><input type="radio" name="likert4" value="3"/></td><td><input type="radio" name="likert4" value="4"/></td><td><input type="radio" name="likert4" value="5"/></td><td><input type="radio" name="likert4" value="6"/></td><td><input type="radio" name="likert4" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">at ease,  </td>
+	<tr><td style="padding-right:20px">Certain places in the Santa Barbara area (besides my home) make me feel at ease.  </td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert5" value="1"/></td><td><input type="radio" name="likert5" value="2"/></td><td><input type="radio" name="likert5" value="3"/></td><td><input type="radio" name="likert5" value="4"/></td><td><input type="radio" name="likert5" value="5"/></td><td><input type="radio" name="likert5" value="6"/></td><td><input type="radio" name="likert5" value="7"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">proud to live here, </td>
+	<tr><td style="padding-right:20px">Certain places in the Santa Barbara area (besides my home) make me feel proud to live here. </td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert6" value="1"/></td><td><input type="radio" name="likert6" value="2"/></td><td><input type="radio" name="likert6" value="3"/></td><td><input type="radio" name="likert6" value="4"/></td><td><input type="radio" name="likert6" value="5"/></td><td><input type="radio" name="likert6" value="6"/></td><td><input type="radio" name="likert6" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">attached to the place</td>
+	<tr><td style="padding-right:20px">I feel a strong attachment to certain places in the Santa Barbara area.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert7" value="1"/></td><td><input type="radio" name="likert7" value="2"/></td><td><input type="radio" name="likert7" value="3"/></td><td><input type="radio" name="likert7" value="4"/></td><td><input type="radio" name="likert7" value="5"/></td><td><input type="radio" name="likert7" value="6"/></td><td><input type="radio" name="likert7" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">I will travel farther away to go to a specific place even<br/>if similar services are provided closer if I like the further place better</td>
+	<tr><td style="padding-right:20px">Specific places that I like to visit say something about who I am.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert8" value="1"/></td><td><input type="radio" name="likert8" value="2"/></td><td><input type="radio" name="likert8" value="3"/></td><td><input type="radio" name="likert8" value="4"/></td><td><input type="radio" name="likert8" value="5"/></td><td><input type="radio" name="likert8" value="6"/></td><td><input type="radio" name="likert8" value="7"/></td></tr></table></td></tr>
 	
@@ -99,26 +100,26 @@
  <p>Respondent history / lifestyle in Santa Barbara</p>
 <!-- QUESTION #2 -->
 <hr/>
- 	<p>How many years have you lived in SB<br/><input id="years" type="text" name="years" class="txt" style="width:150px;" /></p>
- 	<p>How many times have you move to a new residence in SB<br/><input id="times" type="text" name="times" class="txt" style="width:150px;"/></p>
+ 	<p>How many years have you lived in the Santa Barbara area?<br/><input id="years" type="text" name="years" class="txt" style="width:150px;" /></p>
+ 	<p>How many times have you move to a new residence in the Santa Barbara area?<br/><input id="times" type="text" name="times" class="txt" style="width:150px;"/></p>
  	<p>Please respond to the following questions with how well the statement describes your lifestyle:</p>
  	<table><tr><td style="padding-right:20px">I spend a lot of my free time outside doing physical activities</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert9" value="1"/></td><td><input type="radio" name="likert9" value="2"/></td><td><input type="radio" name="likert9" value="3"/></td><td><input type="radio" name="likert9" value="4"/></td><td><input type="radio" name="likert9" value="5"/></td><td><input type="radio" name="likert9" value="6"/></td><td><input type="radio" name="likert9" value="7"/></td></tr></table></td></tr>
 	 
-	<tr><td style="padding-right:20px">I like to spend a lot of my free time reading, browsing<br/>on the computer, doing arts or crafts, home improvement<br/>and similar home based activities</td>
+	<tr><td style="padding-right:20px">I like to spend a lot of my free time reading, browsing<br/>on the computer, doing arts or crafts, home improvement<br/>and similar home based activities.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert10" value="1"/></td><td><input type="radio" name="likert10" value="2"/></td><td><input type="radio" name="likert10" value="3"/></td><td><input type="radio" name="likert10" value="4"/></td><td><input type="radio" name="likert10" value="5"/></td><td><input type="radio" name="likert10" value="6"/></td><td><input type="radio" name="likert10" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">I like to spend a lot of my free time with friends or family members </td>
+	<tr><td style="padding-right:20px">I like to spend a lot of my free time with friends or family members. </td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert11" value="1"/></td><td><input type="radio" name="likert11" value="2"/></td><td><input type="radio" name="likert11" value="3"/></td><td><input type="radio" name="likert11" value="4"/></td><td><input type="radio" name="likert11" value="5"/></td><td><input type="radio" name="likert11" value="6"/></td><td><input type="radio" name="likert11" value="7"/></td></tr></table></td></tr>
 
-	<tr><td style="padding-right:20px">I eat a lot of my meals at restaurants</td>
+	<tr><td style="padding-right:20px">I eat a lot of my meals at restaurants.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert12" value="1"/></td><td><input type="radio" name="likert12" value="2"/></td><td><input type="radio" name="likert12" value="3"/></td><td><input type="radio" name="likert12" value="4"/></td><td><input type="radio" name="likert12" value="5"/></td><td><input type="radio" name="likert12" value="6"/></td><td><input type="radio" name="likert12" value="7"/></td></tr></table></td></tr>
 			
-	<tr><td style="padding-right:20px">I enjoy being in crowds or places where there is a lot of activity</td>
+	<tr><td style="padding-right:20px">I enjoy being in places where there is a lot of activity and social scene.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert13" value="1"/></td><td><input type="radio" name="likert13" value="2"/></td><td><input type="radio" name="likert13" value="3"/></td><td><input type="radio" name="likert13" value="4"/></td><td><input type="radio" name="likert13" value="5"/></td><td><input type="radio" name="likert13" value="6"/></td><td><input type="radio" name="likert13" value="7"/></td></tr></table></td></tr></table>
 	

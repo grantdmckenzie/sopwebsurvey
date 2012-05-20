@@ -71,15 +71,15 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress"><table width="100%"><tr>
- 			<td><b>Section one</b></td>
- 			<td>Section two</td>
- 			<td>Section three</td>
- 			<td>Section four</td>
- 			<td>Section five</td>
- 		</tr></table></div>
+ 	<div id="wrapperProgress">	
+ 	<table width="80%" align="right"><tr>
+ 			<td><b>1. People</b></td>
+ 			<td>2. Places</td>
+ 			<td>3. Activities</td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
+ 	</tr></table></div>
  	<div id="wrapperContent">
- 		<h2>Social Roles</h2>
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>
  	<form name="four" id="four" method="post" action="4.php">
  	<p>1) When decisions are made with your, <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play in the decision making process:<i>(select all that apply)</i></p>
@@ -108,7 +108,7 @@
 <br/>
 
 
- 	<p>3) How often do you spend time in the same place as your <b><?php echo $types[$social]; ?></b>?</p>
+ 	<p>3) How often do you spend time with your <b><?php echo $types[$social]; ?></b> conducting activities together?</p>
  		<input type="radio" name="contact" value="1"/>&nbsp;&nbsp;Every day<br/>
  		<input type="radio" name="contact" value="2"/>&nbsp;&nbsp;A few times a week<br/>
  		<input type="radio" name="contact" value="3"/>&nbsp;&nbsp;Once a week<br/>

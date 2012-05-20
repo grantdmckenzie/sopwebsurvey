@@ -59,12 +59,12 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress"><table width="100%"><tr>
- 			<td><b>Section one</b></td>
- 			<td>Section two</td>
- 			<td>Section three</td>
- 			<td>Section four</td>
- 			<td>Section five</td>
+ 	<table width="80%" align="right"><tr>
+ 			<td><b>1. People</b></td>
+ 			<td>2. Places</td>
+ 			<td>3. Activities</td>
+ 			<td>4. About you</td>
+ 			<td>5. Santa Barbara</td>
  		</tr></table></div>
  	<div id="wrapperContent">
  		<p><i>First, we would like to gain an understanding of your social involvement and roles.</i></p>
