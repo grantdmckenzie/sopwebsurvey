@@ -13,7 +13,7 @@
  	</div>
  	<div id="wrapperProgress">&nbsp;</div>
  	<div id="wrapperContent">
-	<p>Thank you.</p>
+	<p>Thank you for participating, you may now close your browser window.</p>
  	
  	</div>
  </body>

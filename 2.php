@@ -67,18 +67,18 @@
  <body>
  	<div id="wrapperHeader"></div>
  	<div id="wrapperProgress">
- 		<table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td>2. Places</td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 		<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td>Part 2. Places</td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  		</tr></table>
  	</div>
  	<div id="wrapperContent">
- 	<font size="3" color= "8c8c8c"> <i> Thank you for participating in this research study.  Your responses to the questions in this survey are greatly appreciated, and will be very useful in gaining a better understanding of everyday travel around Santa Barbara.  The success of this research is highly dependent on public participation from a large variety of residents of the Santa Barbara area.  Your opinions are valued.  Thank you in advance for completing this survey and making Santa Barbara a better place to live!</i> </font> 
+ 	<font size="3"> <i> Thank you for participating in this research study.  Your responses to the questions in this survey are greatly appreciated, and will be very useful in gaining a better understanding of everyday travel around Santa Barbara.  The success of this research is highly dependent on public participation from a large variety of residents of the Santa Barbara area.  Your opinions are valued.  Thank you in advance for completing this survey and making Santa Barbara a better place to live!</i> </font> 
  	<p> 
-	<a href="about.html" onClick="return popup(this, 'notes')"> Click here if you would like to know more about this survey </a> 	
+	To learn more about this survey and the research involved, click <a href="about.html" onClick="return popup(this, 'notes')">here.</a> 	
  	<!--<a href="about.html" onClick="return popup(this, 'notes')"><img src="img/info.png" alt="info" title="More Information"/></a> -->
  		<h2>Consent Information</h2>
  		<p><b>PURPOSE:</b><br>

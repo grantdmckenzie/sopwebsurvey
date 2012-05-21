@@ -52,15 +52,15 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
- 	<table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td>2. Places</td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td><b>5. Santa Barbara</b></td>
+ 	<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td>Part 2. Places</td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td><b>Part 5. Santa Barbara</b></td>
  		</tr></table></div>
  	<div id="wrapperContent">
-	<p>On a scale of 1-10, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)?</p>	
+	<p>On a scale of 1-10, with 1 being not important and 10 being very important, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)?</p>	
  		<?php echo $error; ?>
  	<form name="twentyone" id="twentyone" method="post" action="21.php">
  	<p>

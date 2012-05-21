@@ -56,18 +56,18 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
- 	<table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td>2. Places</td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td><b>5. Santa Barbara</b></td>
+ 	<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td>Part 2. Places</td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td><b>Part 5. Santa Barbara</b></td>
  		</tr></table></div>
  	<div id="wrapperContent">
  		<p style="text-align:center"><i>Last, we would like to gain an understanding of your views about Santa Barbara.</i></p>
  		<p style="text-align:center;">For the following questions about Santa Barbara, please rank each area with a number from -5 to 5,<br/>-5 being strongly disagree and 5 being strongly agree.</u>  <br>To do this, click on each of the hexagons and rank them when the box pops up.</p>
  		<font color="#003c73">
- 		<b><p style="text-align:center;">Navigation: <br></br><br></br>
+ 		<p style="text-align:center;">Navigation: <br></br>
  	 	To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
  	 	<br></br>To move the map view, press and hold the left mouse button and move the mouse to drag the map in the desired direction.  </p>
  	 	</font>

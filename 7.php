@@ -53,26 +53,25 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress"><table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td><b>2. Places</b></td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 	<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td><b>Part 2. Places</b></td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  		</tr></table></div>
  	<div id="wrapperContent">
 		<p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>
  	 	<p style="text-align:center;">Please use the map and draw with the shape tool </p>
  	 	<br></br>
- 	 	<font color="#003c73"> <b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  <br></br> 3) If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. 
- 	 	<br></br> 
- 	 	<br></br> <b>Navigation:</b>
+ 	 	<font color="#003c73"> <b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  <br></br> 3) If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. <br></br> 
+ 	 	<b>Navigation:</b>
  	 	<br></br> To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
- 	 	<br></br> To move the map view, press and hold the left mouse button and move the mouse to drag the map in the desired direction.  </p>
+ 	 	<br></br> To move the map view, press and hold the left mouse button and move the mouse to drag the map in the desired direction.  </p><br></br>
  	 	</font>
  <p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></font></p>
  
- <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <u><b>places that you consider as shopping aread.</b></u></font> 
+ <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <br><u><b>places that you consider as shopping aread.</b></u></font> 
 
       <p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="seven" id="seven" method="post" action="7.php">

@@ -46,12 +46,12 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
- 	<table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td>2. Places</td>
- 			<td><b>3. Activities</b></td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 	<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td>Part 2. Places</td>
+ 			<td><b>Part 3. Activities</b></td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  		</tr></table></div>
  	<div id="wrapperContent">
  		<!-- <h2 style="text-align:center;">Place Questions:</h2> -->	

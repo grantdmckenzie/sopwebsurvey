@@ -57,15 +57,16 @@
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
  <body>
- 	<div id="wrapperHeader">
- 	</div>
- 	<table width="80%" align="right"><tr>
- 			<td><b>1. People</b></td>
- 			<td>2. Places</td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 	<div id="wrapperHeader"></div>
+ 	<div id="wrapperProgress">
+ 	<table width="90%" align="right"><tr>
+ 			<td><b>Part 1. People</b></td>
+ 			<td>Part 2. Places</td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  		</tr></table></div>
+ 	</div>
  	<div id="wrapperContent">
  		<p><i>First, we would like to gain an understanding of your social involvement and roles.</i></p>
  		<p><b>In a typical week, which of the following types of people groups do you spend time with:</b></p>

@@ -48,22 +48,22 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
- 	<table width="80%" align="right"><tr>
- 			<td>1. People</td>
- 			<td>2. Places</td>
- 			<td><b>3. Activities</b></td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 	<table width="90%" align="right"><tr>
+ 			<td>Part 1. People</td>
+ 			<td>Part 2. Places</td>
+ 			<td><b>Part 3. Activities</b></td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  	</tr></table></div>
  	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="thirteen" id="thirteen" method="post" action="13.php">
 
 <!-- QUESTION #5 -->
- 	<p><b>5) For social activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
+ 	<p><b>5) For social activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods1" value="1"/></td><td><input type="radio" name="goods1" value="2"/></td><td><input type="radio" name="goods1" value="3"/></td><td><input type="radio" name="goods1" value="4"/></td><td><input type="radio" name="goods1" value="5"/></td><td><input type="radio" name="goods1" value="6"/></td><td><input type="radio" name="goods1" value="7"/></td><td><input type="radio" name="goods1" value="8"/></td><td><input type="radio" name="goods1" value="9"/></td><td><input type="radio" name="goods1" value="10"/></td></tr></table></td>
 	</tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td><input type="radio" name="identity1" value="1"/></td><td><input type="radio" name="identity1" value="2"/></td><td><input type="radio" name="identity1" value="3"/></td><td><input type="radio" name="identity1" value="4"/></td><td><input type="radio" name="identity1" value="5"/></td><td><input type="radio" name="identity1" value="6"/></td><td><input type="radio" name="identity1" value="7"/></td><td><input type="radio" name="identity1" value="8"/></td><td><input type="radio" name="identity1" value="9"/></td><td><input type="radio" name="identity1" value="10"/></td></tr></table></td></tr>
@@ -90,10 +90,10 @@
  
 <!-- QUESTION #6 -->
 <hr/>
- 	<p><b>6) For eating out, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
+ 	<p><b>6) For eating out, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods2" value="1"/></td><td><input type="radio" name="goods2" value="2"/></td><td><input type="radio" name="goods2" value="3"/></td><td><input type="radio" name="goods2" value="4"/></td><td><input type="radio" name="goods2" value="5"/></td><td><input type="radio" name="goods2" value="6"/></td><td><input type="radio" name="goods2" value="7"/></td><td><input type="radio" name="goods2" value="8"/></td><td><input type="radio" name="goods2" value="9"/></td><td><input type="radio" name="goods2" value="10"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td><input type="radio" name="identity2" value="1"/></td><td><input type="radio" name="identity2" value="2"/></td><td><input type="radio" name="identity2" value="3"/></td><td><input type="radio" name="identity2" value="4"/></td><td><input type="radio" name="identity2" value="5"/></td><td><input type="radio" name="identity2" value="6"/></td><td><input type="radio" name="identity2" value="7"/></td><td><input type="radio" name="identity2" value="8"/></td><td><input type="radio" name="identity2" value="9"/></td><td><input type="radio" name="identity2" value="10"/></td></tr></table></td></tr>
 	
@@ -119,11 +119,11 @@
  
 <!-- QUESTION #7 -->
 <hr/>
- 	<p><b>7) For entertainment activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
+ 	<p><b>7) For entertainment activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
 
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods3" value="1"/></td><td><input type="radio" name="goods3" value="2"/></td><td><input type="radio" name="goods3" value="3"/></td><td><input type="radio" name="goods3" value="4"/></td><td><input type="radio" name="goods3" value="5"/></td><td><input type="radio" name="goods3" value="6"/></td><td><input type="radio" name="goods3" value="7"/></td><td><input type="radio" name="goods3" value="8"/></td><td><input type="radio" name="goods3" value="9"/></td><td><input type="radio" name="goods3" value="10"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em"><tr><td><input type="radio" name="identity3" value="1"/></td><td><input type="radio" name="identity3" value="2"/></td><td><input type="radio" name="identity3" value="3"/></td><td><input type="radio" name="identity3" value="4"/></td><td><input type="radio" name="identity3" value="5"/></td><td><input type="radio" name="identity3" value="6"/></td><td><input type="radio" name="identity3" value="7"/></td><td><input type="radio" name="identity3" value="8"/></td><td><input type="radio" name="identity3" value="9"/></td><td><input type="radio" name="identity3" value="10"/></td></tr></table></td></tr>
 	

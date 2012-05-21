@@ -72,12 +72,12 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">	
- 	<table width="80%" align="right"><tr>
- 			<td><b>1. People</b></td>
- 			<td>2. Places</td>
- 			<td>3. Activities</td>
- 			<td>4. About you</td>
- 			<td>5. Santa Barbara</td>
+ 	<table width="90%" align="right"><tr>
+ 			<td><b>Part 1. People</b></td>
+ 			<td>Part 2. Places</td>
+ 			<td>Part 3. Activities</td>
+ 			<td>Part 4. About you</td>
+ 			<td>Part 5. Santa Barbara</td>
  	</tr></table></div>
  	<div id="wrapperContent">
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>

@@ -61,7 +61,7 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
- 	<table width="80%" align="right"><tr>
+ 	<table width="90%" align="right"><tr>
  			<td>1. People</td>
  			<td>2. Places</td>
  			<td>3. Activities</td>
@@ -86,14 +86,14 @@ To be sure we have the correct contact information please provide your
  	<br/><br/>
  	We would like to know if you would be interested in partaking in additional surveys that further investigate everyday travel behavior and decision making for planning purposes.
 <br/><br/>
-Below is a list of survey opportunities we would like you to consider (check all that you would be interested in hearing more about):
+Below is a list of survey opportunities we would like you to consider.  Please click on the information icon for details, and select those that you would be interested in hearing more about:
 
  	</p>
  	<p>
 			<table style='float:left;clear:both;'>
 			<tr>
 			<td><input type="checkbox" name="android" value="1" checked /></td>
-			<td>Android based travel and activity diary <a href="android.html" onClick="return popup(this, 'android')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Android based travel and activity diary (note: you must have an smartphone using the Android operating system to participate in this study) <a href="android.html" onClick="return popup(this, 'android')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="diary" value="1"checked /></td>
@@ -111,7 +111,7 @@ Below is a list of survey opportunities we would like you to consider (check all
 	</p>
 	<p style="clear:both;text-align:center;">
 	<br/><br/>
-	Additional comments?<br/>
+	Additional general comments?  Please leave them here.<br/>
 	<textarea name="comments" id="comments" style="width:690px;height:100px;font-size:1.2em;padding:5px;"></textarea>
 	</p>
  	</form>
