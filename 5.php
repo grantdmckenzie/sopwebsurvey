@@ -73,7 +73,7 @@
  	 	</font>
  <p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></font></p>
  
- <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <br><u><b>places that are significant to you for conducting daily life.</b></u>(remember to zoom in for a more detailed map.)</font> 
+ <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <br><u><b>places that are significant to you for activities you conduct.</b></u>(remember to zoom in for a more detailed map.)</font> 
  
  	<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="five" id="five" method="post" action="5.php">
