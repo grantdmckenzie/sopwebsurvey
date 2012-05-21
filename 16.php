@@ -265,7 +265,7 @@
 		</table>
 		</p><p style='clear:both;'>
 		<br/><br/>
-		<b>4) What is your occupation (ex. registered nurse, auto mechanic,<br/>accountant, retail sales clerk, etc.)?</b><i> (please use NA if you are not currently employed)</i><br/>
+		<b>4) What is your occupation (ex. registered nurse, auto mechanic,<br/>accountant, retail sales clerk, etc.)?</b><i> (please type "none" if you are not currently employed)</i><br/>
 		<input type="text" id="occupation" name="occupation" class="txt" />
 		
 		</p><p style='clear:both;'>
