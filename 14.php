@@ -62,7 +62,7 @@
  	<p><b>To what degree do the following statements describe you? </b>
 </p>
  	<hr/>
- 	<table><tr><td style="padding-right:20px">I tend to develop favorite places.</td>
+ 	<table><tr><td style="padding-right:20px">I tend to develop strong preferences for specific places.</td>
 	<td><table style="float:left;clear:both;font-size:0.8em"><tr><td>strongly disagree</td><td>disagree</td><td>slightly disagree</td><td>neutral</td><td>slightly agree</td><td>agree</td><td>strongly agree</td></tr>
 	<tr><td><input type="radio" name="likert1" value="1"/></td><td><input type="radio" name="likert1" value="2"/></td><td><input type="radio" name="likert1" value="3"/></td><td><input type="radio" name="likert1" value="4"/></td><td><input type="radio" name="likert1" value="5"/></td><td><input type="radio" name="likert1" value="6"/></td><td><input type="radio" name="likert1" value="7"/></td></tr></table></td></tr>
 	

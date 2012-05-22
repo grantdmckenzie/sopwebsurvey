@@ -87,7 +87,7 @@
  	<p><b>1) For grocery shopping activities, on a scale of one to ten, how much does each of these criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b></p>
  	
  	<table style='float:left;width:100%;'><tr>
- 		<td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 		<td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 		<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods1" value="1"/></td><td><input type="radio" name="goods1" value="2"/></td><td><input type="radio" name="goods1" value="3"/></td><td><input type="radio" name="goods1" value="4"/></td><td><input type="radio" name="goods1" value="5"/></td><td><input type="radio" name="goods1" value="6"/></td><td><input type="radio" name="goods1" value="7"/></td><td><input type="radio" name="goods1" value="8"/></td><td><input type="radio" name="goods1" value="9"/></td><td><input type="radio" name="goods1" value="10"/></td></tr></table></td>
 		</tr><tr>
 		<td>Whether the place is a good reflection of the type of person I am</td>
@@ -127,7 +127,7 @@
  	<p><b>2) For other shopping activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods2" value="1"/></td><td><input type="radio" name="goods2" value="2"/></td><td><input type="radio" name="goods2" value="3"/></td><td><input type="radio" name="goods2" value="4"/></td><td><input type="radio" name="goods2" value="5"/></td><td><input type="radio" name="goods2" value="6"/></td><td><input type="radio" name="goods2" value="7"/></td><td><input type="radio" name="goods2" value="8"/></td><td><input type="radio" name="goods2" value="9"/></td><td><input type="radio" name="goods2" value="10"/></td></tr></table></td>
 	</tr><tr>
 	<td>Whether the place is a good reflection of the type of person I am</td>
@@ -166,7 +166,7 @@
  	<input type="checkbox" id="nofam" name="nofam" />I do not participate in any activities with family in Santa Barbara<br/>
 </p>
  	
- 	<table style='width:100%'><tr><td style="padding-right:20px">The cost of goods or services provided at the place</td>
+ 	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td><input type="radio" name="goods3" value="1"/></td><td><input type="radio" name="goods3" value="2"/></td><td><input type="radio" name="goods3" value="3"/></td><td><input type="radio" name="goods3" value="4"/></td><td><input type="radio" name="goods3" value="5"/></td><td><input type="radio" name="goods3" value="6"/></td><td><input type="radio" name="goods3" value="7"/></td><td><input type="radio" name="goods3" value="8"/></td><td><input type="radio" name="goods3" value="9"/></td><td><input type="radio" name="goods3" value="10"/></td></tr></table></td>
 	</tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;"><tr><td><input type="radio" name="identity3" value="1"/></td><td><input type="radio" name="identity3" value="2"/></td><td><input type="radio" name="identity3" value="3"/></td><td><input type="radio" name="identity3" value="4"/></td><td><input type="radio" name="identity3" value="5"/></td><td><input type="radio" name="identity3" value="6"/></td><td><input type="radio" name="identity3" value="7"/></td><td><input type="radio" name="identity3" value="8"/></td><td><input type="radio" name="identity3" value="9"/></td><td><input type="radio" name="identity3" value="10"/></td></tr></table></td></tr>
