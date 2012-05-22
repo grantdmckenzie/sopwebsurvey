@@ -69,8 +69,7 @@
  <body>
  	<div id="wrapperHeader">
  	</div>
- 	<div id="wrapperProgress">
- 	<table width="90%" align="right"><tr>
+ 	<div id="wrapperProgress"><table width="100%"><tr>
  			<td>Part 1. People</td>
  			<td>Part 2. Places</td>
  			<td>Part 3. Activities</td>
