@@ -12,16 +12,39 @@
 	}
 	$error = "";
 	if (isset($_POST['firsttime'])) {
-		if (isset($_POST['goods1']) && isset($_POST['identity1']) && isset($_POST['quality1']) && isset($_POST['social1']) && isset($_POST['timetravel1']) && isset($_POST['culture1']) && isset($_POST['distance1']) && isset($_POST['proximity1']) && isset($_POST['place1']) && isset($_POST['dependence1']) && isset($_POST['atmosphere1']) && isset($_POST['goods2']) && isset($_POST['identity2']) && isset($_POST['quality2']) && isset($_POST['social2']) && isset($_POST['timetravel2']) && isset($_POST['culture2']) && isset($_POST['distance2']) && isset($_POST['proximity2']) && isset($_POST['place2']) && isset($_POST['dependence2']) && isset($_POST['atmosphere2']) && isset($_POST['goods3']) && isset($_POST['identity3']) && isset($_POST['quality3']) && isset($_POST['social3']) && isset($_POST['timetravel3']) && isset($_POST['culture3']) && isset($_POST['distance3']) && isset($_POST['proximity3']) && isset($_POST['place3']) && isset($_POST['dependence3']) && isset($_POST['atmosphere3']) && isset($_POST['goods4']) && isset($_POST['identity4']) && isset($_POST['quality4']) && isset($_POST['social4']) && isset($_POST['timetravel4']) && isset($_POST['culture4']) && isset($_POST['distance4']) && isset($_POST['proximity4']) && isset($_POST['place4']) && isset($_POST['dependence4']) && isset($_POST['atmosphere4'])) {
-			
-			
+		if (isset($_POST['goods1']) && isset($_POST['identity1']) && isset($_POST['quality1']) && isset($_POST['social1']) && isset($_POST['timetravel1']) && isset($_POST['culture1']) && isset($_POST['distance1']) && isset($_POST['proximity1']) && isset($_POST['place1']) && isset($_POST['dependence1']) && isset($_POST['atmosphere1']) && isset($_POST['goods2']) && isset($_POST['identity2']) && isset($_POST['quality2']) && isset($_POST['social2']) && isset($_POST['timetravel2']) && isset($_POST['culture2']) && isset($_POST['distance2']) && isset($_POST['proximity2']) && isset($_POST['place2']) && isset($_POST['dependence2']) && isset($_POST['atmosphere2']) && isset($_POST['goods4']) && isset($_POST['identity4']) && isset($_POST['quality4']) && isset($_POST['social4']) && isset($_POST['timetravel4']) && isset($_POST['culture4']) && isset($_POST['distance4']) && isset($_POST['proximity4']) && isset($_POST['place4']) && isset($_POST['dependence4']) && isset($_POST['atmosphere4'])) {
 			
 			require "inc/dbase.inc";
 			require "inc/user.inc";
 			$wsuser = unserialize($_SESSION['wsuser']);
+			if (isset($_POST['nofam'])) {
+				$goods3 = -9;
+				$identity3 = -9;
+				$quality3 = -9;
+				$social3 = -9;
+				$timetravel3 = -9;
+				$culture3 = -9;
+				$distance3 = -9;
+				$proximity3 = -9;
+				$place3 = -9;
+				$dependence3 = -9;
+				$atmosphere3 = -9;
+			} else {
+				$goods3 = $_POST['goods3'];
+				$identity3 = $_POST['identity3'];
+				$quality3 = $_POST['quality3'];
+				$social3 = $_POST['social3'];
+				$timetravel3 = $_POST['timetravel3'];
+				$culture3 = $_POST['culture3'];
+				$distance3 = $_POST['distance3'];
+				$proximity3 = $_POST['proximity3'];
+				$place3 = $_POST['place3'];
+				$dependence3 = $_POST['dependence3'];
+				$atmosphere3 = $_POST['atmosphere3'];
+			}			
 				
 			// insert the deets.
-			$query = "INSERT INTO page12 VALUES ('',".$wsuser->id.",".$_POST['goods1'].",".$_POST['identity1'].",".$_POST['quality1'].",".$_POST['social1'].",".$_POST['timetravel1'].",".$_POST['culture1'].",".$_POST['distance1'].",".$_POST['proximity1'].",".$_POST['place1'].",".$_POST['dependence1'].",".$_POST['atmosphere1'].",".$_POST['goods2'].",".$_POST['identity2'].",".$_POST['quality2'].",".$_POST['social2'].",".$_POST['timetravel2'].",".$_POST['culture2'].",".$_POST['distance2'].",".$_POST['proximity2'].",".$_POST['place2'].",".$_POST['dependence2'].",".$_POST['atmosphere2'].",".$_POST['goods3'].",".$_POST['identity3'].",".$_POST['quality3'].",".$_POST['social3'].",".$_POST['timetravel3'].",".$_POST['culture3'].",".$_POST['distance3'].",".$_POST['proximity3'].",".$_POST['place3'].",".$_POST['dependence3'].",".$_POST['atmosphere3'].",".$_POST['goods4'].",".$_POST['identity4'].",".$_POST['quality4'].",".$_POST['social4'].",".$_POST['timetravel4'].",".$_POST['culture4'].",".$_POST['distance4'].",".$_POST['proximity4'].",".$_POST['place4'].",".$_POST['dependence4'].",".$_POST['atmosphere4'].")";
+			$query = "INSERT INTO page12 VALUES ('',".$wsuser->id.",".$_POST['goods1'].",".$_POST['identity1'].",".$_POST['quality1'].",".$_POST['social1'].",".$_POST['timetravel1'].",".$_POST['culture1'].",".$_POST['distance1'].",".$_POST['proximity1'].",".$_POST['place1'].",".$_POST['dependence1'].",".$_POST['atmosphere1'].",".$_POST['goods2'].",".$_POST['identity2'].",".$_POST['quality2'].",".$_POST['social2'].",".$_POST['timetravel2'].",".$_POST['culture2'].",".$_POST['distance2'].",".$_POST['proximity2'].",".$_POST['place2'].",".$_POST['dependence2'].",".$_POST['atmosphere2'].",".$goods3.",".$identity3.",".$quality3.",".$social3.",".$timetravel3.",".$culture3.",".$distance3.",".$proximity3.",".$place3.",".$dependence3.",".$atmosphere3.",".$_POST['goods4'].",".$_POST['identity4'].",".$_POST['quality4'].",".$_POST['social4'].",".$_POST['timetravel4'].",".$_POST['culture4'].",".$_POST['distance4'].",".$_POST['proximity4'].",".$_POST['place4'].",".$_POST['dependence4'].",".$_POST['atmosphere4'].")";
 			mysql_query($query) or die(mysql_error());
 			
 			// update the page
@@ -48,6 +71,7 @@
  	<div id="wrapperHeader">
  	</div>
  	<div id="wrapperProgress">
+<<<<<<< HEAD
  	<table width="90%" align="right"><tr>
  			<td>Part 1. People</td>
  			<td>Part 2. Places</td>
@@ -55,6 +79,14 @@
  			<td>Part 4. About you</td>
  			<td>Part 5. Santa Barbara</td>
  	</tr></table></div>
+=======
+ 			<td>Section one</td>
+ 			<td>Section two</td>
+ 			<td><b>Section three</b></td>
+ 			<td>Section four</td>
+ 			<td>Section five</td>
+ 		</tr></table></div>
+>>>>>>> alignment
  	<div id="wrapperContent">	
  		<?php echo $error; ?>
  	<form name="twelve" id="twelve" method="post" action="12.php">
@@ -143,7 +175,13 @@
  
 <!-- QUESTION #3-- delete or develop new question -->
 <hr/>
+<<<<<<< HEAD
  	<p><b>3) For spending time with family, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
+=======
+ 	<p><b>3) For spending time with family, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1 I don’t consider it, 10 I consider it a lot)</b>
+ 	<br/>
+ 	<input type="checkbox" id="nofam" name="nofam" />I do not participate in any activities with family in Santa Barbara<br/>
+>>>>>>> alignment
 </p>
  	
  	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>

@@ -225,7 +225,7 @@
  		</select> 
  		<br/><br/>
  		<b>2) What is your gender?</b><br/>
- 		<table style="float:left;padding-left:20px;"><tr>
+ 		<table style="float:left;padding-left:20px;margin:0"><tr>
  			<td>Male</td><td><input type="radio" name="gender" value="m"/></td>
  			<td>Female</td><td><input type="radio" name="gender" value="f"/></td>
  		</tr></table>
@@ -334,7 +334,7 @@
 		</p><p style='clear:both;'>
 		<br/><br/>
 		<b>7) Do you have a drivers license?</b><br/>
-		<table style="float:left;"><tr>
+		<table style="float:left;;margin:0"><tr>
  			<td>Yes</td><td><input type="radio" name="license" value="1"/></td>
  			<td>No</td><td><input type="radio" name="license" value="0"/></td>
  		</tr></table>
@@ -399,7 +399,7 @@
 		<br/>
 		<span style='font-size:0.8em'>Street number and street name</span>
 		<br/>
-		<table style='float:left;clear:both;'>
+		<table style='float:left;clear:both;margin:0'>
 		<tr>
 			<td style='width:200px'><input type="text" value="" name="city" id="city" class="txt" style="width:100px;" /></td>
 			<td><input type="text" value="" name="zip" id="zip" class="txt" style="width:100px;" /></td>

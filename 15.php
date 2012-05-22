@@ -89,7 +89,7 @@
 		<br/>
 		<span style='font-size:0.8em'>Street number and street name</span>
 		<br/>
-		<table style='float:left;clear:both;'>
+		<table style='float:left;clear:both;margin:0'>
 		<tr>
 			<td style='width:200px'><select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select></td>
 		<td><select id="zip" name="zip">
@@ -163,7 +163,7 @@
 	-->
 	
 		<b>4) How are you related to the other members in your household?</b><br/>
-		<table style='float:left;clear:both;width:50%'><tr>
+		<table style='float:left;clear:both;width:50%;margin:0 0'><tr>
 		<td>I live alone</td>
 		<td><input type="radio" name="related" value="1"/></td>
 		</tr><tr>
@@ -193,7 +193,7 @@
 	<p style='clear:both;'>
 		<br/><br/>
 		<b>5) What description best represents your house</b><br/>
-		<table style='float:left;clear:both;width:80%'><tr>
+		<table style='float:left;clear:both;width:80%;margin:0'><tr>
 		<td>My home is owned by myself or someone else who makes payments (mortgage and/or property taxes) on my behalf</td>
 		<td><input type="radio" name="house" value="1"/></td>
 		</tr><tr>
