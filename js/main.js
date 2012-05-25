@@ -106,7 +106,7 @@ function continue12() {
 	} else if (!$('input:radio[name=atmosphere2]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else if (!$('#nofam').is(':checked')) {
-		if (!$('input:checkbox[name=goods3]:checked').val()) {
+		if (!$('input:radio[name=goods3]:checked').val()) {
 			alert('Please answer all questions before continuing');
 		} else if (!$('input:radio[name=identity3]:checked').val()) {
 			alert('Please answer all questions before continuing');
