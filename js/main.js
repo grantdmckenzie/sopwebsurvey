@@ -2,8 +2,15 @@ function start() {
 	$("#indexpage").submit();	
 }
 function continue1() {
-	$("#iagree").submit();	
+	if (!$('#agree').is(':checked')) {
+		alert("Please select 'I agree…' to continue");
+	} else if ($('#initials').val().length < 1) {
+		alert('Please enter your initials to continue");	
+	} else {
+		$("#iagree").submit();	
+	}
 }
+
 function continue3() {
 	$("#three").submit();	
 }
@@ -106,7 +113,7 @@ function continue12() {
 	} else if (!$('input:radio[name=atmosphere2]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else if (!$('#nofam').is(':checked')) {
-		if (!$('input:radio[name=goods3]:checked').val()) {
+		if (!$('input:checkbox[name=goods3]:checked').val()) {
 			alert('Please answer all questions before continuing');
 		} else if (!$('input:radio[name=identity3]:checked').val()) {
 			alert('Please answer all questions before continuing');

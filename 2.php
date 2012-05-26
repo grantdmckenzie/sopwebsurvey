@@ -125,7 +125,7 @@ If you have any questions regarding your rights and participation as a research 
 	</table>
 	</form>
 </p>
- 		<div class="bigBtn" style="clear: both;" onclick="continue1()">CONTINUE ></div>
+ 		<div class="bigBtn" style="clear: both;" onclick="continue2()">CONTINUE ></div>
  	</div>
  </body>
 </html>
