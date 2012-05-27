@@ -58,9 +58,12 @@
 		$license = $_POST['license'];
 		$education = $_POST['education'];
 		$marital = $_POST['marital'];
-		$address = addslashes($_POST['address']);
-		$city = addslashes($_POST['city']);
-		$zip = addslashes($_POST['zip']);
+		$address = 0;
+		$city = 0;
+		$zip = 0;
+		if (isset($_POST['address'])) { $address = addslashes($_POST['address']); }
+		if (isset($_POST['city'])) { $city = addslashes($_POST['city']); }
+		if (isset($_POST['zip'])) { $zip = addslashes($_POST['zip']); }
 
 		$query = "INSERT INTO page16 VALUES ('',".$wsuser->id.",";
 		$query .= "'".$month."',";	
@@ -84,7 +87,7 @@
 		// update the page
 		$query = "UPDATE users SET page = '17', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 		mysql_query($query) or die(mysql_error());
-		header("location: 17.php");
+		header("location: hexinfo.html");
 	}
 ?>
 

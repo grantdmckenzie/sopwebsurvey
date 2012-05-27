@@ -303,13 +303,7 @@ function continue15() {
 	}
 }
 function continue16() {
-	if ($('#address').val().length < 5) {
-		alert('Please enter a valid Address');
-	} else if ($('#city').val().length < 2) {
-		alert('Please enter a valid City');
-	} else if ($('#zip').val().length != 5) {
-		alert('Please enter a valid Zip Code');
-	} else if ($('#month').val() == "Select") {
+	if ($('#month').val() == "Select") {
 		alert('Please select a valid birth month');
 	} else if ($('#year').val() == "Select") {
 		alert('Please select a valid birth year');
@@ -396,6 +390,12 @@ function continue22() {
 	} else {
 		$("#twentytwo").submit();	
 	}
+}
+function continuepoly() {
+	window.location = "5.php";	
+}
+function continuehex() {
+	window.location = "17.php";	
 }
 function logmein() {
 	// alert('testasdf');

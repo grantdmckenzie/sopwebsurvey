@@ -57,7 +57,7 @@
 	}
 	// no social roles selected or we've already gone through them all.
 	if (!$match)
-		header("location: 5.php");
+		header("location: polyinfo.html");
 
 ?>
 
