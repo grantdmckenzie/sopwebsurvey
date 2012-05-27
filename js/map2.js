@@ -58,11 +58,11 @@
 			if (evt.graphic) {
 				map.infoWindow.setTitle("Rank Region");
 				id = evt.graphic.attributes.id;
-        		var content = "<table><tr><td style='width:70px;text-align:center'>Strongly<br/>Disagree</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>Neutral</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>Strongly<br/>Agree</td></tr>";
-        		content += "<tr><td style='width:70px;text-align:center'>-5</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>0</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>5</td></tr>";
+        		var content = "<table><tr><td style='width:70px;text-align:center'>Strongly<br/>Disagree</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>Neutral</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>Strongly<br/>Agree</td></tr>";
+        		content += "<tr><td style='width:70px;text-align:center'>-3</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>0</td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'></td><td style='width:70px;text-align:center'>3</td></tr>";
         		
-        		content += "<tr><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-5'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-4'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-3'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-2'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-1'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='0'/></td>";
-        		content += "<td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='1'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='2'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='3'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='4'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='5'/></td></tr></table>";
+        		content += "<tr><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-3'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-2'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='-1'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='0'/></td>";
+        		content += "<td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='1'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='2'/></td><td style='width:70px;text-align:center'><input type='radio' onclick='getRadioValue(id);' name='gm' value='3'/></td></tr></table>";
         		map.infoWindow.setContent(content);
         		map.infoWindow.show(evt.mapPoint,map.getInfoWindowAnchor(evt.screenPoint));
         		map.infoWindow.resize(500, 100);
@@ -81,17 +81,11 @@
       					var color = "";
       					// KATE CHANGE THESE COLORS
       					switch(val) {
-      						case -5:
+       						case -3:
       							color = new dojo.Color([74,0,0,0.8]);
       							break;
-      						case -4:
-      							color = new dojo.Color([90,0,8,0.8]);
-      							break;
-      						case -3:
-      							color = new dojo.Color([99,8,33,0.8]);
-      							break;
       						case -2:
-      							color = new dojo.Color([90,0,33,0.8]);
+      							color = new dojo.Color([99,8,33,0.8]);
       							break;
       						case -1:
       							color = new dojo.Color([74,0,41,0.8]);
@@ -103,18 +97,12 @@
       							color = new dojo.Color([49,0,66,0.8]);
       							break;
       						case 2:
-      							color = new dojo.Color([41,0,82,0.8]);
-      							break;
-      						case 3:
       							color = new dojo.Color([33,0,99,0.8]);
       							break;
-      						case 4:
-      							color = new dojo.Color([24,0,99,0.8]);
-      							break;
-      						case 5:
+      						case 3:
       							color = new dojo.Color([16,0,66,0.8]);
       							break;
-      					}
+      						      					}
       					
       					var symbol = new esri.symbol.SimpleFillSymbol(esri.symbol.SimpleFillSymbol.STYLE_SOLID, new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID, new dojo.Color([0,0,0]), 2), color);
       					hexlayer.graphics[i].setSymbol(symbol);
