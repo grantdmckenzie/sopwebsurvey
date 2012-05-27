@@ -5,7 +5,7 @@ function continue1() {
 	if (!$('#agree').is(':checked')) {
 		alert("Please select 'I agree…' to continue");
 	} else if ($('#initials').val().length < 1) {
-		alert('Please enter your initials to continue");	
+		alert("Please enter your initials to continue");	
 	} else {
 		$("#iagree").submit();	
 	}
@@ -15,7 +15,13 @@ function continue3() {
 	$("#three").submit();	
 }
 function continue4() {
-	$("#four").submit();	
+	if ($('#other').val().length < 1) {
+		alert('Please answer the question: \"Please explain why you chose the options you did\"');
+	} else if (!$('#decision').is(':checked') && !$('#group').is(':checked') && !$('#follower').is(':checked') && !$('#other1').is(':checked')) {
+		alert('Please select at least one answer for Question #1');
+	} else {
+		$("#four").submit();
+	}	
 }
 function continue5() {
 	if (geoms.length < 1)
@@ -68,6 +74,7 @@ function continue11() {
 	$("#eleven").submit();	
 }
 function continue12() {
+		var checkasdf = false;
 	if (!$('input:radio[name=goods1]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else if (!$('input:radio[name=identity1]:checked').val()) {
@@ -112,30 +119,28 @@ function continue12() {
 		alert('Please answer all questions before continuing');
 	} else if (!$('input:radio[name=atmosphere2]:checked').val()) {
 		alert('Please answer all questions before continuing');
-	} else if (!$('#nofam').is(':checked')) {
-		if (!$('input:checkbox[name=goods3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=identity3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=quality3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=social3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=timetravel3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=culture3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=distance3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=place3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=proximity3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=dependence3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		} else if (!$('input:radio[name=atmosphere3]:checked').val()) {
-			alert('Please answer all questions before continuing');
-		}
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=goods3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=identity3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=quality3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=social3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=timetravel3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=culture3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=distance3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=place3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=proximity3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=dependence3]:checked').val()) {
+		alert('Please answer all questions before continuing');
+	} else if (!$('#nofam').is(':checked') && !$('input:radio[name=atmosphere3]:checked').val()) {
+		alert('Please answer all questions before continuing');
 	} else if (!$('input:radio[name=goods4]:checked').val()) {
 		alert('Please answer all questions before continuing');
 	} else if (!$('input:radio[name=identity4]:checked').val()) {
