@@ -343,31 +343,31 @@
  		</tr></table>
 		<br/><br/>
 		</p><p style='clear:both;'>
-		<b>8) What is your education level?</b><br/>
+		<b>8) What is the highest education level completed?</b><br/>
 
 		<table style='float:left;clear:both;width:100%'>
 		<tr>
 		<td>No school completed</td>
 		<td><input type="radio" name="education" value="1"/></td>
-		<td>Associate degree in college</td>
+		<td>Some college- no degree</td>
 		<td><input type="radio" name="education" value="6"/></td>
 		</tr><tr>
-		<td>Nursery/ pre school</td>
+		<td>Elementary school</td>
 		<td><input type="radio" name="education" value="2"/></td>
 		<td>Bachelors degree</td>
 		<td><input type="radio" name="education" value="7"/></td>
 		</tr><tr>
-		<td>Elementary school</td>
+		<td>Less than high school graduate</td>
 		<td><input type="radio" name="education" value="3"/></td>
 		<td>Master's degree</td>
 		<td><input type="radio" name="education" value="8"/></td>
 		</tr><tr>
-		<td>Less than high school graduate</td>
+		<td>High school graduate</td>
 		<td><input type="radio" name="education" value="4"/></td>
 		<td>Professional school degree</td>
 		<td><input type="radio" name="education" value="9"/></td>
 		</tr><tr>
-		<td>High school graduate</td>
+		<td>Associate degree in college</td>
 		<td><input type="radio" name="education" value="5"/></td>
 		<td>Doctoral degree</td>
 		<td><input type="radio" name="education" value="10"/></td>

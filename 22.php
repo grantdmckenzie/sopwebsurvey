@@ -86,7 +86,7 @@ To be sure we have the correct contact information please provide your
  	<br/><br/>
  	We would like to know if you would be interested in partaking in additional surveys that further investigate everyday travel behavior and decision making for planning purposes.
 <br/><br/>
-Below is a list of survey opportunities we would like you to consider.  Please click on the information icon for details, and select those that you would be interested in hearing more about:
+Below is a list of survey opportunities being conducted by the GeoTrans Lab that we would like you to consider.  Please click on the information icon for details, and select those that you would be interested in hearing more about:
 
  	</p>
  	<p>

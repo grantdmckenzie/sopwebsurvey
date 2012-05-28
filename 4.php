@@ -83,7 +83,7 @@
  	<div id="wrapperContent">
  		<span style="color:#ff0000; font-weight:bold"><?php echo $error; ?><br/></span>
  	<form name="four" id="four" method="post" action="4.php">
- 	<p>1) When decisions are made with your, <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play in the decision making process:<i>(select all that apply)</i></p>
+ 	<p>1) When deciding where activities will take place with your <b><?php echo $types[$social]; ?></b>, please indicate the type of role you play in the decision making process:<i>(select all that apply)</i></p>
  		<input type="checkbox" id="decision" name="decison" value="1"/>&nbsp;&nbsp;I generally have a large say in the decision making process.
 <br/>
  		<input type="checkbox" id="group" name="group" value="2"/>&nbsp;&nbsp;I partake in decision making, but not more than most others.
@@ -91,7 +91,7 @@
  		<input type="checkbox" id="follower" name="follower" value="3"/>&nbsp;&nbsp;I usually just go along with decisions made by others.
 <br/>
  		<input type="checkbox" id="other1" name="other1" />&nbsp;&nbsp;Other<br/>
- 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Please explain why you chose the options you did: <input type="text" name="other" id="other" class="txt" /><br/>
+ 		Please explain why you chose the options you did: <input type="text" name="other" id="other" class="txt" /><br/>
  		
  		<input type="hidden" name="socialgroup" value="<?php echo $social; ?>"/>
  	<p>2) Please consider the size of the group of your <b><?php echo $types[$social]; ?></b>, and select the option that best fits:</p>

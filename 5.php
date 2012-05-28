@@ -64,20 +64,12 @@
  		</tr></table></div>
  	<div id="wrapperContent">
  		<p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>
- 	 	<p style="text-align:center;">Please use the map and draw with the shape tool </p>
- 	 	<br></br>
- 	 	<font color="#003c73"> <b> To draw shapes:</b> <br></br> 1) left click on the map to begin drawing a shape, <br></br> 2) double click the left mouse button to close the shape.  <br></br> 3) If you are unsatisfied with the shape you have drawn, right click on the shape to delete it. <br></br> 
- 	 	<b>Navigation:</b>
- 	 	<br></br> To zoom in and out, use either the plus and minus symbols on the map, or use your mouse scroll button
- 	 	<br></br> To move the map view, press and hold the left mouse button and move the mouse to drag the map in the desired direction.  </p><br></br>
- 	 	</font>
- <p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland). </i></font></p>
- 
- <p style="text-align:center;"> <font size="4" > Please select the areas that you consider to be <br><u><b>places that are significant to you for activities you conduct.</b></u>(remember to zoom in for a more detailed map.)</font> 
- 
+ 		<p style="text-align:center;"> <font size="4" > Please use the map and draw shape areas with your cursor that you consider to be:</font></p> 
+ 		<p style="text-align:center; color:#3B6E9E; font-size:20px; font-weight:bold;">places that are significant to you for activities you conduct.</p> 
+ 		<p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland), and zoom in for a more detailed map. </i></font></p>
  	<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
  	<form name="five" id="five" method="post" action="5.php">
- 	<!--<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a>-->
+ 	<p style= "text-align:center; font-style:italic; font-size:13px">Click <a href="polyhelp.html" onClick="return popup(this, 'notes')">here</a> for help remembering how to use the map. </p>
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center"></div>
  		<input type="hidden" name="geom" id="geom"/>

@@ -239,7 +239,7 @@ function continue13() {
 	}	
 }
 function continue14() {
-	if(!isNumeric($('#years').val())) {
+	if ($('#years').val().length < 1)) {
 		alert("Please enter a number for years.");
 	} else if (!isNumeric($('#times').val())) {
 		alert("Please enter a number for times.");
