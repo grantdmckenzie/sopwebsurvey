@@ -16,7 +16,7 @@
 	require "inc/dbase.inc";
 	require "inc/user.inc";
 	$wsuser = unserialize($_SESSION['wsuser']);	
-	$types = array("immediate"=>"Family (immediate)","extended"=>"Family (extended)","friends"=>"Friends","coworkers"=>"Coworkers / Colleagues","peers"=>"Students (peers)","mentors"=>"Students (mentors, teachers, etc)","groups"=>"Organization group (church, non profit, etc)");
+	$types = array("immediate"=>"Family (immediate)","extended"=>"Family (extended)","friends"=>"Friends","coworkers"=>"Coworkers / Colleagues","peers"=>"Students (peers)","mentors"=>"Students (mentor, teacher, coach, etc)","groups"=>"Organization group (religious, non profit, sport, etc)");
 	
 	if (isset($_POST['socialgroup'])) {
 		$socialgroup = $_POST['socialgroup'];
