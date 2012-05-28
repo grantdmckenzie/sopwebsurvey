@@ -63,7 +63,7 @@
 </p>
  	<hr/>
  	<table><tr><td style="padding-right:20px">I tend to develop strong preferences for specific places.</td>
-	<td><table style="float:left;clear:both;font-size:0.8em;width:300px;"><tr><td>strongly<br/>disagree</td><td><br/>&nbsp;</td><td>&nbsp;</td><td>neutral</td><td>&nbsp;</td><td><br/>&nbsp;</td><td>strongly<br/>agree</td></tr></table><table style="float:left;clear:both;font-size:0.8em;width:300px;">
+	<td><table style="float:left;clear:both;font-size:0.8em;width:300px;"><tr><td>strongly<br/>disagree</td><td><br/>&nbsp;</td><td>&nbsp;</td><td>neutral</td><td>&nbsp;</td><td><br/>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;strongly<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agree</td></tr></table><table style="float:left;clear:both;font-size:0.8em;width:300px;">
 	<tr><td><input type="radio" name="likert1" value="1"/></td><td><input type="radio" name="likert1" value="2"/></td><td><input type="radio" name="likert1" value="3"/></td><td><input type="radio" name="likert1" value="4"/></td><td><input type="radio" name="likert1" value="5"/></td><td><input type="radio" name="likert1" value="6"/></td><td><input type="radio" name="likert1" value="7"/></td></tr></table></td></tr>
 	
 	<tr><td style="padding-right:20px">The only thing that matters to me in deciding where to go is convenience.</td>
@@ -104,7 +104,7 @@
  	<p>How many times have you move to a new residence in the Santa Barbara area?<br/><input id="times" type="text" name="times" class="txt" style="width:150px;"/></p>
  	<p>Please respond to the following questions with how well the statement describes your lifestyle:</p>
  	<table><tr><td style="padding-right:20px">I spend a lot of my free time outside doing physical activities</td>
-	<td><table style="float:left;clear:both;font-size:0.8em;width:300px;"><tr><td>strongly<br/>disagree</td><td><br/>&nbsp;</td><td>&nbsp;</td><td>neutral</td><td>&nbsp;</td><td><br/>&nbsp;</td><td>strongly<br/>agree</td></tr></table><table style="float:left;clear:both;font-size:0.8em;width:300px;">
+	<td><table style="float:left;clear:both;font-size:0.8em;width:300px;"><tr><td>strongly<br/>disagree</td><td><br/>&nbsp;</td><td>&nbsp;</td><td>neutral</td><td>&nbsp;</td><td><br/>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;strongly<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;agree</td></tr></table><table style="float:left;clear:both;font-size:0.8em;width:300px;">
 	<tr><td><input type="radio" name="likert9" value="1"/></td><td><input type="radio" name="likert9" value="2"/></td><td><input type="radio" name="likert9" value="3"/></td><td><input type="radio" name="likert9" value="4"/></td><td><input type="radio" name="likert9" value="5"/></td><td><input type="radio" name="likert9" value="6"/></td><td><input type="radio" name="likert9" value="7"/></td></tr></table></td></tr>
 	 
 	<tr><td style="padding-right:20px">I like to spend a lot of my free time reading, browsing<br/>on the computer, doing arts or crafts, home improvement<br/>and similar home based activities.</td>

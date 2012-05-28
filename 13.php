@@ -60,11 +60,11 @@
  	<form name="thirteen" id="thirteen" method="post" action="13.php">
 
 <!-- QUESTION #5 -->
- 	<p><b>5) For social activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
+ 	<p><b>5) For social activities, please agree or disagree that these aspects of a place matter in making decisions to conduct an activity there.</b>
 </p>
  	
  	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
-	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>Strongly<br/>Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods1" value="1"/></td><td><input type="radio" name="goods1" value="2"/></td><td><input type="radio" name="goods1" value="3"/></td><td><input type="radio" name="goods1" value="4"/></td><td><input type="radio" name="goods1" value="5"/></td><td><input type="radio" name="goods1" value="6"/></td><td><input type="radio" name="goods1" value="7"/></td></tr></table></td>
+	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;Strongly<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods1" value="1"/></td><td><input type="radio" name="goods1" value="2"/></td><td><input type="radio" name="goods1" value="3"/></td><td><input type="radio" name="goods1" value="4"/></td><td><input type="radio" name="goods1" value="5"/></td><td><input type="radio" name="goods1" value="6"/></td><td><input type="radio" name="goods1" value="7"/></td></tr></table></td>
 	</tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="identity1" value="1"/></td><td><input type="radio" name="identity1" value="2"/></td><td><input type="radio" name="identity1" value="3"/></td><td><input type="radio" name="identity1" value="4"/></td><td><input type="radio" name="identity1" value="5"/></td><td><input type="radio" name="identity1" value="6"/></td><td><input type="radio" name="identity1" value="7"/></td></tr></table></td></tr>
 	
@@ -90,11 +90,11 @@
  
 <!-- QUESTION #6 -->
 <hr/>
- 	<p><b>6) For eating out, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
+ 	<p><b>6) For eating out, please agree or disagree that these aspects of a place matter in making decisions to conduct an activity there.</b>
 </p>
  	
  	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
-	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>Strongly<br/>Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods2" value="1"/></td><td><input type="radio" name="goods2" value="2"/></td><td><input type="radio" name="goods2" value="3"/></td><td><input type="radio" name="goods2" value="4"/></td><td><input type="radio" name="goods2" value="5"/></td><td><input type="radio" name="goods2" value="6"/></td><td><input type="radio" name="goods2" value="7"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
+	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;Strongly<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods2" value="1"/></td><td><input type="radio" name="goods2" value="2"/></td><td><input type="radio" name="goods2" value="3"/></td><td><input type="radio" name="goods2" value="4"/></td><td><input type="radio" name="goods2" value="5"/></td><td><input type="radio" name="goods2" value="6"/></td><td><input type="radio" name="goods2" value="7"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="identity2" value="1"/></td><td><input type="radio" name="identity2" value="2"/></td><td><input type="radio" name="identity2" value="3"/></td><td><input type="radio" name="identity2" value="4"/></td><td><input type="radio" name="identity2" value="5"/></td><td><input type="radio" name="identity2" value="6"/></td><td><input type="radio" name="identity2" value="7"/></td></tr></table></td></tr>
 	
 	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
@@ -119,12 +119,12 @@
  
 <!-- QUESTION #7 -->
 <hr/>
- 	<p><b>7) For entertainment activities, on a scale of one to ten, how much does this criteria matter in making a decision about where the activity will take place (1=I don’t consider it, 10=I consider it a lot)</b>
+ 	<p><b>7) For entertainment activities, please agree or disagree that these aspects of a place matter in making decisions to conduct an activity there.</b>
 
 </p>
  	
  	<table style='width:100%'><tr><td style="padding-right:20px" valign= "bottom">The cost of goods or services provided at the place</td>
-	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>Strongly<br/>Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods3" value="1"/></td><td><input type="radio" name="goods3" value="2"/></td><td><input type="radio" name="goods3" value="3"/></td><td><input type="radio" name="goods3" value="4"/></td><td><input type="radio" name="goods3" value="5"/></td><td><input type="radio" name="goods3" value="6"/></td><td><input type="radio" name="goods3" value="7"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
+	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;;"><tr><td>Strongly<br/>Disagree</td><td>&nbsp;</td><td>&nbsp;</td><td><br/>Neutral</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;Strongly<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree</td></tr></table><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="goods3" value="1"/></td><td><input type="radio" name="goods3" value="2"/></td><td><input type="radio" name="goods3" value="3"/></td><td><input type="radio" name="goods3" value="4"/></td><td><input type="radio" name="goods3" value="5"/></td><td><input type="radio" name="goods3" value="6"/></td><td><input type="radio" name="goods3" value="7"/></td></tr></table></td></tr><tr><td>Whether the place is a good reflection of the type of person I am</td>
 	<td><table style="float:right;clear:both;font-size:0.8em;width:300px;"><tr><td><input type="radio" name="identity3" value="1"/></td><td><input type="radio" name="identity3" value="2"/></td><td><input type="radio" name="identity3" value="3"/></td><td><input type="radio" name="identity3" value="4"/></td><td><input type="radio" name="identity3" value="5"/></td><td><input type="radio" name="identity3" value="6"/></td><td><input type="radio" name="identity3" value="7"/></td></tr></table></td></tr>
 	
 	<tr><td style="padding-right:20px">The quality of the products or services offered</td>
