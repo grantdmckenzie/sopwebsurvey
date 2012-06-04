@@ -20,7 +20,7 @@
  		<td valign="top" style='padding:10px;'>
  			<h1>Register</h1>
 	 		<form id="indexpage" method="post" action="2.php">
-	 		<p>To begin please create a username and id</p>
+	 		<p>To begin please create a username and id.  Please remember your password if you need to return.</p>
 	 		<table>
 	 		 <tr>
 	 		  <td>First Name</td>
@@ -67,7 +67,7 @@
  		<td valign="top" style='border-left:solid 1px #666666;padding:10px;'>
  			<h1>Login</h1>
  		 	<form id="login1" name="login1" method="post" action="login.php">
- 		 	<p>Log in with your existing email address and password. <br></br><i><font size="3">(Please only use this if you are returning to the survey)</font></i></p>
+ 		 	<p>Log in with your existing email address and password.  If you are having trouble, email transportsurvey@geog.ucsb.edu <br></br><i><font size="3">(Please only use this if you are returning to the survey)</font></i></p>
 	 		<table>
 	 		 <tr>
 	 		  <td>Username (E-mail)</td>

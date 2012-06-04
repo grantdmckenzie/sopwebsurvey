@@ -65,7 +65,7 @@
 		
 		 <p style="text-align:center;"><i>Now, we would like to gain an understanding of your views about the Goleta, Santa Barbara and Montecito areas.</i></p>
  		<p style="text-align:center;"> <font size="4" > Please use the map and draw shape areas with your cursor that you consider to be:</font></p> 
- 		<p style="text-align:center; color:#3B6E9E; font-size:20px; font-weight:bold;">places that you go to to relax or spend recreation time.</p> 
+ 		<p style="text-align:center; color:#3B6E9E; font-size:20px; font-weight:bold;">places that you go to relax or spend recreation time.</p> 
  		<p style="text-align:center;"> <font size="3"><i> Please be sure to consider all area between Winchester Canyon (Goleta) and Toro Canyon Rd (Summerland), and zoom in for a more detailed map. </i></font></p>
       
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	

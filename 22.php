@@ -71,7 +71,7 @@
  	<div id="wrapperContent">
 	<p>Thank you for your participation!!!  We appreciate and value your time and response.  
 <br/><br/>
-Your incentive payment will be processed within the next week.  You will receive information via email regarding retrieval of this incentive prize.  
+Your incentive will be processed shortly.  You will receive an email from giftrocket <a href="http://www.giftrocket.com" target="_blank">(www.giftrocket.com)</a>.  Please allow approximately 10 business days for an email regarding retrieval of your gift card.  Please also check your junk mail box to ensure that the email is not filtered as spam.    
 <br/><br/>
 To be sure we have the correct contact information please provide your 
 </p>	

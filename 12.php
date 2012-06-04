@@ -113,7 +113,7 @@
 	<td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="place1" value="1"/></td><td><input type="radio" name="place1" value="2"/></td><td><input type="radio" name="place1" value="3"/></td><td><input type="radio" name="place1" value="4"/></td><td><input type="radio" name="place1" value="5"/></td><td><input type="radio" name="place1" value="6"/></td><td><input type="radio" name="place1" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
+	<tr><td style="padding-right:20px">If there are other places close by where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="proximity1" value="1"/></td><td><input type="radio" name="proximity1" value="2"/></td><td><input type="radio" name="proximity1" value="3"/></td><td><input type="radio" name="proximity1" value="4"/></td><td><input type="radio" name="proximity1" value="5"/></td><td><input type="radio" name="proximity1" value="6"/></td><td><input type="radio" name="proximity1" value="7"/></td></tr></table></td>
 	</tr><tr>
 	<td>Whether that place meets all my grocery needs</td>
@@ -151,7 +151,7 @@
 	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="place2" value="1"/></td><td><input type="radio" name="place2" value="2"/></td><td><input type="radio" name="place2" value="3"/></td><td><input type="radio" name="place2" value="4"/></td><td><input type="radio" name="place2" value="5"/></td><td><input type="radio" name="place2" value="6"/></td><td><input type="radio" name="place2" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
+	<tr><td style="padding-right:20px">If there are other places close by where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="proximity2" value="1"/></td><td><input type="radio" name="proximity2" value="2"/></td><td><input type="radio" name="proximity2" value="3"/></td><td><input type="radio" name="proximity2" value="4"/></td><td><input type="radio" name="proximity2" value="5"/></td><td><input type="radio" name="proximity2" value="6"/></td><td><input type="radio" name="proximity2" value="7"/></td></tr></table></td>
 	</tr><tr><td>Whether that place meets all my shopping needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="dependence2" value="1"/></td><td><input type="radio" name="dependence2" value="2"/></td><td><input type="radio" name="dependence2" value="3"/></td><td><input type="radio" name="dependence2" value="4"/></td><td><input type="radio" name="dependence2" value="5"/></td><td><input type="radio" name="dependence2" value="6"/></td><td><input type="radio" name="dependence2" value="7"/></td></tr></table></td></tr>
@@ -187,7 +187,7 @@
 	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="place3" value="1"/></td><td><input type="radio" name="place3" value="2"/></td><td><input type="radio" name="place3" value="3"/></td><td><input type="radio" name="place3" value="4"/></td><td><input type="radio" name="place3" value="5"/></td><td><input type="radio" name="place3" value="6"/></td><td><input type="radio" name="place3" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
+	<tr><td style="padding-right:20px">If there are other places close by where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="proximity3" value="1"/></td><td><input type="radio" name="proximity3" value="2"/></td><td><input type="radio" name="proximity3" value="3"/></td><td><input type="radio" name="proximity3" value="4"/></td><td><input type="radio" name="proximity3" value="5"/></td><td><input type="radio" name="proximity3" value="6"/></td><td><input type="radio" name="proximity3" value="7"/></td></tr></table></td>
 	</tr><tr><td>Whether that place meets all my needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="dependence3" value="1"/></td><td><input type="radio" name="dependence3" value="2"/></td><td><input type="radio" name="dependence3" value="3"/></td><td><input type="radio" name="dependence3" value="4"/></td><td><input type="radio" name="dependence3" value="5"/></td><td><input type="radio" name="dependence3" value="6"/></td><td><input type="radio" name="dependence3" value="7"/></td></tr></table></td></tr>
@@ -221,7 +221,7 @@
 	</tr><tr><td>The safety of the surrounding area</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="place4" value="1"/></td><td><input type="radio" name="place4" value="2"/></td><td><input type="radio" name="place4" value="3"/></td><td><input type="radio" name="place4" value="4"/></td><td><input type="radio" name="place4" value="5"/></td><td><input type="radio" name="place4" value="6"/></td><td><input type="radio" name="place4" value="7"/></td></tr></table></td></tr>
 	
-	<tr><td style="padding-right:20px">If there are other places closeby where I can do other activities</td>
+	<tr><td style="padding-right:20px">If there are other places close by where I can do other activities</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="proximity4" value="1"/></td><td><input type="radio" name="proximity4" value="2"/></td><td><input type="radio" name="proximity4" value="3"/></td><td><input type="radio" name="proximity4" value="4"/></td><td><input type="radio" name="proximity4" value="5"/></td><td><input type="radio" name="proximity4" value="6"/></td><td><input type="radio" name="proximity4" value="7"/></td></tr></table></td>
 	</tr><tr><td>Whether that place meets all my recreation needs</td>
 	<td><table style="clear:both;font-size:0.8em;float:right;width:300px;"><tr><td><input type="radio" name="dependence4" value="1"/></td><td><input type="radio" name="dependence4" value="2"/></td><td><input type="radio" name="dependence4" value="3"/></td><td><input type="radio" name="dependence4" value="4"/></td><td><input type="radio" name="dependence4" value="5"/></td><td><input type="radio" name="dependence4" value="6"/></td><td><input type="radio" name="dependence4" value="7"/></td></tr></table></td></tr>

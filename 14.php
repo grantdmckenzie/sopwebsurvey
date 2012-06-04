@@ -97,9 +97,9 @@
 	</table>
  
  <br/><br/>
- <p>Respondent history / lifestyle in Santa Barbara</p>
+ <!--<p>Respondent history / lifestyle in Santa Barbara</p> -->
 <!-- QUESTION #2 -->
-<hr/>
+<!-- <hr/> -->
  	<p>How many years have you lived in the Santa Barbara area?<br/><input id="years" type="text" name="years" class="txt" style="width:150px;" /></p>
  	<p>How many times have you move to a new residence in the Santa Barbara area?<br/><input id="times" type="text" name="times" class="txt" style="width:150px;"/></p>
  	<p>Please respond to the following questions with how well the statement describes your lifestyle:</p>

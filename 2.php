@@ -116,11 +116,11 @@ If you have any questions regarding your rights and participation as a research 
 	<table style="float:left">
  	 <tr>
 	  <td><input type="checkbox" name="agree" id="agree" style="float:left" /></td>
-	  <td>I agree…</td>
+	  <td><b>I agree…</td>
 	 </tr>
  	 <tr>
 	  <td><input type="input" name="initials" id="initials" class="txt" style="width:30px" /></td>
-	  <td>Initials</td>
+	  <td><b>Initials</td>
 	 </tr>
 	</table>
 	</form>
