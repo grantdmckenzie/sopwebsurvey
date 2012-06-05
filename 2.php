@@ -23,9 +23,6 @@
 		} else if ($_POST['password1'] != $_POST['password2']) {
 			$error = "Please make sure that the two passwords match";
 			header("location: index.php?e=".$error);
-		} else if (file_get_contents("http://www.opencaptcha.com/validate.php?ans=".$_POST['code']."&img=".$_POST['img'])!='pass'){
-			$error = "Sorry, the image text did not match.";
-			header("location: index.php?e=".$error);
 		} else {
 		
 			$username = addslashes($_POST['username']);
