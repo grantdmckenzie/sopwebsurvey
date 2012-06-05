@@ -18,7 +18,7 @@
  		<?php if (isset($_GET['e'])) { echo "<span style='color:#ff0000;font-size:14px;'>".$_GET['e']."</span>"; } ?>
  		<table><tr>
  		<td valign="top" style='padding:10px;'>
- 			<h1>Register</h1>
+ 			<h1>Register </h1>
 	 		<form id="indexpage" method="post" action="2.php">
 	 		<p>To begin please create a username and id.  Please remember your password if you need to return.</p>
 	 		<table>
