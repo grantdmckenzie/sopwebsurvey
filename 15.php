@@ -90,9 +90,11 @@
 		<br/>
 		<table style='float:left;clear:both;margin:0'>
 		<tr>
-			<td style='width:200px'><select id="city" name="city"><option value="Select">Select</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select></td>
+			<td style='width:200px'><select id="city" name="city"><option value="Select">Select</option><option value="Carpinteria">Carpinteria</option><option value="Goleta">Goleta</option><option value="SantaBarbara">Santa Barbara</option></select></td>
 		<td><select id="zip" name="zip">
 			<option value="Select">Select</option>
+			<option value="93013">93013</option>
+			<option value="93067">93067</option>
 			<option value="93101">93101</option>
 			<option value="93102">93102</option>
 			<option value="93103">93103</option>
