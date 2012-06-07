@@ -93,7 +93,7 @@ Below is a list of survey opportunities being conducted by the GeoTrans Lab that
 			<table style='float:left;clear:both;'>
 			<tr>
 			<td><input type="checkbox" name="android" value="1" checked /></td>
-			<td>Android based travel and activity diary (note: you must have an smartphone using the Android operating system to participate in this study) <a href="android.html" onClick="return popup(this, 'android')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
+			<td>Android based travel and activity diary (note: you must have a smartphone using the Android operating system to participate in this study) <a href="android.html" onClick="return popup(this, 'android')"><img style="width:16px;height:16px;" src="img/info.png" alt="info" title="More Information" /></a></td>
 			</tr>
 			<tr>
 			<td><input type="checkbox" name="diary" value="1"checked /></td>

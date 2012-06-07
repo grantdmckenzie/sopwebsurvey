@@ -77,7 +77,7 @@
  
  	</p>
  		<p style="text-align:center;">
- 		Please tell us what about these areas make you find them relaxing<br/>
+ 		Please tell us what about these areas make you find them relaxing.  If you did not draw any areas, please explain why.<br/>
  		<textarea name="why" id="why" style="width:690px;height:100px;font-size:1.2em;padding:5px;"><?php if (isset($_POST['why'])) { echo $_POST['why']; } ?></textarea>
  		</p>
  	</form>

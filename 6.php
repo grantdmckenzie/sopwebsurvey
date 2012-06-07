@@ -79,7 +79,7 @@
  		<input type="hidden" name="geom" id="geom"/>
  	</p>
  	<p style="text-align:center;">
- 		Please tell us what about these areas discourages you from visiting them<br/>
+ 		Please tell us what about these areas discourages you from visiting them.  If you did not draw any areas, please explain why.<br/>
  		<textarea name="why" id="why" style="width:690px;height:100px;font-size:1.2em;padding:5px;"><?php if (isset($_POST['why'])) { echo $_POST['why']; } ?></textarea>
  		</p>
  	</form>

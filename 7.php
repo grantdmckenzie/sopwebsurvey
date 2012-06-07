@@ -79,7 +79,7 @@
  
  	</p>
  		<p style="text-align:center;">
- 		Please describe what about these areas makes them attractive for shopping<br/>
+ 		Please describe what about these areas makes them attractive for shopping.    If you did not draw any areas, please explain why.<br/>
  		<textarea name="why" id="why" style="width:690px;height:100px;font-size:1.2em;padding:5px;"><?php if (isset($_POST['why'])) { echo $_POST['why']; } ?></textarea>
  		</p>
  	</form>

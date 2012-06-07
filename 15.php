@@ -285,32 +285,32 @@
 		<td>$90,000 - $99,999</td>
 		<td><input type="radio" name="income" value="10"/></td>
 		</tr><tr>
-		<td>$20,000 - $29,000</td>
+		<td>$20,000 - $29,999</td>
 		<td><input type="radio" name="income" value="3"/></td>
 		<td>$100,000 - $109,999</td>
 		<td><input type="radio" name="income" value="11"/></td>
 		</tr><tr>
-		<td>$30,000 - $39,000</td>
+		<td>$30,000 - $39,999</td>
 		<td><input type="radio" name="income" value="4"/></td>
 		<td>$110,000 - $119,999</td>
 		<td><input type="radio" name="income" value="12"/></td>
 		</tr><tr>
-		<td>$40,000 - $49,000</td>
+		<td>$40,000 - $49,999</td>
 		<td><input type="radio" name="income" value="5"/></td>
 		<td>$120,000 - $129,999</td>
 		<td><input type="radio" name="income" value="13"/></td>
 		</tr><tr>
-		<td>$50,000 - $59,000</td>
+		<td>$50,000 - $59,999</td>
 		<td><input type="radio" name="income" value="6"/></td>
 		<td>$130,000 - $139,999</td>
 		<td><input type="radio" name="income" value="14"/></td>
 		</tr><tr>
-		<td>$60,000 - $69,000</td>
+		<td>$60,000 - $69,999</td>
 		<td><input type="radio" name="income" value="7"/></td>
 		<td>$140,000 - $149,999</td>
 		<td><input type="radio" name="income" value="15"/></td>
 		</tr><tr>
-		<td>$70,000 - $79,000</td>
+		<td>$70,000 - $79,999</td>
 		<td><input type="radio" name="income" value="8"/></td>
 		<td>$150,000 or more</td>
 		<td><input type="radio" name="income" value="16"/></td>

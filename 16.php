@@ -132,6 +132,7 @@
  			<option value="10">October</option>
  			<option value="11">November</option>
  			<option value="12">December</option>
+ 			<option value= "0">Decline to state </option>
  			
  		</select> 
 		and year
@@ -223,7 +224,7 @@
  			<option value="1998">1998</option>
  			<option value="1999">1999</option>
  			<option value="2000">2000</option>
- 			
+ 			<option value="1000">decline to state</option>
  			
  		</select> 
  		<br/><br/>

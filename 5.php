@@ -75,7 +75,7 @@
  		<input type="hidden" name="geom" id="geom"/>
  	</p>
  	<p style="text-align:center;">
- 		Please describe why you think these areas are important<br/>
+ 		Please describe why you think these areas are important.  If you did not draw any areas, please explain why.<br/>
  		<textarea name="why" id="why" style="width:690px;height:100px;font-size:1.2em;padding:5px;"><?php if (isset($_POST['why'])) { echo $_POST['why']; } ?></textarea>
  		</p>
  	</form>
