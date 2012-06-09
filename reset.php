@@ -44,7 +44,7 @@
 		         if(!mail($email, $subject, $message,  "FROM: transportsurvey@geog.ucsb.edu")){
 		             die ("Sending Email Failed, Please Contact Site Admin! (transportsurvey@geog.ucsb.edu)");
 		         } else {
-		                $error = "New Password Sent!";
+		                header("location: login.php");
 		         } 
 				 
 		    }

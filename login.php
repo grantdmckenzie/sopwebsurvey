@@ -63,7 +63,7 @@
  		</table>
  		</form>
  		<div class="bigBtn" id="start" onclick="logmein();">LOGIN ></div>
- 		
+ 		<a href="reset.php">Forgot password?</a>
  	</div>
  </body>
 </html>
