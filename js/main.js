@@ -1,6 +1,9 @@
 function start() {
 	$("#indexpage").submit();	
 }
+function resetpassw() {
+	$("#reset").submit();	
+}
 function continue1() {
 	if (!$('#agree').is(':checked')) {
 		alert("Please select 'I agree…' to continue");
