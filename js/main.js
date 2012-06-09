@@ -27,36 +27,53 @@ function continue4() {
 	}	
 }
 function continue5() {
-	if ($('#why').val().length < 2)
-		alert('Please describe why you think the area is important or why you did not draw an area');
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else if ($('#why').val().length < 2)
+		alert('Please describe why you think the area is important');
 	else 
 		$("#five").submit();
 }
 function continue6() {
-	if ($('#why').val().length < 2)
-		alert('Please tell us what about these areas detours you from visiting them or why you did not draw an area');
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else if ($('#why').val().length < 2)
+		alert('Please tell us what about these areas detours you from visiting them');
 	else 
 	$("#six").submit();	
 }
 function continue7() {
-	if ($('#why').val().length < 2)
-		alert('Please describe what about these areas makes them attractive for shopping or why you did not draw an area');
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else if ($('#why').val().length < 2)
+		alert('Please describe what about these areas makes them attractive for shopping');
 	else 
 	$("#seven").submit();	
 }
 function continue8() {
-	if ($('#why').val().length < 2)
-		alert('Please describe what about these areas makes them attractive for shopping or why you did not draw an area');
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else if ($('#why').val().length < 2)
+		alert('Please describe what about these areas makes them attractive for shopping');
 	else 
 	$("#eight").submit();	
 }
 function continue9() {
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else 
 	$("#nine").submit();	
 }
 function continue10() {
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else 
 	$("#ten").submit();	
 }
 function continue11() {
+	if (geoms.length < 1)
+		alert('Please draw at least one region on the map');	
+	else 
 	$("#eleven").submit();	
 }
 function continue12() {
@@ -276,6 +293,8 @@ function continue15() {
 		alert('Please select a valid number for question 5');
 	} else if ($('#years').val() == "Select") {
 		alert('Please select a valid number for question 6');
+	} else if (!$('input:radio[name=income]:checked').val()) {
+		alert('Please select a valid number for question 7');
 	} else if ($('#vehicles').val() == "Select") {
 		alert('Please select a valid number for question 8');
 	} else if ($('#drivers').val() == "Select") {
@@ -287,7 +306,11 @@ function continue15() {
 	}
 }
 function continue16() {
-	if (!$('input:radio[name=gender]:checked').val()) {
+	if ($('#month').val() == "Select") {
+		alert('Please select a valid birth month');
+	} else if ($('#year').val() == "Select") {
+		alert('Please select a valid birth year');
+	} else if (!$('input:radio[name=gender]:checked').val()) {
 		alert('Please select a gender');
 	} else if ($('#occupation').val().length < 3) {
 		alert('Please enter your occupation');
