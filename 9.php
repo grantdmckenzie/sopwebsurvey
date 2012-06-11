@@ -17,7 +17,6 @@
 		$wsuser = unserialize($_SESSION['wsuser']);	
 		$geom = $_POST['geom'];
 		
-		if (strlen($geom) > 2) {
 			// insert the deets.
 			$query = "INSERT INTO geom VALUES ('',".$wsuser->id.",9,'".addslashes($geom)."','')";
 			mysql_query($query) or die(mysql_error());
@@ -26,9 +25,7 @@
 			$query = "UPDATE users SET page = '10', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 			mysql_query($query) or die(mysql_error());
 			header("location: 10.php");
-		} else {
-			$error = "Please draw at least one region on the map and enter text about that region.";	
-		}
+
 	}
 ?>
 

@@ -18,7 +18,7 @@
 		$geom = $_POST['geom'];
 		$why = $_POST['why'];
 		
-		if (strlen($geom) > 2 && strlen($why) > 2) {
+		if (strlen($why) > 2) {
 			// insert the deets.
 			$query = "INSERT INTO geom VALUES ('',".$wsuser->id.",7,'".addslashes($geom)."','".addslashes($why)."')";
 			mysql_query($query) or die(mysql_error());
@@ -28,7 +28,7 @@
 			mysql_query($query) or die(mysql_error());
 			header("location: 8.php");
 		} else {
-			$error = "Please draw at least one region on the map and enter text about that region.";	
+			$error = "Please fill out the text field below.";	
 		}
 	}
 ?>
