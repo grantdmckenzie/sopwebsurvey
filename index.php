@@ -42,23 +42,6 @@
 	 		  <td>Retype Password</td>
 	 		  <td><input type="password" value="" id="password2" name="password2" class="txt" /></td>
 	 		 </tr>
-	 		 <tr>
-	 		  <td colspan="2" style="font-size:0.7em">
-	 		  	<?php
-	 		  	$date = date("Ymd");
-				$rand = rand(0,9999999999999);
-				$height = "80";
-				$width  = "240";
-				$img    = "$date$rand-$height-$width.jpgx";
-				echo "<input type='hidden' name='img' value='$img'>";
-				echo "<img src='http://www.opencaptcha.com/img/$img' height='$height' alt='captcha' width='$width' border='0'/><br />";
-	 		  	
-	 		  	?><br/>
-	 		  	<!--As a security check, please type the<br/>text you see in the image above:
-	 		  	<br/>-->
-	 		  	<input type="text" class="txt" name="code" style="width:100px"/>
-	 		  </td>
-	 		 </tr>
 	 		</table>
 	 		<p style='font-size:0.8em'>Please enter your valid email address.  We will not use your email address for any other purposes than to contact you for password retrieval, follow up survey participation if you choose to and for information regarding payment for participation in this survey</p>
 	 		<div class="bigBtn" id="start" onclick="start()">START ></div>
