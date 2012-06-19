@@ -54,8 +54,8 @@
 				echo "<img src='http://www.opencaptcha.com/img/$img' height='$height' alt='captcha' width='$width' border='0'/><br />";
 	 		  	
 	 		  	?><br/>
-	 		  	As a security check, please type the<br/>text you see in the image above:
-	 		  	<br/>
+	 		  	<!--As a security check, please type the<br/>text you see in the image above:
+	 		  	<br/>-->
 	 		  	<input type="text" class="txt" name="code" style="width:100px"/>
 	 		  </td>
 	 		 </tr>
