@@ -12,9 +12,9 @@
 	$mysql_database = "geogrant_websurvey"; */
 	
 	$mysql_hostname = "localhost";
-	$mysql_user = "websurvey";
+	$mysql_user = "websurvey2";
 	$mysql_password = "cMd8czq4LG56XxbC";
-	$mysql_database = "websurvey";
+	$mysql_database = "websurvey2";
 	
 	
 	$bd = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Opps some thing went wrong connecting");
