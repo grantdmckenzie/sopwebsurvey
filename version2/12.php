@@ -4,7 +4,7 @@
 	@client: Geotrans Lab @ UCSB
 	@project: Sense of Place Web Survey
 	@date: May 2012
-	@description: Page 18: Update map
+	@description: Page 19: Update map
 	*/
 	session_start();
 	if (!session_is_registered('wsuser')) {
@@ -15,7 +15,7 @@
 		require "inc/dbase.inc";
 		require "inc/user.inc";
 		$wsuser = unserialize($_SESSION['wsuser']);	
-		$query = "INSERT INTO hexagons VALUES ('',".$wsuser->id.",18";
+		$query = "INSERT INTO hexagons VALUES ('',".$wsuser->id.",19";
 		foreach($_POST as $key=>$value) {
 			if ($key != "gm")
 			//echo $key.":". $value ."<br/>";
@@ -72,11 +72,11 @@
  			-3 (strongly disagree) <img src="img/colors.png" alt="colors" /> 3 (strongly agree)
  		</p>
  		<p style="text-align:center;">Indicate how much you agree or disagree to the statement </p> 
- 		<p style="text-align:center; color:#3B6E9E; font-size:20px; font-weight: bold">This area is a dangerous area of Santa Barbara.</p>
+ 		<p style="text-align:center; color:#3B6E9E; font-size:20px; font-weight: bold">This area provides me with a lot of opportunities to do things I like to do.</p>
  		<p style= "text-align:center; font-style:italic; font-size:13px">Click <a href="hexhelp.html" onClick="return popup(this, 'notes')">here</a> for help remembering how to use the map. </p>
-
+		
  		<p style="color:#ff0000; font-weight:bold;text-align:center;"><?php echo $error; ?><br/></p>	
- 	<form name="eighteen" id="eighteen" method="post" action="12.php">
+ 	<form name="nineteen" id="nineteen" method="post" action="12.php">
  	<!--<a href="help.html" onClick="return popup(this, 'notes')" style="float:right"><img src="img/info.png" alt="info" title="Need Help?" /></a> -->
  	<p>	
  		<div id="map" dojotype="dijit.layout.ContentPane" region="center" style="width:90%"></div>
@@ -106,7 +106,7 @@
  	</p>
  	</form>
 <br/><br/>
- 		<div class="bigBtn" style="clear:both;" onclick="continue18();">CONTINUE ></div>
+ 		<div class="bigBtn" style="clear:both;" onclick="continue19();">CONTINUE ></div>
  	</div>
  </body>
 </html>

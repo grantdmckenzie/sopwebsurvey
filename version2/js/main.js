@@ -372,10 +372,10 @@ function continue22() {
 	}
 }
 function continuepoly() {
-	window.location = "5.php";	
+	window.location = "16.php";	
 }
 function continuehex() {
-	window.location = "17.php";	
+	window.location = "10.php";	
 }
 function logmein() {
 	// alert('testasdf');

@@ -35,7 +35,7 @@
 		// update the page
 		$query = "UPDATE users SET page = '16', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 		mysql_query($query) or die(mysql_error());
-		header("location: 16.php");
+		header("location: polyinfo.html");
 	}
 ?>
 

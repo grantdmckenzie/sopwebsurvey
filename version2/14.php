@@ -25,7 +25,7 @@
 		$query .= ")";
 		mysql_query($query) or die(mysql_error());
 		// update the page
-		$query = "UPDATE users SET page = '15', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
+		$query = "UPDATE users SET page = '14', lastaccess = '".date("Y-m-d H:i:s")."' WHERE id = ". $wsuser->id;
 
 		mysql_query($query) or die(mysql_error());
 		header("location: 15.php");
