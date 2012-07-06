@@ -73,10 +73,10 @@
  	</div>
  	<div id="wrapperProgress">
  			<td>Part 1. People</td>
- 			<td>Part 2. Places</td>
- 			<td><b>Part 3. Activities</b></td>
- 			<td>Part 4. About you</td>
- 			<td>Part 5. Santa Barbara</td>
+ 			<td><b>Part 2. Activities</b></td>
+ 			<td>Part 3. About you</td>
+ 			<td>Part 4. Santa Barbara</td>
+ 			<td>Part 5. Places</td>
  		</tr></table></div>
  	<div id="wrapperContent">	
  		<?php echo $error; ?>

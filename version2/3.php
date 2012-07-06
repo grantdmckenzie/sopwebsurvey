@@ -61,10 +61,10 @@
  	<div id="wrapperProgress">
  	<table width="90%" align="right"><tr>
  			<td><b>Part 1. People</b></td>
- 			<td>Part 2. Places</td>
- 			<td>Part 3. Activities</td>
- 			<td>Part 4. About you</td>
- 			<td>Part 5. Santa Barbara</td>
+ 			<td>Part 2. Activities</td>
+ 			<td>Part 3. About you</td>
+ 			<td>Part 4. Santa Barbara</td>
+ 			<td>Part 5. Places</td>
  		</tr></table></div>
  	</div>
  	<div id="wrapperContent">

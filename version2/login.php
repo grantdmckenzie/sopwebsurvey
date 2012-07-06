@@ -43,7 +43,7 @@
 
  <body>
  	<div id="wrapperHeader">
- 		Welcome
+ 		
  	</div>
  	<!-- <div id="wrapperProgress"></div> -->
  	<div id="wrapperContent" style="text-align:center">

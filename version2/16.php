@@ -56,10 +56,10 @@
  	<div id="wrapperProgress">
  	<table width="90%" align="right"><tr>
  			<td>Part 1. People</td>
- 			<td><b>Part 2. Places</b></td>
- 			<td>Part 3. Activities</td>
- 			<td>Part 4. About you</td>
- 			<td>Part 5. Santa Barbara</td>
+ 			<td>Part 2. Activities</td>
+ 			<td>Part 3. About you</td>
+ 			<td>Part 4. Santa Barbara</td>
+ 			<td><b>Part 5. Places</b></td>
  	</tr></table></div>
  	<div id="wrapperContent">
 <!-- 		<h2 style="text-align:center;">Place Questions:</h2> -->

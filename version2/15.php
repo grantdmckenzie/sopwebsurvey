@@ -54,10 +54,10 @@
  	<div id="wrapperProgress">
  	<table width="90%" align="right"><tr>
  			<td>Part 1. People</td>
- 			<td>Part 2. Places</td>
- 			<td>Part 3. Activities</td>
- 			<td>Part 4. About you</td>
- 			<td><b>Part 5. Santa Barbara</b></td>
+ 			<td>Part 2. Activities</td>
+ 			<td>Part 3. About you</td>
+ 			<td><b>Part 4. Santa Barbara</b></td>
+ 			<td>Part 5. Places</td>
  		</tr></table></div>
  	<div id="wrapperContent">
 	<p>On a scale of 1-10, with 1 being not important and 10 being very important, please rate how important each of these aspects are in deciding whether to travel to a specific place for an everyday activity (shopping, eating out, meeting friends, family outing, etc)?</p>	
